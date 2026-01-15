@@ -80,12 +80,7 @@ Main menu
 
 ## Installation
 
-<WebStore
-    id="djjbcjbeiifedilgkohllahmnjlmcnmh"
-    name="Better FastMail"
-    rel="FastMail"
-    review
-    />
+::web-store{ id="djjbcjbeiifedilgkohllahmnjlmcnmh" name="Better FastMail" rel="FastMail" review}
 
 ## Links
 

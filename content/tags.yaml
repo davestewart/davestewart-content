@@ -1,0 +1,66 @@
+Domain:
+  - concept
+  - creative
+  - technical
+  - frontend
+  - backend
+  - enterprise
+  - architecture
+  - rapid-build
+  - jamstack
+  - mashup
+  - email
+Format:
+  - webapp
+  - website
+  - plugin
+  - library
+  - framework
+  - chrome-extension
+  - game
+Creative:
+  - animation
+  - design
+  - icons
+  - 3d
+  - ui
+Technical:
+  - api
+  - data
+  - database
+  - physics
+  - parsing
+  - social
+  - video
+  - state
+  - maps
+  - ugc
+Language:
+  - typescript
+  - javascript
+  - html
+  - node
+  - php
+  - as3
+  - sql
+  - graphql
+  - svg
+  - jsfl
+  - vba
+Software:
+  - vue
+  - nuxt
+  - laravel
+  - flash
+  - 3dsmax
+  - after-effects
+  - elasticsearch
+Device:
+  - responsive
+  - mobile
+  - ipad
+Category:
+  - productivity
+  - tools
+Other:
+  - award
