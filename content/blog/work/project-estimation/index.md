@@ -6,13 +6,20 @@ media:
   featured: ./images/estimation-featured.png
   thumbnail: ./images/estimation-thumbnail.png
   comparison:
-    - images/compare-01.png
-    - images/compare-02.png
-    - images/compare-03.png
-    - images/compare-04.png
-    - images/compare-05.png
-    - images/compare-06.png
-    - images/compare-07.png
+    - text: Original estimate of work, admin and meetings 
+      src: images/compare-01.png
+    - text: Factor in briefing, project setup and post-project fixes 
+      src: images/compare-02.png
+    - text: Research libraries, build prototypes, additional config and setup 
+      src: images/compare-03.png
+    - text: Invisible work such UX development, services, polish, tests, documentation 
+      src: images/compare-04.png
+    - text: Client changes, misunderstandings, refactoring, technical debt 
+      src: images/compare-05.png
+    - text: Third-party technology more complex than anticipated 
+      src: images/compare-06.png
+    - text: Critical database unsuitability, complexity, learning, etc 
+      src: images/compare-07.png
 ---
 
 # The work is never just “the work”

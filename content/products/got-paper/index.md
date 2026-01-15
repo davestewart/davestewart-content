@@ -16,12 +16,18 @@ github: davestewart/got-paper
 media:
   thumbnail: ./images/thumb.png
   gallery:
-    - ./images/ph-splash.png
-    - ./images/ph-mobile.png
-    - ./images/ph-translations.png
-    - ./images/ph-desktop.png
-    - ./images/ph-features.png
-    - ./images/ph-modes.png
+    - text: Got Paper logo
+      src: ./images/ph-splash.png
+    - text: Got Paper is optimised for mobile
+      src: ./images/ph-mobile.png
+    - text: Available in 11 languages
+      src: ./images/ph-translations.png
+    - text: Also runs on desktop and tablet
+      src: ./images/ph-desktop.png
+    - text: Customise your "activity" and family members
+      src: ./images/ph-features.png
+    - text: Buy, hoard or share paper
+      src: ./images/ph-modes.png
   press:
     - source: Evening Standard
       title: New app tells you how much loo roll you actually need

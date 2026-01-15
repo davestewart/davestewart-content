@@ -27,7 +27,6 @@ Comparisons:
 - loops
 - etc
 
-
 ```js
 const values = [1, 2, 5, 4, 8, 6]
 const max = values.reduce((a, b) => a > b ? a : b)

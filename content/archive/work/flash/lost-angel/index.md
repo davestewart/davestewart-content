@@ -28,33 +28,54 @@ media:
     - ./screens/lost-angel-bookings.jpg
     - ./screens/lost-angel-venue.jpg
   frame:
-    - ./making/frame-01a-wire.jpg
-    - ./making/frame-01b-viewport.jpg
-    - ./making/frame-01c.jpg
-    - ./making/frame-02.jpg
-    - ./making/frame-03.jpg
-    - ./making/frame-04.jpg
+    - text: Gold picture frame (wireframe)
+      src: ./making/frame-01a-wire.jpg
+    - text: Gold picture frame (viewport)
+      src: ./making/frame-01b-viewport.jpg
+    - text: Gold picture frame (texture map)
+      src: ./making/frame-01c.jpg
+    - text: Gold picture frame (rendered)
+      src: ./making/frame-02.jpg
+    - text: Wooden picture frame
+      src: ./making/frame-03.jpg
+    - text: Metal picture frame
+      src: ./making/frame-04.jpg
   items:
-    - ./making/item-1.jpg
-    - ./making/item-2.jpg
+    - text: Trumpet lights
+      src: ./making/item-1.jpg
+    - text: Fern
+      src: ./making/item-2.jpg
   ivy:
-    - ./making/ivy-1.jpg
-    - ./making/ivy-2.jpg
+    - text: Ivy (wireframe)
+      src: ./making/ivy-1.jpg
+    - text: Ivy (rendered)
+      src: ./making/ivy-2.jpg
   loader:
-    - ./making/loader-1.jpg
-    - ./making/loader-2.jpg
-    - ./making/loader-3.jpg
-    - ./making/loader-4.jpg
+    - text: Loader 1
+      src: ./making/loader-1.jpg
+    - text: Loader 2
+      src: ./making/loader-2.jpg
+    - text: Loader 3
+      src: ./making/loader-3.jpg
+    - text: Loader 4
+      src: ./making/loader-4.jpg
   table:
-    - ./making/table-1.jpg
-    - ./making/table-2.jpg
+    - text: Table (transparent)
+      src: ./making/table-1.jpg
+    - text: Table (composited)
+      src: ./making/table-2.jpg
   telephone:
-    - ./making/telephone-1.jpg
-    - ./making/telephone-2.jpg
-    - ./making/telephone-3.jpg
+    - text: Telephone box (lighting test)
+      src: ./making/telephone-1.jpg
+    - text: Telephone box (rendered, 1)
+      src: ./making/telephone-2.jpg
+    - text: Telephone box (rendered, 2)
+      src: ./making/telephone-3.jpg
   bar_table:
-    - ./making/bar-table-viewport.jpg
-    - ./making/bar-table-wire.jpg
+    - text: Bar table (viewport)
+      src: ./making/bar-table-viewport.jpg
+    - text: Bar table (wireframe)
+      src: ./making/bar-table-wire.jpg
 ---
 
 # Lost Angel: Flash microsite

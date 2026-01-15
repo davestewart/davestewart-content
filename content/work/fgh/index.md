@@ -16,15 +16,24 @@ media:
   opengraph: ./images/fgh-dark.png
   thumbnail: ./images/fgh-dark.png
   gallery:
-    - ./images/fgh-featured.png
-    - ./screens/01-02-home-roxhill-login.png
-    - ./screens/02-03-news-selection.png
-    - ./screens/02-04-news-report.png
-    - ./screens/03-02-mentions-chart.png
-    - ./screens/04-01-contacts-index.png
-    - ./screens/04-06-contacts-paste.png
-    - ./screens/05-04-extension-browse-roxhill.png
-    - ./screens/05-05-extension-add-contact.png
+    - text: FGH Lexicon logo
+      src: ./images/fgh-featured.png
+    - text: Home page and Roxhill login confirmation 
+      src: ./screens/01-02-home-roxhill-login.png
+    - text: Factiva search and results 
+      src: ./screens/02-03-news-selection.png
+    - text: Email bulletin builder 
+      src: ./screens/02-04-news-report.png
+    - text: Keyword mentions results 
+      src: ./screens/03-02-mentions-chart.png
+    - text: Journalists contact database 
+      src: ./screens/04-01-contacts-index.png
+    - text: Contacts import 
+      src: ./screens/04-06-contacts-paste.png
+    - text: Roxhill bridge 
+      src: ./screens/05-04-extension-browse-roxhill.png
+    - text: Add contact from Roxhill 
+      src: ./screens/05-05-extension-add-contact.png
   select:
     - ./select/closed.png
     - ./select/typing.png
@@ -49,7 +58,7 @@ The application itself is a [Nuxt JS](https://nuxtjs.org/) build with a custom [
 
 The back end manages and marshals calls to [Factiva API](https://www.factiva.com/CP_Developer/ProductHelp/FDK/FDK33/) and [Elastic Search](https://www.elastic.co/elasticsearch/), collating, transforming and returning data in frontend-friendly JSON formats:
 
-```
+```text
 +- api
 |   +- modules
 |   |   +- contacts
@@ -66,7 +75,7 @@ The back end manages and marshals calls to [Factiva API](https://www.factiva.com
 
 The front end consists of 3 complex main modules. Building on modular techniques from [Asterisk](/work/asterisk/) and [Control Space](/products/control-space), I developed a new Nuxt plugin called [Nuxt Areas](https://github.com/davestewart/nuxt-areas) which rather than stripe dependencies across the application, co-locates code in self-contained "areas":
 
-```
+```text
 +- client
     +- areas
         +- app

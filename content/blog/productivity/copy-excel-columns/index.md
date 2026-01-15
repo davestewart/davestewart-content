@@ -6,9 +6,12 @@ media:
   thumbnail: ./featured.png
   opengraph: ./featured.png
   excel:
-    - ./images/excel-bank.png
-    - ./images/excel-breakdown-01.png
-    - ./images/excel-breakdown-02.png
+    - text: Raw CSV data
+      src: ./images/excel-bank.png
+    - text: Copy columns to breakdown
+      src: ./images/excel-breakdown-01.png
+    - text: Categorise and sum values
+      src: ./images/excel-breakdown-02.png
 tags:
   - vba
   - tools

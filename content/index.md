@@ -50,11 +50,11 @@ A London-based web developer currently building [Control Space](/products/contro
 
 I pride myself on a tight mix of technical and creative with a passion for [product](/products/), [innovation](/projects/) and [experimentation](/archive/projects/) :
 
-<MediaGallery media="gallery" captions scale keep-alive />
+<MediaGallery media="gallery" captions scale keep-alive></MediaGallery>
 
 My commercial work is primarily enterprise [web apps](/work/) after years of agency [sites](/archive/work/) and before that titles [animation](/archive/work/animation/).
 
-<HomeThumbs />
+<HomeThumbs></HomeThumbs>
 
 And I've recently resumed [writing](/blog/) so you can look forward to clear, researched and actionable thinking.
 

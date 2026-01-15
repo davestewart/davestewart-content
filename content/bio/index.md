@@ -7,14 +7,13 @@ order: 1
 
 # Bio
 
-<img class="only-md-up" style="width: 100%; aspect-ratio:2/1; background: #333" src="./images/dave-wide.jpg">
-<img class="only-sm" style="width: 100%; aspect-ratio:1/1; background: #333" src="./images/dave-square.jpg">
+![img](images/dave-wide.jpg)
 
 I'm one of those annoying people who ***loves*** what they do.
 
 I'm constantly thinking of ways to build things, to connect things, how it could be better, or easier, or smoother, or cooler. Shower thoughts become notes, sketches, experiments, repos, releases, then... 
 
-<Quote text="Woohoo ! !" name="Me, cracking the latest big / small idea" size="3" hero />
+<Quote text="Woohoo ! !" name="Me, cracking the latest big / small idea" size="3" hero></Quote>
 
 And that's what I aim to bring to the [projects](/projects/) and [products](/products/) I work on.
 
@@ -34,7 +33,7 @@ I'm focusing on the Indie Hacker dream; releasing my own software and hopefully 
 
 <MediaVideo src="https://youtube.com/embed/HaDJuB5ODnY" width="560" height="315" />
 
-Moving from developer to consumer / business tools is an interesting one; I've only recently started on this road so it's too early to make any predictions, but [Control Space](https://controlspace.app) has recently gone into public Beta  🥳. 
+Moving from developer to consumer/business tools is an interesting one; I've only recently started on this road so it's too early to make any predictions, but [Control Space](https://controlspace.app) has recently gone into public Beta  🥳. 
 
 ## Contact
 
@@ -57,4 +56,4 @@ If you fancy a chat, catch me on
 
 Bye for now!
 
-<SiteIcon size="35" fill="#ea4848" />
+::SiteIcon{size="35" fill="#ea4848"}

@@ -22,15 +22,18 @@ There's over 100 individual tips in this article; here are a few ways to get the
 - stop to read the text of a tip only when it resonates with you
 - jump directly to a section via the table of contents (below)
 
-<NavToc level="2,3"
-        exclude="preamble,how-to-read-this-article"
-        _tip-work="Stay on top of your work with actual work productivity tips"
-        _tip-momentum="Techniques to use to get and keep yourself in the game"
-        _tip-effectiveness="Some additional tips to be effective in what you do"
-        _tip-distractions="How to handle the inevitable human nature of wanting to take the easy route"
-        _tip-environment="What I've found works to provide a conducive space to stay focused on the work"
-        _tip-routine="The day is your framework on which every"
-        />
+::NavToc
+---
+level: "2,3"
+exclude: "preamble,how-to-read-this-article"
+_tip-work: "Stay on top of your work with actual work productivity tips"
+_tip-momentum: "Techniques to use to get and keep yourself in the game"
+_tip-effectiveness: "Some additional tips to be effective in what you do"
+_tip-distractions: "How to handle the inevitable human nature of wanting to take the easy route"
+_tip-environment: "What I've found works to provide a conducive space to stay focused on the work"
+_tip-routine: "The day is your framework on which every"
+---
+::
 
 <!--
 Click below to jump in:

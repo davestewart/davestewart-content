@@ -27,15 +27,23 @@ media:
     - ./screens/offers.png
     - ./screens/summary.png
   ux:
-    - ./high-level/purchase-funnel.png
-    - ./high-level/credit-check.png
-    - ./high-level/site-map.png
+    - text: Overall site map, with purchase funnel shown in yellow   
+      src: ./high-level/purchase-funnel.png
+    - text: Understanding users' browsing and tailoring journey, to final conversion   
+      src: ./high-level/credit-check.png
+    - text: Understanding when to soft and hard-check users' credit   
+      src: ./high-level/site-map.png
   wireframes:
-    - ./wireframes/dave-on-wall.jpg
-    - ./wireframes/mockup-scribbles.jpg
-    - ./wireframes/mockup-closeup.jpg
-    - ./wireframes/stakeholder-meeting.jpg
-    - ./wireframes/all-user-routes.jpg
+    - text: User journeys were a collaborative exercise between all team disciplines
+      src: ./wireframes/dave-on-wall.jpg
+    - text: Low-fidelity designs were used to support an iterative and open UX process
+      src: ./wireframes/mockup-scribbles.jpg
+    - text: We refined design, interaction and language over the course of ongoing reviews
+      src: ./wireframes/mockup-closeup.jpg
+    - text: We regularly presented to stakeholders, and took on new information as their ideas developed in tandem
+      src: ./wireframes/stakeholder-meeting.jpg
+    - text: The site build was the realisation of the latest UX with our ever-evolving component systems
+      src: ./wireframes/all-user-routes.jpg
 ---
 
 # FairSquare

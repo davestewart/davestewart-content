@@ -14,10 +14,6 @@ media:
     src: https://player.vimeo.com/video/68948501
     width: 580
     height: 372
-  downloads:
-    video_m4v: /wp-content/uploads/work/animation/showreel/dave-stewart-showreel-2005.mp4
-    video_ogv: /wp-content/uploads/work/animation/showreel/dave-stewart-showreel-2005.ogv
-    video_poster_url: /wp-content/uploads/work/animation/showreel/animation-showreel.png
 ---
 
 # Animation Showreel
