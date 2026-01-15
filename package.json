@@ -1,0 +1,15 @@
+{
+  "name": "davestewart-content",
+  "description": "Personal website content",
+  "scripts": {
+    "check-tags": "node scripts/check-tags.js",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "glob": "^13.0.0",
+    "js-yaml": "^4.1.1"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7"
+  }
+}
