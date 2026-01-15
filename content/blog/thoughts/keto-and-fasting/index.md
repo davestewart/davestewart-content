@@ -17,7 +17,7 @@ _**TL;DR: you eat really well, will lose weight,  it's not that difficult, and t
 
 It was such an interesting journey that I thought I would collate and share all the information that I wanted to know at the start in one place, so I've outlined below the rough journey, steps, learnings, reflections and resources. I've written it in note form so it should be easy to scan. Feel free to ask questions!
 
-<NavToc prompt="Start by just reading, or jump to" exclude="intro" level="2,3" style="font-weight: normal !important" />
+:nav-toc{prompt="Start by just reading, or jump to" exclude="intro" level="2,3" style="font-weight: normal !important"}
 
 
 ## Background

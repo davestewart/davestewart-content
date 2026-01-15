@@ -44,10 +44,7 @@ Get support:
 
 ### Installation
 
-<WebStore
-    id="khjdmjcmpolknpccmaaipmidphjokhdf"
-    name="WorkFlowy MultiFlow"
-    />
+:web-store{id="khjdmjcmpolknpccmaaipmidphjokhdf" name="WorkFlowy MultiFlow"}
 
 When the icon pops up in the toolbar, you'll want to *pin* it:
 

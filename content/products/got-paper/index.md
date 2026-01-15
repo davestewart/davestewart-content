@@ -111,43 +111,19 @@ See the live site for the [full back story](https://got-paper.com/about).
 
 It was particularly pleasing to see Daily Mail readers so [engaged](https://got-paper.com/press) (or should be <em>enraged</em>?):
 
-<Quote
-  text="How stupid"
-  name="Turnip King, Brisbane, Australia"
-  size="3"
-  hero
-/> 
+:quote{ text="How stupid" name="Turnip King, Brisbane, Australia" size="3" hero}
 
-<Quote
-  text="Does it have a diarrhea mode?"
-  name="Jhphoto1, Cheshire, United Kingdom"
-  size="2.5"
-  hero
-/> 
+:quote{ text="Does it have a diarrhea mode?" name="Jhphoto1, Cheshire, United Kingdom" size="2.5" hero}
 
-<Quote
-  text="Unbelievable waste of time"
-  name="Turnip King, Brisbane, Australia"
-  size="2.9"
-  hero
-/> 
+:quote{ text="Unbelievable waste of time" name="Turnip King, Brisbane, Australia" size="2.9" hero}
 
-<Quote
-  text="Who only uses 3 sheets to wipe your backside? I use more than that for sure."
-  name="Wobbly jelly tits, Birmingham, United Kingdom"
-  size="2"
-  hero
-/> 
+:quote{ text="Who only uses 3 sheets to wipe your backside? I use more than that for sure." name="Wobbly jelly tits, Birmingham, United Kingdom" size="2" hero}
 
 ## Translations
 
 It was amazing to get so many translations for the app.
 
-<MediaVideo
-  src="https://youtube.com/embed/z1726EC9H_Q"
-  width="560"
-  height="315"
-/>
+:media-video{src="https://youtube.com/embed/z1726EC9H_Q" width="560" height="315"}
 
 Thank you to all the volunteer translators from around the world!
 

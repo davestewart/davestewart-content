@@ -14,7 +14,7 @@ The Mac Finder is strangely named, as to actually _find_ things Apple invented S
 
 However, there are some hidden gems which make it bearable, so read on and I'll share this buried treasure with you.
 
-<NavToc level="2" from="tactics" />
+:nav-toc{level="2" from="tactics"}
 
 ## Tactics
 
@@ -54,7 +54,7 @@ Here's what works for me:
 
 A couple of the items below you will find by trawling the Finder menus, but most you will not. I discovered most through trial and error, or from watching seasoned Mac users over the years. You may know some, but I'm guessing there's at least a few you won't!
 
-<NavToc level="3" from="navigation" to="dialogs" />
+:nav-toc{level="3" from="navigation" to="dialogs"}
 
 ### Navigation
 

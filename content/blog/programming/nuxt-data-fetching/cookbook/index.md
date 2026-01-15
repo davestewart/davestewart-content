@@ -12,7 +12,7 @@ This article is a companion section for the [Data Fetching in Nuxt](/blog/nuxt-d
 
 >  All code is taken from the [Nuxt 4 docs](https://nuxt.com/docs/4.x/getting-started/data-fetching); just reorganised to make it simpler to browse and consume.
 
-<NavToc type="tree" exclude="cookbook" level="2,3" prompt="Contents" />
+:nav-toc{type="tree" exclude="cookbook" level="2,3" prompt="Contents"}
 
 ## Data Fetching Patterns
 

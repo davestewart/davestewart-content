@@ -38,7 +38,7 @@ With the latest phase finally delivered, I wanted to conduct a detailed postmort
 
 In the rest of the article I'll deep dive my own shortcomings around estimation, as well as present a framework to plan and visualise estimates, hopefully helping both of us clear those lurking feelings of confusion and guilt.
 
-<NavToc exclude="intro,background,thanks" type="list" prompt="Table of contents" />
+:nav-toc{exclude="intro,background,thanks" type="list" prompt="Table of contents"}
 
 ## Why is estimating hard?
 
@@ -191,7 +191,7 @@ How would this project look if modelled?
 
 You can click through the visualisation below to get a (very!) rough feel:
 
-<MediaGallery media="comparison" prev-text="Earlier" next-text="Later" :wrap="false" />
+:media-gallery{media="comparison" prev-text="Earlier" next-text="Later" :wrap="false"}
 
 As you click, imagine it's one or some of *your* previous projects, and see if it triggers any painful recollections. Perhaps the proportions are different, perhaps the tasks are different, but maybe it's a similar picture of idealism vs reality worth bearing in mind next time you think a project will be just "the work".
 

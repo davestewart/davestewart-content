@@ -8,6 +8,7 @@ tags:
 github: davestewart/javascript-state-machine
 media:
   thumbnail: ./images/state-machine-thumb.png
+  opengraph: ./images/state-machine-featured.png
   featured:
     src: https://statemachine.netlify.app/
     width: 960
@@ -24,11 +25,11 @@ State Machine is a powerful yet simply-configured state machine.
 Its [intuitive](https://statemachine.netlify.app/html/api/transitions/advanced.html) [yet](https://statemachine.netlify.app/html/api/transitions/wildcards.html) [powerful](https://statemachine.netlify.app/html/api/transitions/separators.html) DSL can describe states and transitions succinctly whilst its [JavaScript API](https://statemachine.netlify.app/html/api/index.html) hooks into transitions with a rich [event syntax](https://statemachine.netlify.app/html/api/events/interactive.html) to build complex [application flows](https://statemachine.netlify.app/html/examples/index.html):
 
 ```js
-const transitions: [
-    "warn  : green > yellow",
-    "panic : green   yellow > red",
-    "calm  :         yellow < red",
-    "clear : green < yellow   red"
+const transitions = [
+  'warn  : green > yellow',
+  'panic : green   yellow > red',
+  'calm  :         yellow < red',
+  'clear : green < yellow   red'
 ]
 ```
 

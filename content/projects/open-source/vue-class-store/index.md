@@ -112,7 +112,7 @@ I've been making heavy use of Vue Class Store in various commerical projects as 
 
 In October 2020 I did a short presentation for World Vue:
 
-<MediaVideo media="video" />
+:media-video{media="video"}
 
 ## Links
 

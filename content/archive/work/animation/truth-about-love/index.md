@@ -30,7 +30,7 @@ Keyframed particles and camera moves in 3DS Max.
 
 ## Trailer
 
-<MediaEmbed src="https://www.youtube.com/embed/ODBxJNsOPOU" width="560" height="315" />
+:media-embed{src="https://www.youtube.com/embed/ODBxJNsOPOU" width="560" height="315"}
 
 ## Links
 

@@ -5,6 +5,8 @@ tags:
   - webapp
   - frontend
   - vue
+  - nuxt
+  - tailwind
   - ui
 media:
   opengraph: ./images/metalink.png

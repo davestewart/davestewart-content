@@ -24,7 +24,7 @@ tags:
 
 As part of my bookkeeping process I download CSVs and copy selected columns to a more simplified sheet, before moving the individual values into categorised columns to help with budging and accounting requirements:
 
-<MediaGallery media="excel" />
+:media-gallery{media="excel"}
 
 The most time-consuming and error-prone part of this process is selecting and copying the CSV data:
 

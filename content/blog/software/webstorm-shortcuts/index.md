@@ -14,11 +14,11 @@ Below, I've listed 75+ essential shortcuts across multiple application areas. Wh
 
 See my other article on WebStorm's [features](/blog/webstorm-features) for detailed information on many and _more_ of the features listed below.
 
-<NavToc />
+::nav-toc
 
 ## Navigation
 
-<NavToc section="navigation" level="3" />
+:nav-toc{section="navigation" level="3"}
 
 ### Project
 
@@ -56,7 +56,7 @@ Cursor
 
 ## Editing
 
-<NavToc section="editing" level="3" />
+:nav-toc{section="editing" level="3"}
 
 ### Selection
 
@@ -161,7 +161,7 @@ You can access additional Markdown functionality via:
   
 ## Assistance
 
-<NavToc section="assistance" level="3" />
+:nav-toc{section="assistance" level="3"}
 
 ### Search
 
@@ -220,7 +220,7 @@ HTML
 
 ## Application
 
-<NavToc section="application" level="3" />
+:nav-toc{section="application" level="3"}
 
 ### Panels
 

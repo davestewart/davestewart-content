@@ -1,7 +1,6 @@
 ---
 title: Open Source
 description: Ongoing Open Source releases for various software packages
-breadcrumb: Open Source
 layout: folder
 order: 4
 ---

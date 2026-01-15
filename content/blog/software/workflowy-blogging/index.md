@@ -1,6 +1,6 @@
 ---
 description: A sample post to showcase WorkFlowy Writer's formatting conversion
-visibility: hidden
+draft: true
 ---
 
 # WorkFlowy blog experiment

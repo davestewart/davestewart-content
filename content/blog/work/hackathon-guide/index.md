@@ -280,7 +280,7 @@ So what happens after the dust settles and you've made new friends and built the
 
 Well, it's up to you. You may decide to keep working on the project and to see where it goes. That's what I did after an NHS hackathon and we even applied to a startup accelerator with it. We got through the first round of interviews but that's where it ended. I did, however, make a friend for life and someone I text most days.
 
-Some of the other hackathons ended up being fun for a day. And some ended up being [portfolio pieces](https://davestewart.co.uk/archive/projects/personal/mashifesto/). But whatever the outcome you will certainly learn some new things and learn a lot about [working quickly](https://davestewart.co.uk/projects/open-source/app-diary/) and not getting bogged down in the detail, which is a huge skill to obtain.
+Some of the other hackathons ended up being fun for a day. And some ended up being [portfolio pieces](https://davestewart.co.uk/archive/projects/personal/mashifesto/). But whatever the outcome you will certainly learn some new things and learn a lot about [working quickly](https://davestewart.co.uk/projects/personal/app-diary/) and not getting bogged down in the detail, which is a huge skill to obtain.
 
 Or maybe you really will go on and build The Next Big Thing and if you do, I will be rooting for you every step of the way.
 

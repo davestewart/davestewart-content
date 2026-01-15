@@ -23,39 +23,23 @@ Let's dive in.
 
 This is a long, one-page guide, but each section has its own table of contents for easy navigation.
 
-<NavToc 
-  type="list"
-  prompt="The basics"
-  from="prerequisites"
-  to="getting-help">
-</NavToc>
+:nav-toc{ type="list" prompt="The basics" from="prerequisites" to="getting-help"}
+::
 
-<NavToc 
-  type="list"
-  prompt="Up and running"
-  from="essential-patterns"
-  to="simple-scripting">
-</NavToc>
+:nav-toc{ type="list" prompt="Up and running" from="essential-patterns" to="simple-scripting"}
+::
 
-<NavToc 
-  type="list"
-  prompt="Appendices"
-  from="users-permissions-and-security"
-  to="shells-and-shell-frameworks">
-</NavToc>
+:nav-toc{ type="list" prompt="Appendices" from="users-permissions-and-security" to="shells-and-shell-frameworks"}
+::
 
-<NavToc 
-  type="list"
-  prompt="Wrapping up"
-  from="where-to-go-from-here"
-  to="quick-reference">
-</NavToc>
+:nav-toc{ type="list" prompt="Wrapping up" from="where-to-go-from-here" to="quick-reference"}
+::
 
 ## Prerequisites
 
 Before we dive into commands and pipelines, let's cover the absolute basics.
 
-<NavToc type="list" section="prerequisites" level="3"></NavToc>
+:nav-toc{type="list" section="prerequisites" level="3"}
 
 ### What is a Shell?
 
@@ -99,7 +83,7 @@ Now you know where you are (`pwd`), what's here (`ls`), and how to move around (
 
 ## The Unix Filesystem
 
-<NavToc type="list" section="the-unix-filesystem" level="3"></NavToc>
+:nav-toc{type="list" section="the-unix-filesystem" level="3"}
 
 ### Key Concepts
 
@@ -397,7 +381,7 @@ At its core, the command line is about running programs with arguments: `command
 
 Commands can take **options** (flags) which typically start with `-` for short form like `-a` or `--` for long form like `--all`. You can often combine short flags together: `-la` is the same as `-l -a`.
 
-<NavToc type="list" section="command-line-fundamentals" level="3"></NavToc>
+:nav-toc{type="list" section="command-line-fundamentals" level="3"}
 
 ### Streams and Redirection
 
@@ -693,7 +677,7 @@ This processes JSON with `jq` (a JSON processor that can query and transform), f
 
 Before you can become self-sufficient, you need to know how to find answers.
 
-<NavToc type="list" section="getting-help" level="3"></NavToc>
+:nav-toc{type="list" section="getting-help" level="3"}
 
 ### Built-in Help
 
@@ -800,7 +784,7 @@ The trick is knowing the hierarchy: try `--help` first (fast, focused), then `ma
 
 Theory is great, but here are the patterns you'll actually use and the gotchas you'll encounter.
 
-<NavToc type="list" section="essential-patterns" level="3"></NavToc>
+:nav-toc{type="list" section="essential-patterns" level="3"}
 
 ### Quoting Rules and Gotchas
 
@@ -984,7 +968,7 @@ cat file.txt | grep "pattern"  # reads from pipe
 
 These techniques give you fine-grained control when you need it.
 
-<NavToc type="list" section="advanced-techniques" level="3"></NavToc>
+:nav-toc{type="list" section="advanced-techniques" level="3"}
 
 ### Here Documents and Here Strings
 
@@ -1085,7 +1069,7 @@ This is essential when you've accidentally started a long-running process in the
 
 Make the shell work the way you want it to.
 
-<NavToc type="list" section="customisation-and-configuration" level="3"></NavToc>
+:nav-toc{type="list" section="customisation-and-configuration" level="3"}
 
 ### Profile Files
 
@@ -1217,7 +1201,7 @@ A shell script is just a text file containing commands. Instead of typing them o
 
 Let's move from interactive commands to reusable automation.
 
-<NavToc type="list" section="simple-scripting" level="3"></NavToc>
+:nav-toc{type="list" section="simple-scripting" level="3"}
 
 ### Shebang and Execution
 
@@ -1487,7 +1471,7 @@ The key difference: **profile commands** configure your interactive shell experi
 
 Unix was designed as a multi-user system from the start. Multiple people can use the same computer, each with their own files, and the system needs to prevent users from accidentally (or maliciously) interfering with each other's work or critical system files.
 
-<NavToc type="list" section="users-permissions-and-security" level="3"></NavToc>
+:nav-toc{type="list" section="users-permissions-and-security" level="3"}
 
 ### Why Permissions Exist
 
@@ -1718,7 +1702,7 @@ Reaching for `sudo chmod 777` is like responding to a locked door by tearing dow
 
 ## Shells and Shell Frameworks
 
-<NavToc type="list" section="shells-and-shell-frameworks" level="3"></NavToc>
+:nav-toc{type="list" section="shells-and-shell-frameworks" level="3"}
 
 ### What is a Shell, Really?
 
@@ -2045,7 +2029,7 @@ Now go forth and `rm -rf` with confidence. (But maybe double-check that path fir
 
 ## Quick Reference
 
-<NavToc type="list" section="quick-reference" level="3"></NavToc>
+:nav-toc{type="list" section="quick-reference" level="3"}
 
 ### Filesystem Navigation
 

@@ -79,11 +79,11 @@ Later in the project our small team merged with the client's strategic and techn
 
 This project was lead by core user journeys, and we began by planning and prototyping low-fi UX flows in collaboration with stakeholders to ensure we understood their requirements and were going in the right direction:
 
-<MediaGallery media="ux" />
+:media-gallery{media="ux"}
 
 Having understood the brief, we iterated on increasingly accurate fidelities of wireframes to realise user journeys on paper, before building any significant parts of the site:
 
-<MediaGallery media="wireframes" />
+:media-gallery{media="wireframes"}
 
 There were multiple, complex sections and flows to be researched, planned, designed and built; from the browsing and financial journeys (integrating with multiple 3rd parties) to the credit checking, user account, purchase, and delivery journeys. 
 

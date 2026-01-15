@@ -51,7 +51,7 @@ It was this period of learning to really _appreciate_ my hands that provided the
 
 Without doubt, conquering this habit after all this time – and putting the processes in place to keep it conquered – feels like a major life achievement.
 
-<Quote text="The long-term pleasure of having good nails is infinitely greater than the momentary satisfaction of biting them" hero size="1.6" />
+:quote{text="The long-term pleasure of having good nails is infinitely greater than the momentary satisfaction of biting them" hero size="1.6"}
 
 
 If I was to list the benefits, they'd be:

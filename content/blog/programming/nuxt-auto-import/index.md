@@ -19,10 +19,7 @@ I wanted to get to the bottom of this paradox so after my original complaint in 
 
 I've tried to keep the article as short as I can, but there's quite a lot to cover!
 
-<NavToc level="2,3"
-        type="list"
-        exclude="intro"
-        prompt="Feel free to jump to" />
+:nav-toc{level="2,3" type="list" exclude="intro" prompt="Feel free to jump to"}
 
 ## Overview
 

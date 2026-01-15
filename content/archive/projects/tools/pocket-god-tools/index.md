@@ -162,4 +162,4 @@ The great thing about all of this though, was that [Dave Castelnuovo](http://www
 
 You know what it's like to be a studio under pressure to deliver...
 
-<MediaVideo width="560" height="315" src="https://www.youtube.com/embed/I8jkz0pdHk8" />
+:media-video{width="560" height="315" src="https://www.youtube.com/embed/I8jkz0pdHk8"}

@@ -33,7 +33,7 @@ It uses a Kanban-style board to arrange windows and tabs so you can get quick ac
 
 ## Video
 
-<MediaVideo />
+::media-video
 
 ## Features
 
@@ -73,10 +73,7 @@ There are even more exciting new features in the pipeline and we can't wait to s
 
 ## Installation
 
-<WebStore
-    id="cnhhkgejafpmpbfodmebbmbhgkemleca"
-    name="Control Space"
-    />
+:web-store{ id="cnhhkgejafpmpbfodmebbmbhgkemleca" name="Control Space"}
 
 ## Links
 

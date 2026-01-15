@@ -45,7 +45,7 @@ I worked closely with [Skylark Creative](https://skylarkcreative.co.uk/blog/2012
 
 We wove a story around a classic "good vs evil" narrative, fleshing-out scenario and character designs for a futuristic "Cyber City", its residents, the student's character and main Good and Evil protagonists.
 
-<MediaGallery media="characters" />
+:media-gallery{media="characters"}
 
 We broke down the learning objectives into games and interactive ideas, pushing back where needed to fully grasp what the client needed. This culminated with a client Discovery Day where we put our ideas through their paces and worked out how to deliver the learning content, with games, infographics, stories, and lessons.
 

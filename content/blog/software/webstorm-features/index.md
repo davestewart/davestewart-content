@@ -41,7 +41,7 @@ See my article on WebStorm's [keyboard shortcuts](/blog/webstorm-shortcuts/) to 
 
 ### Quick links
 
-<NavToc exclude="intro" />
+:nav-toc{exclude="intro"}
 
 ## UI
 

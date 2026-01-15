@@ -15,7 +15,7 @@ Yesterday, 20th Feb 2020 was supposedly [Twosday](https://www.google.com/search?
 
 However, those of us [who get really geeky over times](/archive/projects/personal/futureclock/) were hanging out for the double-whammy of 22:22 on 22/02/2022!
 
-<Twitter>
+::twitter
   <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I got a Full House on
     <a href="https://twitter.com/hashtag/Ambigram?src=hash&amp;ref_src=twsrc%5Etfw">#Ambigram</a> Day yesterday!<br><br>Note
     the battery; it took a day of meticulous planning and power management and an evening of telling people to go away
@@ -24,7 +24,7 @@ However, those of us [who get really geeky over times](/archive/projects/persona
     <a href="https://t.co/Pobe5HpLGs">pic.twitter.com/Pobe5HpLGs</a></p>&mdash; Dave Stewart (@dave_stewart)
     <a href="https://twitter.com/dave_stewart/status/1496413189776588805?ref_src=twsrc%5Etfw">February 23, 2022</a>
   </blockquote>
-</Twitter>
+::
 
 22:22 has been my favourite time for a number of years now, because in addition to the digital symmetry, there is seemingly an _analogue_ symmetry – the hands of the clock ***look like they are in direct alignment***:
 
@@ -109,7 +109,7 @@ Luckily, I found some [clock code online](https://dev.to/code_mystery/simple-ana
 
 Tweaking the time value, it was surprisingly easy to work out what time would give 180°, and that time was `22:21:45` as you can see in the interactive example below: 
 
-<CodePen hash="qBVKxKq" title="Analogue Ambigram" height="600"/>
+:code-pen{hash="qBVKxKq" title="Analogue Ambigram" height="600"}
 
 But here's the thing...
 

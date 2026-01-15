@@ -1,7 +1,6 @@
 ---
 title: Tools & frameworks
 description: Larger, self-contained tools, mainly for developers
-breadcrumb: Tools
 layout: folder
 order: 2
 ---

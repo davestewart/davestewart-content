@@ -1,0 +1,70 @@
+Scale:
+  - enterprise
+  - rapid-build
+  - experiment
+  - mashup
+Format:
+  - webapp
+  - website
+  - library
+  - framework
+  - plugin
+  - chrome-extension
+  - game
+Domain:
+  - concept
+  - creative
+  - technical
+  - fullstack
+  - frontend
+  - backend
+Software:
+  - vue
+  - nuxt
+  - laravel
+  - flash
+  - 3dsmax
+  - after-effects
+  - elasticsearch
+Language:
+  - typescript
+  - javascript
+  - tailwind
+  - html
+  - node
+  - php
+  - as3
+  - sql
+  - graphql
+  - svg
+  - jsfl
+  - vba
+Technical:
+  - api
+  - data
+  - state
+  - architecture
+  - database
+  - jamstack
+  - parsing
+  - physics
+  - charts
+  - maps
+  - video
+  - ugc
+  - ui
+Category:
+  - productivity
+  - tools
+  - social
+Creative:
+  - animation
+  - design
+  - icons
+  - 3d
+Device:
+  - responsive
+  - mobile
+  - ipad
+Other:
+  - award

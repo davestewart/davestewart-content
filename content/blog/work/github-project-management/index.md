@@ -40,4 +40,4 @@ Maintain the link between issues, branches and PRs:
 - Use Pull Requests to automatically close issues and update boards  
 - Use squash commits to keep a clean history; once committed they show as `Simple Task Summary (#456)`
 
-<MediaGallery media="images" />
+:media-gallery{media="images"}

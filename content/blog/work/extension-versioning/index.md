@@ -16,11 +16,7 @@ I've been developing Chrome extensions for the last few years, and whilst most d
 
 This article is somewhat of a retrospective of my journey through poorly-executed versioning, awkward naming, tagging and releases, to final robust versioning strategy whilst developing [Control Space](https://controlspace.app).
 
-<NavToc type="tree" 
-        level="2,3"
-        prompt="It turned out a little longer than I wanted, so feel free to jump to"
-        exclude="abstract,control-space-sprint-16"
-/>  
+:nav-toc{type="tree" level="2,3" prompt="It turned out a little longer than I wanted, so feel free to jump to" exclude="abstract,control-space-sprint-16"}
 
 ## Chrome extension version format
 

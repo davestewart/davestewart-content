@@ -23,7 +23,7 @@ With a full understanding of isomorphic rendering, we'll then dig into the indiv
 
 > **Disclaimer**: as with most of my [Nuxt articles](/?s=nuxt) I wrote this to clarify my own understanding of Nuxt's JS voodoo!
 
-<NavToc type="tree" exclude="intro" level="2,3" />
+:nav-toc{type="tree" exclude="intro" level="2,3"}
 
 ## Problem space
 

@@ -66,19 +66,11 @@ The job itself was fantastic fun for a developer to work on, and although the de
 
 App promo:
 
-<MediaVideo
-  src="https://youtube.com/embed/dp0Lj-7fBpQ?rel=0"
-  height="326"
-  width="580"
-/>
+:media-video{ src="https://youtube.com/embed/dp0Lj-7fBpQ?rel=0" height="326" width="580"}
 
 Campaign promo:
 
-<MediaVideo
-  src="https://youtube.com/embed/lLU7g92DF7I?rel=0"
-  height="326"
-  width="580"
-/>
+:media-video{ src="https://youtube.com/embed/lLU7g92DF7I?rel=0" height="326" width="580"}
 
 ## Awards
 

@@ -115,49 +115,49 @@ Here's a selection of screen shots from the asset-creation segment of the job, t
 
 The bar had a real telephone box at one end, painted white, in which you could go to make phone calls (on your mobile of course!). Here are some early lighting tests:
 
-<MediaGallery media="telephone" />
+:media-gallery{media="telephone"}
 
 
 #### Bar table
 
 Next to the telephone box in the site, is a bar table and couple of stools. These animated on during the site intro, with the wine slipping and slopping in the glass, and the candle flickering into light:
 
-<MediaGallery media="bar_table" />
+:media-gallery{media="bar_table"}
 
 
 #### Picture frame
 
 The gallery section of the site used [Away 3D](http://away3d.com/) to create a 3D wall and transition smoothly between different galleries, which were each displayed in 3D picture frames:
 
-<MediaGallery media="frame" />
+:media-gallery{media="frame"}
 
 
 #### Ivy
 
 Ivy was used throughout the bar, and we used it in the same decorative way in the site, in both 2D and 3D space:
 
-<MediaGallery media="ivy" />
+:media-gallery{media="ivy"}
 
 
 #### Ivy loader
 
 Because the site was a larger load than your usual site, thanks to the video and 3D textures, I created an "Ivy Loader" for something nice to look at as the modules loaded in:
 
-<MediaGallery media="loader" />
+:media-gallery{media="loader"}
 
 
 #### Dining table
 
 The menu section of the site featured a formal, dressed dining table with animated place settings:
 
-<MediaGallery media="table" />
+:media-gallery{media="table"}
 
 
 #### Random items
 
 We needed to model a variety of items which were found in the bar to give the site an opulent, decorative feel:
 
-<MediaGallery media="items" />
+:media-gallery{media="items"}
 
 ## Links
 

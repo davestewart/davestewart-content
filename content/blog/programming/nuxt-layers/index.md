@@ -40,10 +40,7 @@ You might also want to skim the official Layers docs before continuing:
 
 It's a long article (!) so here's the full table of contents if you want to skip:
 
-<NavToc type="list"
-        exclude="intro"
-        prompt=""
-/>
+:nav-toc{type="list" exclude="intro" prompt=""}
 
 ## Site organisation
 

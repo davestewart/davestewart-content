@@ -17,7 +17,7 @@ But in all honesty, I'm not sure if the whole "shard" idea has really paid off -
 
 So it's time to turn to PhotoShop to see how The Shard could have looked if they hadn't have been so fancy-schmancy with their clever ideas. Click the image below to see before and after shots...
 
-<MediaGallery media="images" width="70%" />  
+:media-gallery{media="images" width="70%"}
 
 Personally, I think The Shard with a point on top looks absolutely bad-ass.
 

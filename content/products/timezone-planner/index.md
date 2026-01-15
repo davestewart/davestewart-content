@@ -35,7 +35,7 @@ Just checking the time and doing some mental arithmetic is not always sufficient
 
 It comes in the form of a [Google Sheet](https://www.google.co.uk/sheets/about/), so it's ubiquitous and even _customisable_ if you want additional control:
 
-<MediaGallery media="images" />
+:media-gallery{media="images"}
 
 You can leave it open in a browser tab, and check-in as needed. It renders from your timezone and updates throughout the day so, it's simple to grok everyone's working hours, when you need to take that call or complete your work.
 

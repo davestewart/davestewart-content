@@ -51,12 +51,7 @@ Additionally:
 
 ## Installation
 
-<WebStore
-  id="fokpfcfpgdlmnbjajbdeofkemfblbnbh"
-  name="BlueSky Follower Info"
-  rel="BlueSky"
-  review
-/>
+:web-store{ id="fokpfcfpgdlmnbjajbdeofkemfblbnbh" name="BlueSky Follower Info" rel="BlueSky" review}
 
 ## Links
 
