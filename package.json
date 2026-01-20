@@ -1,12 +1,17 @@
 {
   "name": "davestewart-content",
   "description": "Personal website content",
+  "type": "module",
   "scripts": {
     "check-tags": "node scripts/check-tags.js",
+    "new": "node scripts/new-post.js",
+    "edit": "node scripts/edit-post.js",
     "prepare": "husky"
   },
   "dependencies": {
+    "canvas": "^3.2.1",
     "glob": "^13.0.0",
+    "inquirer": "^13.2.0",
     "js-yaml": "^4.1.1"
   },
   "devDependencies": {

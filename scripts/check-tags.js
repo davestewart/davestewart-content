@@ -1,9 +1,8 @@
 #!/usr/bin/env node
 
-const fs = require('fs')
-const path = require('path')
-const yaml = require('js-yaml')
-const { glob } = require('glob')
+import fs from 'fs'
+import yaml from 'js-yaml'
+import { glob } from 'glob'
 
 // Load tags.yaml
 const tagsYaml = yaml.load(fs.readFileSync('./content/tags.yaml', 'utf8'))
