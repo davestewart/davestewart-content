@@ -5,7 +5,7 @@ tags:
   - productivity
   - chrome-extension
   - tools
-  - creative
+  - design
 media:
   thumbnail: ./images/multiflow-thumb-01.svg
   opengraph: ./images/multiflow-featured.png

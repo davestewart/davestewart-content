@@ -4,6 +4,7 @@ date: 2020-04-01
 tags:
   - creative
   - animation
+  - design
 media:
   thumbnail: ./images/featured.png
   gallery:

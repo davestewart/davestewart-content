@@ -5,7 +5,7 @@ tags:
   - library
   - tools
   - node
-  - creative
+  - design
 github: davestewart/alias-hq
 media:
   thumbnail: ./images/alias-thumbnail.png

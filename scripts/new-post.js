@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
 import { select, input } from '@inquirer/prompts';
-import fs from 'fs';
-import path from 'path';
-import yaml from 'js-yaml';
+import Fs from 'fs';
+import Path from 'path';
+import Yaml from 'js-yaml';
 import { fileURLToPath } from 'url';
 import { slugify } from './utils/slugify.js';
 import {
@@ -15,10 +15,10 @@ import { selectTags } from './utils/tag-utils.js';
 import { generateAllPlaceholders } from './utils/image-utils.js';
 
 const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-const ROOT_DIR = path.resolve(__dirname, '..');
-const CONTENT_DIR = path.join(ROOT_DIR, 'content');
-const TAGS_PATH = path.join(CONTENT_DIR, 'tags.yaml');
+const __dirname = Path.dirname(__filename);
+const ROOT_DIR = Path.resolve(__dirname, '..');
+const CONTENT_DIR = Path.join(ROOT_DIR, 'content');
+const TAGS_PATH = Path.join(CONTENT_DIR, 'tags.yaml');
 
 // Map display names to folder names
 const POST_TYPES = {
@@ -55,7 +55,7 @@ async function createPost() {
   // 2. Select category if applicable (blog or projects)
   let category = null;
   if (TYPES_WITH_CATEGORIES.includes(typeFolder)) {
-    const categoryPath = path.join(CONTENT_DIR, typeFolder);
+    const categoryPath = Path.join(CONTENT_DIR, typeFolder);
     const categories = getSubdirectories(categoryPath);
 
     if (categories.length > 0) {
@@ -74,11 +74,12 @@ async function createPost() {
 
   // 4. Get slug (with default from title)
   const defaultSlug = slugify(title);
-  const slug = await input({
+  let slug = await input({
     message: 'What\'s the folder name?',
     default: defaultSlug,
     validate: value => value.trim() ? true : 'Folder name is required'
   });
+  slug = slugify(slug);
 
   // 5. Get description
   const description = await input({
@@ -101,21 +102,21 @@ async function createPost() {
   }
 
   // Build the post path
-  let postPath = path.join(CONTENT_DIR, typeFolder);
+  let postPath = Path.join(CONTENT_DIR, typeFolder);
   if (category) {
-    postPath = path.join(postPath, category);
+    postPath = Path.join(postPath, category);
   }
-  postPath = path.join(postPath, slug);
+  postPath = Path.join(postPath, slug);
 
   // Check if post already exists
-  if (fs.existsSync(postPath)) {
+  if (Fs.existsSync(postPath)) {
     console.error(`\n❌ Error: Post already exists at ${postPath}`);
     process.exit(1);
   }
 
   // Create directories
   ensureDirectory(postPath);
-  const imagesPath = path.join(postPath, 'images');
+  const imagesPath = Path.join(postPath, 'images');
   ensureDirectory(imagesPath);
 
   // Generate frontmatter
@@ -139,7 +140,7 @@ async function createPost() {
   };
 
   // Generate markdown content
-  const yamlFrontmatter = yaml.dump(frontmatter, { lineWidth: -1, quotingType: '"', forceQuotes: false });
+  const yamlFrontmatter = Yaml.dump(frontmatter, { lineWidth: -1, quotingType: '"', forceQuotes: false });
   const markdown = `---
 ${yamlFrontmatter}---
 
@@ -153,15 +154,15 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 `;
 
   // Write index.md
-  const indexPath = path.join(postPath, 'index.md');
-  fs.writeFileSync(indexPath, markdown, 'utf8');
+  const indexPath = Path.join(postPath, 'index.md');
+  Fs.writeFileSync(indexPath, markdown, 'utf8');
 
   // Generate placeholder images
   console.log('\n🎨 Generating placeholder images...');
   generateAllPlaceholders(imagesPath, title);
 
-  console.log(`\n✅ Post created successfully at:\n  - ${postPath}`);
-  console.log(`📄 Edit your post:\n  - ${indexPath}`);
+  console.log(`\n✅ Post created successfully at:\n  - ${Path.relative(ROOT_DIR, postPath)}`);
+  console.log(`📄 Edit your post:\n  - ${Path.relative(ROOT_DIR, indexPath)}`);
 }
 
 // Run the CLI

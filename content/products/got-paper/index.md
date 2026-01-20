@@ -5,12 +5,13 @@ date: 2020-02-01
 tags:
   - webapp
   - mobile
+  - creative
   - javascript
   - nuxt
   - vue
   - jamstack
   - rapid-build
-  - creative
+  - design
   - ui
 github: davestewart/got-paper
 media:

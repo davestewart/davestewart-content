@@ -5,6 +5,7 @@ tags:
   - creative
   - productivity
   - rapid-build
+  - design
 github: davestewart/todo-emojis
 media:
   thumbnail: ./images/todo-emojis-logo.svg

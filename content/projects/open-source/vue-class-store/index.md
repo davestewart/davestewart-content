@@ -9,7 +9,7 @@ tags:
   - vue
   - state
   - architecture
-  - creative
+  - design
 github: davestewart/vue-class-store
 media:
   opengraph: ./images/vue-class-store.png

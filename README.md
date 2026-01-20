@@ -87,3 +87,61 @@ Key:
 
 - `x`: visible in production
 - `-`: visible in development
+
+
+## Scripts
+
+The repo comes with some handy scripts.
+
+### `new-post`
+
+Runs interactively to generate a new post, including stub images:
+
+```text
+📝 Post Generator
+
+✔ What kind of post? blog
+✔ Which category? productivity
+✔ What's the title? How to be better at things
+✔ What's the folder name? how to be better
+✔ What's the description? 100 tips and tricks to be more 
+effective in day to day life
+✔ Select tags (use space to select, enter to confirm):
+[Category] productivity
+
+🎨 Generating placeholder images...
+
+✅ Post created successfully at:
+  - /content/blog/productivity/how to be better
+📄 Edit your post:
+  - /content/blog/productivity/how to be better/index.md
+```
+
+### `edit-post`
+
+Runs interactively to choose an existing post and edit tags:
+
+```text
+✏️  Post Editor
+
+✔ Search for a post: [projects] Alias HQ
+
+📝 Editing: Alias HQ
+📁 Path: open-source/alias-hq
+
+✔ Select tags (use space to select, enter to confirm):
+ [Format] library, [Domain] creative, [Language] node, 
+[Category] tools
+
+✅ Post updated successfully!
+📄 /content/projects/open-source/alias-hq/index.md
+
+```
+
+### `check-tags`
+
+Runs on commit and checks all tags are listed in `tags.json`.
+
+If a post contains a tag not listed in `tags.json`, the commit will fail.
+
+Either edit the file to add the missing tag, or remove unlisted the tag from the post. 

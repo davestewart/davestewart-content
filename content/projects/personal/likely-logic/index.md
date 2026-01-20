@@ -3,7 +3,7 @@ description: Holding page for my product development moniker
 date: 2021-01-01
 tags:
   - website
-  - creative
+  - design
 media:
   opengraph: ./images/likely-logic.png
   thumbnail: ./images/likely-logic.svg

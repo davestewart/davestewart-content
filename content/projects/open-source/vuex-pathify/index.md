@@ -8,7 +8,7 @@ tags:
   - vue
   - state
   - architecture
-  - creative
+  - design
 github: davestewart/vuex-pathify
 media:
   thumbnail: ./images/vuex-pathify.svg

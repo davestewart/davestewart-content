@@ -1,19 +1,19 @@
 #!/usr/bin/env node
 
 import { search } from '@inquirer/prompts';
-import fs from 'fs';
-import path from 'path';
-import yaml from 'js-yaml';
+import Fs from 'fs';
+import Path from 'path';
+import Yaml from 'js-yaml';
 import { fileURLToPath } from 'url';
 import { glob } from 'glob';
 import { parseFrontmatter } from './utils/file-utils.js';
 import { selectTags } from './utils/tag-utils.js';
 
 const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-const ROOT_DIR = path.resolve(__dirname, '..');
-const CONTENT_DIR = path.join(ROOT_DIR, 'content');
-const TAGS_PATH = path.join(CONTENT_DIR, 'tags.yaml');
+const __dirname = Path.dirname(__filename);
+const ROOT_DIR = Path.resolve(__dirname, '..');
+const CONTENT_DIR = Path.join(ROOT_DIR, 'content');
+const TAGS_PATH = Path.join(CONTENT_DIR, 'tags.yaml');
 
 /**
  * Get all posts from all types
@@ -23,19 +23,19 @@ function getAllPosts() {
   const allPosts = [];
 
   // Find all index.md files in content folder, excluding the root index.md files
-  const pattern = path.join(CONTENT_DIR, '*/**/index.md');
-  const files = glob.sync(pattern, { ignore: path.join(CONTENT_DIR, '*/index.md') });
+  const pattern = Path.join(CONTENT_DIR, '*/**/index.md');
+  const files = glob.sync(pattern, { ignore: Path.join(CONTENT_DIR, '*/index.md') });
 
   for (const filePath of files) {
     // Read the file to get the title
-    const content = fs.readFileSync(filePath, 'utf8');
+    const content = Fs.readFileSync(filePath, 'utf8');
     const titleMatch = content.match(/^#\s+(.+)$/m);
 
     // Get relative path from content dir
-    const relativePath = path.relative(CONTENT_DIR, filePath);
-    const pathParts = relativePath.split(path.sep);
+    const relativePath = Path.relative(CONTENT_DIR, filePath);
+    const pathParts = relativePath.split(Path.sep);
     const type = pathParts[0]; // e.g., 'blog', 'products', 'projects', 'work'
-    const postPath = pathParts.slice(1, -1).join(path.sep); // Remove type and 'index.md'
+    const postPath = pathParts.slice(1, -1).join(Path.sep); // Remove type and 'index.md'
 
     const title = titleMatch ? titleMatch[1] : postPath;
 
@@ -93,7 +93,7 @@ async function main() {
   });
 
   // Read the post
-  const content = fs.readFileSync(selectedPost.fullPath, 'utf8');
+  const content = Fs.readFileSync(selectedPost.fullPath, 'utf8');
   const { frontmatter, body } = parseFrontmatter(content);
 
   console.log(`\n📝 Editing: ${selectedPost.title}`);
@@ -109,12 +109,12 @@ async function main() {
   };
 
   // Write updated content
-  const yamlFrontmatter = yaml.dump(updatedFrontmatter, { lineWidth: -1, quotingType: '"', forceQuotes: false });
+  const yamlFrontmatter = Yaml.dump(updatedFrontmatter, { lineWidth: -1, quotingType: '"', forceQuotes: false });
   const updatedContent = `---\n${yamlFrontmatter}---\n${body}`;
-  fs.writeFileSync(selectedPost.fullPath, updatedContent, 'utf8');
+  Fs.writeFileSync(selectedPost.fullPath, updatedContent, 'utf8');
 
   console.log(`\n✅ Post updated successfully!`);
-  console.log(`📄 ${selectedPost.fullPath}`);
+  console.log(`📄 ${Path.relative(ROOT_DIR, selectedPost.fullPath)}`);
 }
 
 // Run the CLI

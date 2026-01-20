@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 
-import fs from 'fs'
-import yaml from 'js-yaml'
+import Fs from 'fs'
+import Yaml from 'js-yaml'
 import { glob } from 'glob'
 
 // Load tags.yaml
-const tagsYaml = yaml.load(fs.readFileSync('./content/tags.yaml', 'utf8'))
+const tagsYaml = Yaml.load(Fs.readFileSync('./content/tags.yaml', 'utf8'))
 const validTags = new Set()
 
 // Collect all valid tags from categories
@@ -31,12 +31,12 @@ const filesByTag = new Map()
 const frontMatterRegex = /^---\n([\s\S]*?)\n---/
 
 markdownFiles.forEach(file => {
-  const content = fs.readFileSync(file, 'utf8')
+  const content = Fs.readFileSync(file, 'utf8')
   const match = content.match(frontMatterRegex)
 
   if (match) {
     try {
-      const frontMatter = yaml.load(match[1])
+      const frontMatter = Yaml.load(match[1])
       if (frontMatter.tags) {
         const tags = Array.isArray(frontMatter.tags) ? frontMatter.tags : [frontMatter.tags]
         tags.forEach(tag => {

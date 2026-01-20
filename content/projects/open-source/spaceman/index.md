@@ -5,7 +5,7 @@ tags:
   - library
   - tools
   - node
-  - creative
+  - design
 github: davestewart/spaceman
 media:
   thumbnail: ./images/spaceman-thumb.png

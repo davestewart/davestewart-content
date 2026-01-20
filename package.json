@@ -3,9 +3,9 @@
   "description": "Personal website content",
   "type": "module",
   "scripts": {
+    "new-post": "node scripts/new-post.js",
+    "edit-post": "node scripts/edit-post.js",
     "check-tags": "node scripts/check-tags.js",
-    "new": "node scripts/new-post.js",
-    "edit": "node scripts/edit-post.js",
     "prepare": "husky"
   },
   "dependencies": {
