@@ -28,7 +28,7 @@ media:
     - ./screens/mms-zoom-video.jpg
     - ./screens/mms-zoom-category.jpg
   video:
-    src: https://youtube.com/embed/dp0Lj-7fBpQ?rel=0
+    src: https://youtube.com/embed/dp0Lj-7fBpQ
     width: 1280
     height: 720
 ---

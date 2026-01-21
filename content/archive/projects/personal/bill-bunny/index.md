@@ -14,7 +14,7 @@ tags:
 media:
   thumbnail: ./images/bill-bunny.png
   video:
-    src: //player.vimeo.com/video/75715745
+    src: https://player.vimeo.com/video/75715745
     width: 640
     height: 360
 ---

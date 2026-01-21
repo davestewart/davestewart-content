@@ -10,6 +10,7 @@ tags:
   - javascript
   - api
   - data
+  - charts
   - technical
   - ipad
   - svg

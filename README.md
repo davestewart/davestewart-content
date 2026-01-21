@@ -6,9 +6,9 @@
 
 All markdown files support frontmatter.
 
-Here's a typical post example:
+Here's an example showing the kinds of data you can include:
 
-```markdown
+```md
 ---
 description: A brief description of the post
 date: 2020-08-01
@@ -31,6 +31,10 @@ media:
       src: ./images/other-image-01.png
     - text: Other image caption
       src: ./images/other-image-02.png
+  video:
+    src: https://www.youtube.com/embed/dQw4w9WgXcQ
+    width: 640
+    height: 360
 ---
 
 # Post title
@@ -48,9 +52,9 @@ These values provide data about the page itself:
 
 | Key           | Description                                                               |
 |---------------|---------------------------------------------------------------------------|
+| `date`        | The publish date in the form `yyyy-mm-dd` (set in the future to schedule) |
 | `shortTitle`  | An optional short post title to show in breadcrumbs                       |
 | `description` | The post description                                                      |
-| `date`        | The publish date in the form `yyyy-mm-dd` (set in the future to schedule) |
 | `visibility`  | Where and how to show the post (see table below)                          |
 | `tags`        | A list of tags to show and appear in Search                               |
 | `github`      | Github repo in the form `user/repo`                                       |
@@ -78,6 +82,7 @@ Post media can be described using the following keys:
 | `media.featured`  | Relative path to featured post image         |
 | `media.opengraph` | Relative path to social preview image        |
 | `media.gallery`   | List of relative paths (replaces `featured`) |
+| `media.video`     | URL to video service                         |
 | `media.<any>`     | Any other data to be referenced in the page  |
 
 #### Post `media.*` keys
@@ -85,7 +90,7 @@ Post media can be described using the following keys:
 All media keys (other than `thumbnail` which must be a path or url) can be:
 
 - a relative path or url
-- an object of media properties
+- _or,_ an object of media properties
 
 Supported media object properties are:
 

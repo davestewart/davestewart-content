@@ -33,7 +33,7 @@ It uses a Kanban-style board to arrange windows and tabs so you can get quick ac
 
 ## Video
 
-::media-video
+:media-video
 
 ## Features
 

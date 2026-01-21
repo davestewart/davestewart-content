@@ -1774,7 +1774,7 @@ chsh -s $(which zsh)
 
 **When to use it:** If you're willing to learn different syntax for a dramatically better interactive experience. If you value productivity over compatibility. If you hate configuring things.
 
-```fish
+```bash
 # fish has a completely different syntax
 set name "Dave"  # not name="Dave"
 if test -f file.txt  # not [ -f file.txt ]

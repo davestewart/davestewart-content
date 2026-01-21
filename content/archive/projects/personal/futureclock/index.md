@@ -8,6 +8,7 @@ tags:
   - technical
   - as3
   - concept
+hero: gallery
 media:
   thumbnail: ./images/clock-featured.png
   featured: ./images/clock-01.jpg

@@ -13,8 +13,7 @@ tags:
 media:
   opengraph: ./images/asterisk-logo.png
   thumbnail: ./images/asterisk-logo-trans.svg
-  featured: ./images/asterisk-logo-trans.svg
-  gallery:
+  featured:
     - ./screens/logo.png
     - ./screens/borrower-negotiations-board-01.png
     - ./screens/borrower-negotiations-board-03.png

@@ -29,7 +29,7 @@ Nuxt Content Assets enables locally-located assets in [Nuxt Content](https://con
 
 In your documents, reference assets with relative paths:
 
-```markdown
+```md
 ---
 title: Summer Holiday
 featured: media/featured.png

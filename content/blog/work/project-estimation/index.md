@@ -121,16 +121,16 @@ Moving forwards, I wanted to:
 
 The distinction of the work "before / between / around" the work felt like the beginnings of said framework, and I eventually settled on:
 
-| Analogy                                                                      | Real world                                                                 |
-|------------------------------------------------------------------------------|----------------------------------------------------------------------------|
-| <span class="swatch" style="background: #CCCCCC"/> The work around the work  | ***Admin***<br>Meetings, reviews, project management, etc                  |
-| <span class="swatch" style="background: #EF8F8F"/> The work to get the work  | ***Acquisition***<br>Research, experimentation, scoping, quoting, pitching |
-| <span class="swatch" style="background: #FCB17F"/> The work before the work  | ***Preparation***<br>Configuration, setup, services, infrastructure        |
-| <span class="swatch" style="background: #FBDA7F"/> The work                  | ***Execution***<br>The actual build, product, design, docs, tests, etc     |
-| <span class="swatch" style="background: #C4EF93"/> The work between the work | ***Iteration***<br>Iteration, debugging, refactoring, maintenance, tooling |
-| <span class="swatch" style="background: #A1EBDA"/> The work beyond the work  | ***Changes***<br>Changes, omissions, nice-to-haves, scope creep            |
-| <span class="swatch" style="background: #98E2FF"/> The work outside the work | ***Problems***<br>Surprises, contingency, disasters, mission creep         |
-| <span class="swatch" style="background: #7FBAE7"/> The work after the work   | ***Support***<br>Hosting, deployment, security, support, updates, fixes    |
+| Analogy                                                    | Real world                                                                 |
+|------------------------------------------------------------|----------------------------------------------------------------------------|
+| :swatch{color="#CCCCCC" label="The work around the work"}  | ***Admin***<br>Meetings, reviews, project management, etc                  |
+| :swatch{color="#EF8F8F" label="The work to get the work"}  | ***Acquisition***<br>Research, experimentation, scoping, quoting, pitching |
+| :swatch{color="#FCB17F" label="The work before the work"}  | ***Preparation***<br>Configuration, setup, services, infrastructure        |
+| :swatch{color="#FBDA7F" label="The work"}                  | ***Execution***<br>The actual build, product, design, docs, tests, etc     |
+| :swatch{color="#C4EF93" label="The work between the work"} | ***Iteration***<br>Iteration, debugging, refactoring, maintenance, tooling |
+| :swatch{color="#A1EBDA" label="The work beyond the work"}  | ***Changes***<br>Changes, omissions, nice-to-haves, scope creep            |
+| :swatch{color="#98E2FF" label="The work outside the work"} | ***Problems***<br>Surprises, contingency, disasters, mission creep         |
+| :swatch{color="#7FBAE7" label="The work after the work"}   | ***Support***<br>Hosting, deployment, security, support, updates, fixes    |
 
 Whilst the above analogies roughly align with real world project phases, reframing the effort in such an abstract manner felt helpful in decoupling the true nature of the work from my idealised optimism.
 

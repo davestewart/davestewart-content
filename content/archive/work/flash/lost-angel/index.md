@@ -12,6 +12,7 @@ tags:
   - as3
   - after-effects
   - 3dsmax
+hero: gallery
 media:
   thumbnail: ./images/lost-angel-thumb.png
   featured: ./images/lost-angel-featured.png
@@ -106,7 +107,6 @@ About a year after the project I found out about the [Gaia Framework](#) which i
 The site itself contained audio, video, Away 3D, 3dsmax and After Effects animation, a small amount of back end, but mainly a lot of attention to detail within the Flash and the animation to make the user feel as if they were part of a magical experience even before getting to the bar.
 
 ## Making-of
-
 
 Here's a selection of screen shots from the asset-creation segment of the job, that ultimately ended up in both the pre-rendered animation sequences, as well as the live Away 3D animation.
 

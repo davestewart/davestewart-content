@@ -7,9 +7,10 @@ tags:
   - node
   - design
 github: davestewart/alias-hq
+hero: gallery
 media:
   thumbnail: ./images/alias-thumbnail.png
-  featured: ./images/alias-hq
+  featured: ./images/alias-hq.gif
   gallery:
     - ./images/logo-gradient.png
     - ./images/logo-3d-green.png

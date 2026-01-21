@@ -23,4 +23,4 @@ Nocturnal, the record label behind Shapeshifter and [Lola's Theme](https://youtu
 
 ## Implementation
 
-Keyframed animation in Adobe After Effects with judicious use of Trapcode Particular.
+Keyframed animation in Adobe After Effects with judicious use of [Trapcode Particular](https://www.maxon.net/en/product-detail/red-giant/particles-and-3d/trapcode-particular).
