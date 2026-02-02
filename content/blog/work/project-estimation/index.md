@@ -1,7 +1,9 @@
 ---
 description: A deep dive on why projects always take longer and a framework to improve future estimation
-permalink: /blog/the-work-is-never-just-the-work
+permalink: /blog/the-work-is-never-just-the-work/
 date: 2022-02-01
+tags:
+  - featured
 media:
   featured: ./images/estimation-featured.png
   thumbnail: ./images/estimation-thumbnail.png

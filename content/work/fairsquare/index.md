@@ -2,6 +2,7 @@
 description: Greenfield build of car finance and sales platform 
 date: 2017-05-01
 tags:
+  - featured
   - enterprise
   - webapp
   - frontend

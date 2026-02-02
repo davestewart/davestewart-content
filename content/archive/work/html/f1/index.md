@@ -64,7 +64,7 @@ There's no doubt it was a much, much bigger job than the previous year, but the 
 
 A lot of the work involved wrangling data. Not only was there all dynamic data such as Audience Demographics and Market Analysis, but there was a lot of editorial information that all needed to come together in a single, unified presentation.
 
-For the dynamic data I created and curated a set of master spreadsheets FOM would use to compile the data, from which I wrote an automated tool, [Excel Data Exporter](http://davestewart.io/extensions/office/excel-data-exporter/), to export this to usable web formats. For the editorial data, unfortunately the best trade-off was to copy and paste this directly into the HTML document itself.
+For the dynamic data I created and curated a set of master spreadsheets FOM would use to compile the data, from which I wrote an automated tool, [Excel Data Exporter](http://davestewart-io.vercel.app/extensions/office/excel-data-exporter/), to export this to usable web formats. For the editorial data, unfortunately the best trade-off was to copy and paste this directly into the HTML document itself.
 
 Probably the biggest challenge was working with the designer to implement the highly-detailed design and the level of customisation between the sections, charts, and visualisations. Nearly no two elements were the same, so a base HTML layout handled the markup, whilst a robust JavaScript framework was built to handle all disparate functionality, as well as providing a common base for what could be factored out.
 
@@ -76,4 +76,4 @@ Next year will entail reflecting on the challenges raised this year, and impleme
 
 If you're a recruiter or agency and you'd like to see this project live, drop me an email.
 
-- [Excel Data Exporter](http://davestewart.io/extensions/office/excel-data-exporter/)
+- [Excel Data Exporter](http://davestewart-io.vercel.app/extensions/office/excel-data-exporter/)

@@ -2,6 +2,7 @@
 description: The end-to-end solution for migrating to and using path aliases
 date: 2020-08-01
 tags:
+  - featured
   - library
   - tools
   - node

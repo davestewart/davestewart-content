@@ -23,16 +23,16 @@ Let's dive in.
 
 This is a long, one-page guide, but each section has its own table of contents for easy navigation.
 
-:nav-toc{ type="list" prompt="The basics" from="prerequisites" to="getting-help"}
+:nav-toc{type="list" prompt="The basics" from="prerequisites" to="getting-help"}
 ::
 
-:nav-toc{ type="list" prompt="Up and running" from="essential-patterns" to="simple-scripting"}
+:nav-toc{type="list" prompt="Up and running" from="essential-patterns" to="simple-scripting"}
 ::
 
-:nav-toc{ type="list" prompt="Appendices" from="users-permissions-and-security" to="shells-and-shell-frameworks"}
+:nav-toc{type="list" prompt="Appendices" from="users-permissions-and-security" to="shells-and-shell-frameworks"}
 ::
 
-:nav-toc{ type="list" prompt="Wrapping up" from="where-to-go-from-here" to="quick-reference"}
+:nav-toc{type="list" prompt="Wrapping up" from="where-to-go-from-here" to="quick-reference"}
 ::
 
 ## Prerequisites

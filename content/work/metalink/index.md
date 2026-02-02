@@ -2,6 +2,7 @@
 description: Web and mobile app to track, manage and discuss NFT collections
 date: 2022-03-01
 tags:
+  - featured
   - webapp
   - frontend
   - vue

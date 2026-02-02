@@ -1,10 +1,10 @@
 ---
 description: Nuxt data fetching explained within the context of Nuxt's SSR lifecycle
+date: 2025-11-05
 tags:
   - nuxt
   - vue
   - data
-date: 2025-11-05
 media:
   opengraph: ./featured.png
   featured: ./featured.png

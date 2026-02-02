@@ -3,13 +3,13 @@ title: Got Paper?
 description: A cheeky app to calculate your toilet paper requirements
 date: 2020-02-01
 tags:
+  - featured
   - webapp
   - mobile
   - creative
   - javascript
   - nuxt
   - vue
-  - jamstack
   - rapid-build
   - design
   - ui
@@ -32,20 +32,20 @@ media:
   press:
     - source: Evening Standard
       title: New app tells you how much loo roll you actually need
-      link: 'http://standard.co.uk/tech/got-paper-app-loo-roll-stockpile-covid19-shutdown-a4392831.html'
-      icon: 'https://wpieconomics.com/site/wp-content/uploads/2019/03/unnamed.jpg'
+      link: http://standard.co.uk/tech/got-paper-app-loo-roll-stockpile-covid19-shutdown-a4392831.html
+      icon: https://wpieconomics.com/site/wp-content/uploads/2019/03/unnamed.jpg
     - source: Business Insider
       title: This online calculator tells you exactly how much toilet roll you actually need to buy
-      link: 'http://insider.com/online-calculator-how-much-toilet-roll-you-need-2020-3'
-      icon: 'http://insider.com/public/assets/INSIDER/US/favicons/android-chrome-192x192.png'
+      link: http://insider.com/online-calculator-how-much-toilet-roll-you-need-2020-3
+      icon: http://insider.com/public/assets/INSIDER/US/favicons/android-chrome-192x192.png
     - source: Mail Online
       title: Web developer creates an online calculator to help people work out the right amount of toilet roll to last them through any length of quarantine during coronavirus crisis
-      link: 'http://dailymail.co.uk/sciencetech/article-8131533/Got-Paper-aims-help-people-buy-right-bog-roll.html'
-      icon: 'https://i.dailymail.co.uk/i/social/img_mol-logo_50x50.png'
+      link: http://dailymail.co.uk/sciencetech/article-8131533/Got-Paper-aims-help-people-buy-right-bog-roll.html
+      icon: https://i.dailymail.co.uk/i/social/img_mol-logo_50x50.png
     - source: TNW
       title: This coronavirus toilet paper calculator knows if you’ll survive the quarantine
-      link: 'https://thenextweb.com/shareables/2020/03/19/coronavirus-toilet-calculator/'
-      icon: 'https://cdn3.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/favicon-96x96.png'
+      link: https://thenextweb.com/shareables/2020/03/19/coronavirus-toilet-calculator/
+      icon: https://cdn3.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/favicon-96x96.png
   quotes:
     - source: mail
       user: Turnip King, Brisbane, Australia
@@ -112,13 +112,13 @@ See the live site for the [full back story](https://got-paper.com/about).
 
 It was particularly pleasing to see Daily Mail readers so [engaged](https://got-paper.com/press) (or should be <em>enraged</em>?):
 
-:quote{ text="How stupid" name="Turnip King, Brisbane, Australia" size="3" hero}
+:quote{text="How stupid" name="Turnip King, Brisbane, Australia" size="3" hero}
 
-:quote{ text="Does it have a diarrhea mode?" name="Jhphoto1, Cheshire, United Kingdom" size="2.5" hero}
+:quote{text="Does it have a diarrhea mode?" name="Jhphoto1, Cheshire, United Kingdom" size="2.5" hero}
 
-:quote{ text="Unbelievable waste of time" name="Turnip King, Brisbane, Australia" size="2.9" hero}
+:quote{text="Unbelievable waste of time" name="Turnip King, Brisbane, Australia" size="2.9" hero}
 
-:quote{ text="Who only uses 3 sheets to wipe your backside? I use more than that for sure." name="Wobbly jelly tits, Birmingham, United Kingdom" size="2" hero}
+:quote{text="Who only uses 3 sheets to wipe your backside? I use more than that for sure." name="Wobbly jelly tits, Birmingham, United Kingdom" size="2" hero}
 
 ## Translations
 

@@ -1,6 +1,8 @@
 ---
 description: 22:22 is palindromic and ambigramic, but what about its analogue form?
 date: 2022-02-23
+tags:
+  - featured
 media:
   thumbnail: ./images/twosday.png
   featured: ./images/twosday-featured.png

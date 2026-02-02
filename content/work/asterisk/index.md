@@ -2,6 +2,7 @@
 description: Greenfield build of peer to peer securities lending platform
 date: 2019-02-01
 tags:
+  - featured
   - enterprise
   - webapp
   - frontend
@@ -118,7 +119,7 @@ A modular build powered by a custom WebPack setup and AliasHQ allows domain-spec
     +- areas
     +- core
     +- modules
-    		+- ...
+        +- ...
         +- negotiations
         |   +- ...
         |
@@ -130,8 +131,8 @@ A modular build powered by a custom WebPack setup and AliasHQ allows domain-spec
         |   +- routing
         |   +- services
         |   +- state
-        |   +- index.ts					<- exports local services, etc
-        |   +- main.ts					<- sets up routes, store, etc
+        |   +- index.ts     <- exports local services, etc
+        |   +- main.ts      <- sets up routes, store, etc
         |
         +- organisations
         |   +- ...

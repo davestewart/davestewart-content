@@ -2,6 +2,7 @@
 description: Development of internal banking systems and tooling
 date: 2018-03-01
 tags:
+  - featured
   - enterprise
   - webapp
   - frontend

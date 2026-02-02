@@ -20,17 +20,17 @@ I've developed a solution I call "[Inboxes](#solution)" to make it easy to give 
 
 Let's take a typical WorkFlowy document – if there is such a thing:
 
-<img class="responsive" src="./images/01-home.png" />
+![img](./images/01-home.png){.responsive}
 
 If you're like me, you have multiple projects, but a "main" list you spend most of your time in (mine is **Todos**).
 
 During the day you're coming up with countless new and brilliant ideas, so you either navigate to the right place (**taking** time) or more likely dump them at the bottom of your main list (**saving** time):
 
-<img class="responsive" src="./images/02-first-idea.png" />
+![img](./images/02-first-idea.png){.responsive}
 
 Of course, it's not long before your neat and tidy main list becomes a chaotic and unstructured brain dump:
 
-<img class="responsive" src="./images/03-more-ideas.png" />
+![img](./images/03-more-ideas.png){.responsive}
 
 Not only is your main list now fragmented with ramblings, but these brilliant ideas are all jumbled up – and at *some point* you'll have to find time to review and migrate. Argh!
 
@@ -44,11 +44,11 @@ My system of [structure](#structure), [mirrors](#mirrors) and [links](#links) is
 
 At the **root** of **each** project I create a new node called "Inbox":
 
-<img class="responsive" src="./images/04-inbox.png" />
+![img](./images/04-inbox.png){.responsive}
 
 It's the place I dump ideas, notes and data relating **specifically** to the project:
 
-<img class="responsive" src="./images/05-inbox-ideas.png" />
+![img](./images/05-inbox-ideas.png){.responsive}
 
 By storing ideas with the project, it **keeps the rest of your tree tidy** and prevents organisational debt. You can review your ideas **later**, where they'll be sitting in context to the rest of the project, and will be easier to edit and organise.
 
@@ -58,13 +58,13 @@ But as projects could live anywhere in WorkFlowy, how do we solve the problem of
 
 Using WorkFlowy's [mirrors](https://workflowy.com/feature/mirrors/) we can teleport all Inboxes to a single, **centralised** location, such as your main list:
 
-<img class="responsive" src="./images/06-inbox-mirrors.png" />
+![img](./images/06-inbox-mirrors.png){.responsive}
 
 *At this point, you'll need to add a name to each Inbox, so you can tell what project it belongs to.*
 
 Now, when we want to log a random (but specific) thought, we can toggle the relevant Inbox and add it directly:
 
-<img class="responsive" src="./images/07-mirror-ideas.png" />
+![img](./images/07-mirror-ideas.png){.responsive}
 
 The magic is that thoughts for **multiple** projects can be managed in a **single** location, but _in reality_ live with each project!
 
@@ -74,11 +74,11 @@ However, there's one last problem to solve; what if we want to jump to the proje
 
 The final piece in the puzzle is to connect the main Project by [linking](https://blog.workflowy.com/tag/links/) the Inbox **name**:
 
-<img class="responsive" src="./images/08-mirror-links.png" />
+![img](./images/08-mirror-links.png){.responsive}
 
 Clicking the link navigates to the full project tree:
 
-<img class="responsive" src="./images/09-project.png" />
+![img](./images/09-project.png){.responsive}
 
 From here you can:
 

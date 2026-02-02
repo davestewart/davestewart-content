@@ -7,6 +7,7 @@ tags:
   - node
   - design
 github: davestewart/spaceman
+hero: gallery
 media:
   thumbnail: ./images/spaceman-thumb.png
   featured: ./images/spaceman-featured.png

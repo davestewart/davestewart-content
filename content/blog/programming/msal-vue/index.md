@@ -1,6 +1,8 @@
 ---
 description: Architect a Vue JS app secured with Microsoft Authentication Library
 date: 2023-02-28
+tags:
+  - featured
 media:
   opengraph: ./msal-featured.png
   featured: ./msal-featured.png

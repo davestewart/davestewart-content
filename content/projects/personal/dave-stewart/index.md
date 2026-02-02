@@ -6,7 +6,6 @@ tags:
   - webapp
   - website
   - frontend
-  - jamstack
   - javascript
   - vue
   - ui

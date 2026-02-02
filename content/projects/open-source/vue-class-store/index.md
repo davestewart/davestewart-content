@@ -3,6 +3,7 @@ description: Universal Vue stores you write once and use anywhere
 date: 2020-05-01
 hero: featured
 tags:
+  - featured
   - library
   - javascript
   - typescript

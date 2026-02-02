@@ -79,7 +79,7 @@ Main menu
 
 ## Installation
 
-:web-store{ id="djjbcjbeiifedilgkohllahmnjlmcnmh" name="Better FastMail" rel="FastMail" review}
+:web-store{id="djjbcjbeiifedilgkohllahmnjlmcnmh" name="Better FastMail" rel="FastMail" review}
 
 ## Links
 

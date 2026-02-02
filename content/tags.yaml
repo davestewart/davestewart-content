@@ -26,6 +26,8 @@ Software:
   - 3dsmax
   - after-effects
   - elasticsearch
+  - webpack
+  - vite
 Language:
   - typescript
   - javascript
@@ -45,7 +47,6 @@ Technical:
   - state
   - architecture
   - database
-  - jamstack
   - parsing
   - physics
   - charts
@@ -68,3 +69,4 @@ Device:
   - ipad
 Other:
   - award
+  - featured

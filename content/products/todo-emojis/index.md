@@ -2,6 +2,7 @@
 description: Checkbox emojis for todo lists in Slack
 date: 2020-09-25
 tags:
+  - featured
   - creative
   - productivity
   - rapid-build

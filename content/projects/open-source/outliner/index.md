@@ -2,6 +2,7 @@
 description: Convert SVG strokes to outlined fills as a post-export process
 date: 2021-09-01
 tags:
+  - featured
   - library
   - tools
   - node

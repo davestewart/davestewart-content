@@ -77,7 +77,7 @@ Hover over the comment annotations for additional context.
 
 The complete Google Sheet is available as a one-time purchase from Gumroad:
 
-<a class="gumroad-button" href="https://davestewart.gumroad.com/l/timezone-planner">Purchase on</a>
+:gumroad-button{url="https://davestewart.gumroad.com/l/timezone-planner"}
 
 ### Fair-use policy
 

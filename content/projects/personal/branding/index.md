@@ -2,6 +2,7 @@
 description: Branding experiment with overlays and colour mapping
 date: 2020-04-01
 tags:
+  - featured
   - creative
   - animation
   - design

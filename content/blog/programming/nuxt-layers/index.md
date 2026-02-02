@@ -5,6 +5,8 @@ media:
   opengraph: ./images/featured.png
   featured: ./images/featured.png
   thumbnail: ./images/thumb.png
+tags:
+  - featured
 ---
 
 # Modular site architecture with Nuxt layers
@@ -38,9 +40,7 @@ You might also want to skim the official Layers docs before continuing:
 
 ### Contents
 
-It's a long article (!) so here's the full table of contents if you want to skip:
-
-:nav-toc{type="list" exclude="intro" prompt=""}
+:nav-toc{type="list" exclude="intro" prompt="It's a long article (!) so here's the full table of contents if you want to skip"}
 
 ## Site organisation
 
@@ -598,19 +598,10 @@ The first thing to decide when migrating your site to layers is your ideal folde
 
 You can move some or all concerns to layers:
 
-<div style="overflow-x: auto;">
-<table style="margin: 0 !important">
-<thead>
-<tr>
-<th style="text-align:center">Partial</th>
-<th style="text-align:center">Hybrid</th>
-<th style="text-align:center">Flat</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<pre class="language-text"><code>+- src
+::Columns
+::::Column{label="Partial"}
+```
++- src
     +- assets
     |
     +- layers
@@ -623,10 +614,11 @@ You can move some or all concerns to layers:
     +- plugins
     +- components
     +- nuxt.config.ts
-</code></pre>
-</td>
-<td>
-<pre class="language-text"><code>+- src
+```
+::::
+::::Column{label="Hybrid"}
+```
++- src
     +- core
     |   +- ...
     |
@@ -637,10 +629,11 @@ You can move some or all concerns to layers:
     |       +- ...
     |
     +- nuxt.config.ts
-</code></pre>
-</td>
-<td>
-<pre class="language-text"><code>+- src
+```
+::::
+::::Column{label="Flat"}
+```
++- src
     +- blog
     |   +- ...
     +- core
@@ -649,12 +642,9 @@ You can move some or all concerns to layers:
     |   +- ...
     |
     +- nuxt.config.ts
-</code></pre>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
+```
+::::
+::
 
 I prefer the flat or hybrid structure, as it significantly de-clutters the project outline.
 

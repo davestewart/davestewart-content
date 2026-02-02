@@ -40,7 +40,9 @@ The TalkMan product is voice-activated translation software designed for the Son
 
 Working in-house at [Feref](https://feref.com/), our job was to take the various source assets available to us, create content, games, activities and an overall narrative in 10 languages, to market the product to the Western markets.
 
-Once completed, the original Japanese of creator of TalkMan described the final website as "better than perfect".
+Once completed, the creator of TalkMan described the final website as "better than perfect".
+
+:Quote{text="The new Talkman site is better than perfect" name="Yoshi Yamamoto, Creator of TalkMan" hero}
 
 ## Implementation
 

@@ -52,5 +52,5 @@ The final animation:
 
 Technical elements:
 
-- [davestewart.io/plugins/gsap/gsap-scene-manager/](http://davestewart.io/plugins/gsap/gsap-scene-manager/)
-- [davestewart.io/plugins/gsap/gsap-controller/](http://davestewart.io/plugins/gsap/gsap-controller/)
+- [davestewart.io/plugins/gsap/gsap-scene-manager/](http://davestewart-io.vercel.app/plugins/gsap/gsap-scene-manager/)
+- [davestewart.io/plugins/gsap/gsap-controller/](http://davestewart-io.vercel.app/plugins/gsap/gsap-controller/)

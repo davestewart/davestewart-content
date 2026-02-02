@@ -1,6 +1,8 @@
 ---
 description: Claude AI explains in its own words how it writes such good code 
 date: 2024-11-09
+tags:
+   - featured
 media:
   opengraph: ./ai-code-featured.png
   featured: ./ai-code-featured.png

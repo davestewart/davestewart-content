@@ -2,6 +2,7 @@
 description: Enable locally-located assets in Nuxt Content
 date: 2023-04-14
 tags:
+  - featured
   - library
   - nuxt
   - vue

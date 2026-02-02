@@ -2,6 +2,7 @@
 description: Multi-column view for WorkFlowy
 date: 2021-03-01
 tags:
+  - featured
   - productivity
   - chrome-extension
   - tools

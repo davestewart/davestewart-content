@@ -2,6 +2,7 @@
 description: A powerful yet simply-configured JavaScript finite-state machine
 date: 2016-10-01
 tags:
+  - featured
   - library
   - javascript
   - state
@@ -33,7 +34,7 @@ const transitions = [
 ]
 ```
 
-The **interactive** demo above shows-off many of StateMachine's features. Visit the [site itself](https://statemachine.netlify.app) and view the source code directly in the page, or open the console here to see the application log updates as it transitions between states and fires events.
+The **interactive** demo above shows-off many of StateMachine's features. Visit the [site itself](https://statemachine.netlify.app) and view the source code directly in the page, or **open the console** here to see the application log updates as it transitions between states and fires events.
 
 ## Implementation
 

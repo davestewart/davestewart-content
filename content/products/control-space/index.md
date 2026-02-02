@@ -2,6 +2,7 @@
 description: Browser tab / workflow manager
 date: 2021-03-05
 tags:
+  - featured
   - productivity
   - chrome-extension
   - typescript
@@ -73,7 +74,7 @@ There are even more exciting new features in the pipeline and we can't wait to s
 
 ## Installation
 
-:web-store{ id="cnhhkgejafpmpbfodmebbmbhgkemleca" name="Control Space"}
+:web-store{id="cnhhkgejafpmpbfodmebbmbhgkemleca" name="Control Space"}
 
 ## Links
 

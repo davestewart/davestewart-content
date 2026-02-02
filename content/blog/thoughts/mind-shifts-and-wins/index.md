@@ -1,6 +1,8 @@
 ---
 description: A 10-year (ish) retrospective of self-reflection and improvement
 date: 2023-02-22
+tags:
+  - featured
 media:
   opengraph: ./mindset.png
   featured: ./mindset.svg
