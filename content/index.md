@@ -44,31 +44,30 @@ media:
     - text: FGH, A thing 
       href: /work/fgh/
       src: /work/fgh/images/fgh-dark.png
-
 ---
 
-<h1 class="main">I'm Dave...</h1>
+<h1 class="main">I'm Dave,</h1>
 
-## I think creatively, build systematically.
+## I think like a designer, build as an engineer.
 
-That's [enterprise platforms](#tags=enterprise) handling millions in assets. It's [open source](#tags=library) libraries that solve real problems. It's [browser extensions](#tags=chrome-extension) used by thousands. It's [writing](#path=/blog/&tags=featured) that actually helps people.
+That's [enterprise platforms](?tags=enterprise) handling millions in assets. It's [open source](?path=/projects/open-source/&tags=library) libraries that solve real problems. It's [browser extensions](?tags=chrome-extension) used by thousands. It's [writing](?path=/blog/&tags=featured) that actually helps people.
 
 :home-thumbs{:featured="featured"}
 
-I started out in [Animation](/archive/work/animation/) and [Flash](/archive/work/flash/), which taught me how things should *feel*. I've spent 10 years building [web applications](/work/), which taught me how things should *work*. Now I combine both to create experiences that are technically solid and genuinely enjoyable.
+I started out in [Animation](/archive/work/animation/) and [Flash](/archive/work/flash/), which taught me how things should *feel*. I've spent 10 years building [web applications](/work/), which taught me how things should *work*.
 
-<!--
+Now I combine both to create eye-catching, satisfying, and memorable experiences:
+
 :media-gallery{media="gallery" captions scale keep-alive}
--->
 
-My stack is [Vue](/search?tags=vue), [Nuxt](/search?tags=nuxt), [TypeScript](/search?tags=typescript&tags=javascript&tagsOp=or), and [whatever else](/search/?tagsFilter=list) the problem needs. My approach is "what if...?" then iterate to the solution: shower thoughts become plans, become prototypes, become things.
+I work in the [Vue](/search?tags=vue) ecosystem, across [Nuxt](/search?tags=nuxt), [TypeScript](/search?tags=typescript&tags=javascript&tagsOp=or), and [whatever else](/search/?tagsFilter=list) is needed.
 
-## Contact
+Right now I specialise in UI architecture, component libraries, and design systems – but I'm just as comfortable working across the full application stack.
 
 ![img](./assets/dave-wide.jpg)
 
-Right now I'm available for contract work or permanent roles where I get to work across design, product, and engineering.
+I'm available for contract work or permanent roles where I get to work across design, product, and engineering.
 
-Use the social links below to get in touch.
+Get in touch via the social links below.
 
 :site-icon{size="35" fill="#ea4848"}

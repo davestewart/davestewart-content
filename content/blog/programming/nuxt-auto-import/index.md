@@ -1,6 +1,12 @@
 ---
 description: Understanding when to use and when to avoid the auto-import magic
 date: 2024-05-21
+tags:
+  - nuxt
+  - vue
+  - typescript
+  - architecture
+layout:
 media:
   featured: ./images/featured.png
   thumbnail: ./images/thumbnail.png
@@ -372,7 +378,7 @@ components/td/adjust/tab  -->  TdAdjustTabPriceAndMarketCapPerformance
 
 Note also, without short prefixes, we could be typing component names like the following!
 
-```html
+```html nolabel
 td:   <TokenDesignerAdjustTabPriceAndMarketCapPerformance />
 ad:   <AutoDistributionConfiguratorStrategyDetails />
 amm:  <AutomatedMarketMakingStrategyCompleteCta />

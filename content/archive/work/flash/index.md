@@ -5,4 +5,6 @@ layout: folder
 order: 1
 ---
 
-The much maligned Flash produced some of the best work of the last 20 years, and put many of us where we are today.
+Flash was years ahead of its time. We had video before HTML5, ActionScript before TypeScript, and rich interactive experiences when JavaScript was still figuring out basic DOM manipulation.
+
+These projects represent that golden era – building immersive microsites, games, and campaigns that pushed what was possible in the browser.

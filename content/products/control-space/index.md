@@ -9,18 +9,9 @@ tags:
   - vue
   - api
   - ui
-hero: featured
 media:
   thumbnail: ./images/cs-thumb.png
   featured: ./images/cs-splash.png
-  video:
-    src: https://youtube.com/embed/HaDJuB5ODnY
-    width: 560
-    height: 315
-  gallery:
-    - ./images/control-space-01.png
-    - ./images/control-space-02.png
-    - ./images/control-space-09.png
 ---
 
 # Control Space
@@ -34,7 +25,7 @@ It uses a Kanban-style board to arrange windows and tabs so you can get quick ac
 
 ## Video
 
-:media-video
+:media-video{src="https://youtube.com/embed/HaDJuB5ODnY" width="560" height="315"}
 
 ## Features
 

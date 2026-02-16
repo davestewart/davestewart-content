@@ -1,6 +1,6 @@
 ---
 description: Development diary and reflection on building a Trello clone from scratch
-shortTitle: App Diary
+shortTitle: Reflections on a Rapid Application Build
 date: 2018-02-01
 hero: featured
 tags:

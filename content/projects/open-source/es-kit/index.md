@@ -1,11 +1,12 @@
 ---
 description: A 'pick and mix' library that simplifies writing Elasticsearch code
 date: 2021-12-01
+navigation: false
+github: davestewart/es-kit
 tags:
   - library
   - node
   - elasticsearch
-github: davestewart/es-kit
 media:
   thumbnail: ./images/es-kit.png
   featured: ./images/es-kit.svg

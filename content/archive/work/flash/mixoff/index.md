@@ -37,7 +37,7 @@ media:
 
 TalkTalk’s Mix Off is a ground-breaking new app in association with X Factor, that lets anyone create amazing music videos, with the best ones shown on TV:
 
-:media-video{ src="https://youtube.com/embed/eydJ_ZYGLvY?list=PLMxe_u2iNeIkwp945hbOYrivGJYxUiu0j" width="560" height="315"}
+:media-video{src="https://youtube.com/embed/eydJ_ZYGLvY?list=PLMxe_u2iNeIkwp945hbOYrivGJYxUiu0j" width="560" height="315"}
 
 The user picks from a selection of chart-topping audio tracks and professionally-created video styles, and can even customize the appearance of the video with additional options. After recording themselves via their web cam or phone, they can sing, dance and get creative, then preview their work, and even add friends to the same mix.
 

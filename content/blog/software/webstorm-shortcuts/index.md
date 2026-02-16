@@ -14,7 +14,7 @@ Below, I've listed 75+ essential shortcuts across multiple application areas. Wh
 
 See my other article on WebStorm's [features](/blog/webstorm-features) for detailed information on many and _more_ of the features listed below.
 
-::nav-toc
+:nav-toc
 
 ## Navigation
 

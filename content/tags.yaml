@@ -2,7 +2,6 @@ Scale:
   - enterprise
   - rapid-build
   - experiment
-  - mashup
 Format:
   - webapp
   - website
@@ -36,7 +35,6 @@ Language:
   - node
   - php
   - as3
-  - sql
   - graphql
   - svg
   - jsfl
@@ -60,6 +58,7 @@ Category:
   - social
 Creative:
   - animation
+  - mashup
   - design
   - icons
   - 3d

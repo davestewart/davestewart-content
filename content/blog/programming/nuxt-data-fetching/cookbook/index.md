@@ -4,7 +4,7 @@ shortTitle: Cookbook
 description: A cookbook of Nuxt data fetching patterns and best practices
 date: 2025-11-05
 permalink: /blog/nuxt-data-fetching/cookbook/
-visibility: unlisted
+navigation: false
 ---
 
 # Cookbook

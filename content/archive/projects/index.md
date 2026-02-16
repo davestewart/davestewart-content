@@ -5,4 +5,6 @@ layout: folder
 order: 2
 ---
 
-If there's one thing I love, it's a side project! Here are some of the best hits and misses from over the years.
+Side projects have always been essential to keep my creative juices flowing; anything from weekend hack, to something I work on for a few months, to a full-blown product.
+
+They are the place where I can experiment with new ideas, learn new technologies, and just have fun building things without the constraints of client work.

@@ -7,6 +7,8 @@ tags:
 media:
   thumbnail: ./images/dave-stewart-open-source-projects-2013-tn.png
   featured: ./images/dave-stewart-open-source-projects-2013-featured.png
+  gallery:
+    - images/dave-stewart-open-source-projects-2013.png
 ---
 
 # Open Source Project Map

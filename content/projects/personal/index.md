@@ -5,4 +5,6 @@ layout: folder
 order: 3
 ---
 
-Primarily just my professional and product sites here, but some [more creative](/archive/projects/apps/) work is available in the archive.
+Personal sites and branding experiments. The creative side of building – exploring design, identity, and what happens when you're both client and developer.
+
+More experimental work in the [archive](/archive/projects/personal/).

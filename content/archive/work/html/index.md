@@ -5,4 +5,6 @@ layout: folder
 order: 2
 ---
 
-Before frameworks, before web apps, we built sites the old-fashioned way; with steel girders and some jQuery magic!
+As Flash faded, jQuery became the new creative playground. Suddenly we could animate, manipulate the DOM, and build interactive experiences without plugins.
+
+These projects capture that transitional era – bringing Flash-era creativity into standards-based web development, one `$` at a time.

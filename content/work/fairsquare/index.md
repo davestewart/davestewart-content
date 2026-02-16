@@ -82,7 +82,7 @@ This project was lead by core user journeys, and we began by planning and protot
 
 :media-gallery{media="ux"}
 
-Having understood the brief, we iterated on increasingly accurate fidelities of wireframes to realise user journeys on paper, before building any significant parts of the site:
+Having understood the brief, we iterated on increasingly accurate fidelity of wireframes to realise user journeys on paper, before building any significant parts of the site:
 
 :media-gallery{media="wireframes"}
 

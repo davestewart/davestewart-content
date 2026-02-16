@@ -5,4 +5,8 @@ layout: folder
 order: 4
 ---
 
-From 2000-2015 I released [over 100 Open Source libraries](https://davestewart-io.vercel.app), extensions, plugins and frameworks. Here's just a few!
+Between 2000-2015 I released over 100 open source projects – MaxScript plugins for 3dsmax, jQuery and framework plugins, IDE extensions, Excel VBA tools, and more.
+
+This was an incredibly prolific period of solving problems, sharing solutions, and building tools that made other developers' workflows easier.
+
+Check the summary below or browse [my old site](https://davestewart-io.vercel.app/). 

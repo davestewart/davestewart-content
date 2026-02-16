@@ -23,7 +23,7 @@ media:
 
 ## Overview
 
-Bill Bunny is an in-progress web app to split household bills amongst flat-sharers.
+Bill Bunny was a prototype web app to split household bills amongst flat-sharers.
 
 It was born out of a solid need from my own experiences of flat-sharing, and extensive research, surveys and analysis of said surveys to discover what flat-sharers actually want and need.
 
@@ -67,13 +67,9 @@ Together, the bunnies, bats and birds co-exist in perfect (but comic) disharmony
 
 ## Implementation
 
-The alpha site is currently built as an MVC PHP application using Kohana 2.3, but will likely be transitioning to a single-page Ember application, for a more fluid, app-like experience.
+The alpha site was built as an MVC PHP application using Kohana 2.3, but will likely be transitioning to a single-page Ember application, for a more fluid, app-like experience.
 
 As well, a lot of the back-end view manipulation / logic will be moved client-side, with only routing and database-critical functionality to stay on the server-side.
-
-## Project status
-
-The app is one of several I have in development at the moment, though has been on hold for a year or so at this time.
 
 ## Links
 

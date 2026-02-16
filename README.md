@@ -13,7 +13,6 @@ Here's an example showing the kinds of data you can include:
 description: A brief description of the post
 date: 2020-08-01
 github: davestewart/some-repo
-visibility: preview
 tags:
   - library
   - tools
