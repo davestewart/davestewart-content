@@ -17,7 +17,7 @@ media:
 
 Nuxt Content Assets enables locally-located assets in [Nuxt Content](https://content.nuxtjs.org/):
 
-```
+```tree
 +- content
     +- posts
         +- 2023-01-01

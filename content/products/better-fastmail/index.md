@@ -40,7 +40,9 @@ Main Menu
 
 ### Better shortcuts
 
-> Note that `Mod` (short for "modifier") is `Cmd` on Mac and `Ctrl` on PC
+::alert{type="tip"}
+Note that `Mod` (short for "modifier") is `Cmd` on Mac and `Ctrl` on PC
+::
 
 List navigation
 

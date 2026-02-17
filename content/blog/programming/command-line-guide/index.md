@@ -387,6 +387,20 @@ Commands can take **options** (flags) which typically start with `-` for short f
 - **stdout (1)** - standard output - where the command writes normal output (usually your screen)
 - **stderr (2)** - standard error - where the command writes error messages (also usually your screen)
 
+Think about stream like try/catch blocks:
+
+```js
+try {
+  // stdin
+}
+catch (error) {
+  // stderr
+}
+finally {
+  // stdout
+}
+```
+
 By default, you type into stdin, and both stdout and stderr print to your terminal. But you can redirect these streams:
 
 **Basic redirection:**
@@ -497,7 +511,11 @@ This is useful for:
 - Processing multiple files at the same time
 - Starting several services that don't depend on each other
 
-> **Note:** Background processes still print to your terminal, which can be messy. You might want to redirect their output: `npm run dev > dev.log 2>&1 &`
+::alert{type="tip"}
+Background processes still print to your terminal, which can be messy.
+
+You might want to redirect their output: `npm run dev > dev.log 2>&1 &`
+::
 
 We'll cover more advanced job control (pausing, resuming, bringing to foreground) in the [Advanced Techniques](#job-control) section.
 
@@ -1251,8 +1269,9 @@ if [ -z "$1" ]; then
   exit 1
 fi
 ```
-
-> **For complex argument parsing:** These built-in variables work for simple scripts, but for complex CLIs with flags and options, you might want a library. In Node.js, [yargs](https://yargs.js.org/) is popular for parsing command-line arguments - it builds on these same concepts but adds features like `--flag` parsing, help text, and validation.
+::alert{title="For complex argument parsing" type="tip"}
+These built-in variables work for simple scripts, but for complex CLIs with flags and options, you might want a library. In Node.js, [yargs](https://yargs.js.org/) is popular for parsing command-line arguments - it builds on these same concepts but adds features like `--flag` parsing, help text, and validation.
+::
 
 ### Conditionals
 
@@ -1706,9 +1725,13 @@ Everything we've covered so far has been about using bash—but bash is just one
 
 Different shells exist because they make different trade-offs: compatibility vs features, speed vs convenience, POSIX compliance vs user-friendliness. Some have been around since the 1970s; others are modern rewrites focused on better defaults and developer experience.
 
-> **What is POSIX?** POSIX (Portable Operating System Interface) is a standard that defines how Unix-like systems should work. If a shell is "POSIX compliant," it means scripts written for it should work on any Unix system. This is why many scripts start with `#!/bin/sh` instead of `#!/bin/bash` - for maximum portability.
+::alert{title="What is POSIX?" type="tip"}
+POSIX (Portable Operating System Interface) is a standard that defines how Unix-like systems should work. If a shell is "POSIX compliant," it means scripts written for it should work on any Unix system. This is why many scripts start with `#!/bin/sh` instead of `#!/bin/bash` - for maximum portability.
+::
 
-> **What is GNU?** GNU (GNU's Not Unix) is a project that created free, open-source versions of Unix tools. When we say "GNU extensions," we mean bash includes features beyond the basic POSIX standard - things that make it more powerful but might not work in other shells.
+::alert{title="What is GNU?" type="tip"}
+GNU (GNU's Not Unix) is a project that created free, open-source versions of Unix tools. When we say "GNU extensions," we mean bash includes features beyond the basic POSIX standard - things that make it more powerful but might not work in other shells.
+::
 
 ### The Main Shells
 

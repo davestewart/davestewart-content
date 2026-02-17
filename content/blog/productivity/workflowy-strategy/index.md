@@ -14,9 +14,9 @@ To clear up, MultiFlow is really useful! Open a few panels and navigate to the r
 
 To stay clear, every project has an “Inbox”.
 
-```
-+- Some project            <-- this is the project
-  +- Inbox: [Some project] <-- this is the inbox (it also links to the project!)
+```tree
++- Some project              <-- this is the project
+  +- Inbox: [Some project]   <-- this is the inbox (it also links to the project!)
   | +- Idea 1
   | +- Idea 2
   +- Some node
@@ -30,7 +30,7 @@ It contains a label “Inbox” as well as a link to the parent node (will expla
 
 I then mirror inboxes from projects to my main to do list:
 
-```
+```tree
 +- Todos
   +- Today
   | +- Tidy the house 
@@ -43,7 +43,7 @@ I then mirror inboxes from projects to my main to do list:
 
 If I want to add stuff to a project, I just toggle the inbox open and add the ideas:
 
-```
+```tree
 +- Todos
   +- ...
   +- Inboxes
@@ -57,7 +57,7 @@ If I want to add stuff to a project, I just toggle the inbox open and add the id
 
 And if I think I need to work on the actual project, I can click the link:
 
-```
+```tree
 +- Todos
   +- ...
   +- Inboxes
@@ -70,7 +70,7 @@ And if I think I need to work on the actual project, I can click the link:
 
 And the project becomes the main tree:
 
-```
+```tree
 +- Some project
   +- Inbox: [Some project]
   | +- Idea 1

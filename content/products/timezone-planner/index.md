@@ -93,7 +93,9 @@ Rather, point them here or the [Gumroad](https://davestewart.gumroad.com/l/timez
 
 It's only 20 bucks, and it supports indie makers like me 🤓
 
-> If you're interested in team purchase options, [drop me a DM on Twitter](https://twitter.com/dave_stewart)
+::alert{icon="info" title="Team Usage"}
+If you're interested in team purchase options, [drop me a DM on Twitter](https://twitter.com/dave_stewart)
+::
 
 Thank you 🙏
 

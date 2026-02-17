@@ -113,7 +113,7 @@ const rules = 'between:0,@maxValue';
 
 A modular build powered by a custom WebPack setup and AliasHQ allows domain-specific functionality to be developed in isolation and stitched together at build time:
 
-```
+```tree
 +- src
     +- app
     +- areas

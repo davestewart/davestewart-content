@@ -11,7 +11,11 @@ navigation: false
 
 This article is a companion section for the [Data Fetching in Nuxt](/blog/nuxt-data-fetching/) article, which provides extended examples beyond the primary `$fetch`, `useAsyncData` and `useFetch` illustrations.
 
->  All code is taken from the [Nuxt 4 docs](https://nuxt.com/docs/4.x/getting-started/data-fetching); just reorganised to make it simpler to browse and consume.
+::alert
+All code is taken from the [Nuxt 4 docs](https://nuxt.com/docs/4.x/getting-started/data-fetching); just reorganised to make it simpler to browse and consume.
+::
+
+
 
 :nav-toc{type="tree" exclude="cookbook" level="2,3" prompt="Contents"}
 
@@ -315,8 +319,11 @@ function reloadPosts() {
 </template>
 ```
 
-**Note:** By default, Nuxt waits until a `refresh` completes before it can be executed again. Concurrent refresh calls are prevented to avoid race conditions.
+::alert
+By default, Nuxt waits until a `refresh` completes before it can be executed again.
 
+Concurrent refresh calls are prevented to avoid race conditions.
+::
 ### Clearing data
 
 Use `clear()` to reset data to undefined:
@@ -544,7 +551,11 @@ const { data: mountains } = await useFetch('/api/mountains', {
 </script>
 ```
 
-**Note:** These options only affect the payload transferred from server to client. The initial API call still fetches all data.
+::alert
+**These options only affect the payload transferred from server to client.**
+
+The initial API call still fetches all data.
+::
 
 ### Request deduplication
 
@@ -788,4 +799,6 @@ export default defineNuxtComponent({
 </script>
 ```
 
-**Note:** Composition API with `<script setup>` is the recommended approach in Nuxt.
+::alert{inline}
+Note that the Composition API with `<script setup>` is the recommended approach in Nuxt.
+::

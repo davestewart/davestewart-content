@@ -37,7 +37,9 @@ Disclaimer: "Dammit Jim, I'm a programmer, not a politician!"
 
 ## Figures
 
-_Note: the chart colours are only to help illustrate column types, and nothing to do with parties._
+::alert{inline icon="info"}
+The chart colours are only to help illustrate column types, and nothing to do with parties.
+::
 
 Let's start with the UK. Here's all votes, by party _(table ordered by FPTP Total)_:
 

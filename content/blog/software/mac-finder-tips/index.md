@@ -58,9 +58,9 @@ A couple of the items below you will find by trawling the Finder menus, but most
 
 ### Navigation
 
-- ***Use the keyboard***
+:alert{type="tip" text="These tips also work in Open / Save dialogs!" inline}
 
-  _Note: these tips also work in Open / Save dialogs!_
+- ***Use the keyboard***
 
   In **List** view:
 

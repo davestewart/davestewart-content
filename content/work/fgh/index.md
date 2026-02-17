@@ -58,7 +58,7 @@ The application itself is a [Nuxt JS](https://nuxtjs.org/) build with a custom [
 
 The back end manages and marshals calls to [Factiva API](https://www.factiva.com/CP_Developer/ProductHelp/FDK/FDK33/) and [Elastic Search](https://www.elastic.co/elasticsearch/), collating, transforming and returning data in frontend-friendly JSON formats:
 
-```text
+```tree
 +- api
 |   +- modules
 |   |   +- contacts
@@ -75,7 +75,7 @@ The back end manages and marshals calls to [Factiva API](https://www.factiva.com
 
 The front end consists of 3 complex main modules. Building on modular techniques from [Asterisk](/work/asterisk/) and [Control Space](/products/control-space), I developed a new Nuxt plugin called [Nuxt Areas](https://github.com/davestewart/nuxt-areas) which rather than stripe dependencies across the application, co-locates code in self-contained "areas":
 
-```text
+```tree
 +- client
     +- areas
         +- app

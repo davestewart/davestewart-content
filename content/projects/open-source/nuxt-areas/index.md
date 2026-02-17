@@ -26,7 +26,7 @@ media:
 
 It ships out of the box with a folder structure siloed by responsibility:
 
-```
+```tree
 +- src
     +- components
     |   +- product-list.vue             <- stripe 1
@@ -46,7 +46,7 @@ This results in files being "striped" across the application, and as application
 
 [Nuxt Areas](https://github.com/davestewart/nuxt-areas) is a Nuxt module that allows you to restructure your app to group related files by "area":
 
-```
+```tree
 +- src
     +- areas
         +- products                     <- area 1

@@ -89,8 +89,6 @@ With side projects it can be hard to
 
 ### Project management
 
-> This is a small note
-
 ***Manage your project like your work:*** I'd noticed that I seemed to get much more done at work vs home, so I simply adopted the same strategies and tools. Note that this was the single biggest change to forward momentum since finding myself floundering when the project moved from small to medium sized.
 
 ***Plan your roadmap:*** it is much easier to refer to a feature plan and tick items off on a checklist than to just “write code and hope you get something done”. You can also link related features, which is really useful.

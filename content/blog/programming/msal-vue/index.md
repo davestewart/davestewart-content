@@ -23,9 +23,11 @@ In this post I'll:
 
 ## MSAL gotchas
 
-> ***Note:*** this post is aimed at frontend developers aiming to implement MSAL in Vue, and assumes you (or a backend team member) have **already** configured your [tenant](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-create-new-tenant), [scopes](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-configure-app-expose-web-apis#add-a-scope), [redirects](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-auth-code-flow#redirect-uris-for-single-page-apps-spas), etc.
->
-> If you need some help getting that set up, check out [this article](https://medium.com/@pavelray/connect-your-react-app-with-azure-ad-using-3ddd39223d27) which covers how to configure your application in the Azure dashboard.
+::alert{icon="caution"}
+This post is aimed at frontend developers aiming to implement MSAL in Vue, and assumes you (or a backend team member) have **already** configured your [tenant](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-create-new-tenant), [scopes](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-configure-app-expose-web-apis#add-a-scope), [redirects](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-auth-code-flow#redirect-uris-for-single-page-apps-spas), etc.
+
+If you need some help getting that set up, check out [this article](https://medium.com/@pavelray/connect-your-react-app-with-azure-ad-using-3ddd39223d27) which covers how to configure your application in the Azure dashboard.
+::
 
 ### GitHub repo
 
@@ -33,7 +35,7 @@ The [MSAL for JS](https://github.com/AzureAD/microsoft-authentication-library-fo
 
 Here's where to find the good stuff:
 
-```
+```tree
 +- lib
 |  +- browser/docs            <-- docs on browser wrapper, i.e. MSAL interface, walkthorugh
 |  +- common/docs             <-- docs on common operations, i.e. authorities, requests
@@ -165,7 +167,9 @@ But there is work to:
 
 ## MSAL / Vue Demo
 
-> You can find the code for the demo at [github.com/davestewart/msal-vue-demo](https://github.com/davestewart/msal-vue-demo).
+::alert{type="tip"}
+You can find the code for the demo at [github.com/davestewart/msal-vue-demo](https://github.com/davestewart/msal-vue-demo).
+::
 
 ### Aims
 

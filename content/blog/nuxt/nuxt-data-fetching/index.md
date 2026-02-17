@@ -21,7 +21,10 @@ Before diving into the tools, we'll unpack Nuxt's render lifecycle to understand
 
 With a full understanding of isomorphic rendering, we'll then dig into the individual [`$fetch`](#fetch-a-better-http-client), [`useAsyncData`](#useasyncdata-adding-ssr-awareness) and [`useFetch`](#usefetch-the-convenience-wrapper) helpers before covering general usage, reference and examples.
 
-> **Disclaimer**: as with most of my [Nuxt articles](/?s=nuxt) I wrote this to clarify my own understanding of Nuxt's JS voodoo!
+::alert{icon="caution" title="Disclaimer"}
+As with most of my [Nuxt articles](/?s=nuxt) I wrote this to clarify my own understanding of Nuxt's JS voodoo!
+::
+
 
 :nav-toc{type="tree" exclude="intro" level="2,3"}
 
@@ -136,7 +139,9 @@ As you can see, Nuxt is jumping through a lot of hoops on your behalf to mitigat
 
 ### What exactly *is* hydration?
 
-> Although not directly related to data fetching, I feel the mechanism of "hydration" is often glossed over, so I'll attempt to define it here for the purpose of completeness.
+::alert{type="info"}
+Although not directly related to data fetching, I feel the mechanism of "hydration" is often glossed over, so I'll attempt to define it here for the purpose of completeness.
+::
 
 As mentioned, for a Nuxt app to deliver SEO-friendly HTML as quickly as possible on initial load, it renders the current page on the server. This process involves routing, component loading, setup scripts running, data fetching, template rendering etc, but *not* anything that would only happen in the client (such as executing `onMount` or adding `click` handlers, etc).
 
@@ -163,8 +168,9 @@ Now we've explored isometric orchestration, let's review Nuxt's data-fetching he
   - combines `useAsyncData` and `$fetch` for SSR-aware URL fetching
   - convenience function for common case of fetching from a URL
 
-> In practice, you'll likely use `useFetch` most often – but to understand *why* and *when* to use each tool, we'll build up from the foundational helpers `$fetch` and `useAsyncData`.
-
+::alert
+In practice, you'll likely use `useFetch` most often – but to understand *why* and *when* to use each tool, we'll build up from the foundational helpers `$fetch` and `useAsyncData`.
+::
 ### `$fetch` - a better HTTP client
 
 `$fetch` is Nuxt's built-in HTTP client (powered by the `ofetch` library).
@@ -361,7 +367,9 @@ By default, `useFetch` and `useAsyncData` block navigation until the data loads 
 
 The lazy variants (`useLazyFetch` and `useLazyAsyncData`) don't block in either context - on the server, they render immediately without waiting; during client navigation, they allow the route transition to complete. They begin the fetch in parallel and return with `status: 'pending'`, letting you handle the loading state manually.
 
-> Note that if the server finishes rendering before the fetch completes, the client will need to fetch again - trading double-fetch prevention for faster initial page display.
+::alert
+If the server finishes rendering before the fetch completes, the client will need to fetch again - trading double-fetch prevention for faster initial page display.
+::
 
 When data is not critical for initial render (below-the-fold content, secondary data):
 
@@ -434,8 +442,11 @@ const {
 } = await useFetch('/api/posts')
 </script>
 ```
+::alert{type="info"}
+Interestingly, the return value from `useAsyncData` is actually an enhanced `Promise` object; you can `await` it or *not* `await` it and it will still work, and destructure!
 
-> Interestingly, the return value from `useAsyncData` is actually an enhanced `Promise` object; you can `await` it or *not* `await` it and it will still work, and destructure! See [this article](https://masteringnuxt.com/blog/async-and-sync-how-useasyncdata-does-it-all) from Michael Thiessen to see exactly how it's done.
+See [this article](https://masteringnuxt.com/blog/async-and-sync-how-useasyncdata-does-it-all) from Michael Thiessen to see exactly how it's done.
+::
 
 Note that the returned properties are Vue refs, so access them with `.value` in JavaScript:
 

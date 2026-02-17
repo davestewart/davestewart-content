@@ -53,13 +53,3 @@ After 11 am or so, you are free to disappear down the rabbit hole of chunky work
 Finally, the gaps; those are the breaks **you need to take** so you don't burn out.
 
 When you look back at your week you’ll have accomplished tasks in all areas of your life, and be happier and more organised for it :)
-
-## Afterword
-
-Do you like to be productive? 
-
-You may be interested in my new project, [Control Space](/products/control-space/)!
-
-It's a feature-packed tab manager for Chrome, built for speed and organisation, that ends the stress of too many tabs *plus* the fear of losing them. It's full of exciting, productivity-boosting features, which I will be revealing very soon.
-
-I can let you know when it's ready if you'd like to click [here](https://controlspace.app).

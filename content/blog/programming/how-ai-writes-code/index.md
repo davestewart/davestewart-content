@@ -17,7 +17,9 @@ But I wondered how _does_ AI write such good code, even considering small detail
 
 What follows is a brief conversation I had with the AI, asking it just how it writes such good code. Its answers surprised me, but deepened my understanding of the process it takes, equipping me to help it help me more quickly in the future.
 
+::alert{inline}
 _**Note:** I have edited some of the replies for clarity._
+::
 
 ## Transcript
 

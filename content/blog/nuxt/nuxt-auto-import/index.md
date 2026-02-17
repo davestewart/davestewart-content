@@ -223,7 +223,7 @@ The motivation for each may depend on:
 
 In a small or medium projects, it's reasonably simple to keep track of component auto-importing:
 
-```
+```tree
 +- src
     +- components
         +- account                    <-- nested folders; prefixed component names
@@ -278,7 +278,7 @@ So let's take a large project, such as [Elk](https://github.com/elk-zone/elk), a
 
 The app has about 50 [routes](https://github.com/elk-zone/elk/tree/main/pages), with 24 top-level [components](https://github.com/elk-zone/elk/tree/main/components) folders and around 180 component files. They've stuck _mainly_ to a 2-level structure with occasional strategic nesting:
 
-```
+```tree
 +- src
     +- components
         +- account
@@ -299,7 +299,7 @@ You could argue at least this is reasonably organised and mainly consistent, but
 
 The actual import hierarchy is:
 
-```
+```tree
 +- components/status/edit/StatusEditHistorySkeleton.vue
 +- components/status/edit/StatusEditHistory.vue
 +- components/status/edit/StatusEditIndicator.vue
@@ -329,7 +329,7 @@ We recently refactored to layers (making it **much** easier to locate files) and
 
 Here's an example of both **core** and **domain** files in our folder structure:
 
-```
+```tree
 +- core
 |   +- components
 |   |   +- chart
@@ -415,7 +415,11 @@ It's a very small amount of extra code, but:
 
 ## IDE integration
 
-> ⚠️ This article was first published in May 2024, so this section may be out-of date (note to self to review!)
+::alert{type="warning"}
+This article was first published in May 2024, so this section may be out-of date today.
+
+_Note to self to review!_
+::
 
 ### Preparation
 

@@ -148,7 +148,9 @@ In addition to these classes, we also created a whole host of custom wrapper cla
 
 Finally, we have a set of JSFL Commands and native JSFL Tools that are copied to the main Flash folder when Flash starts, along with the main panel instance.
 
-**Note:** if you're interested in the editor above, it's [Komodo IDE](http://www.activestate.com/komodo-ide), the big brother of [Komodo Edit](https://xjsfl.vercel.app/feature/komodo-edit), the free and open-source IDE from ActiveState, both with full JSFL and xJSFL auto-completion, and publishing functionality, via the [xJSFL extension](https://xjsfl.vercel.app/support/setup/komodo/xjsfl-extension).
+::alert
+If you're interested in the editor above, it's [Komodo IDE](http://www.activestate.com/komodo-ide), the big brother of [Komodo Edit](https://xjsfl.vercel.app/feature/komodo-edit), the free and open-source IDE from ActiveState, both with full JSFL and xJSFL auto-completion, and publishing functionality, via the [xJSFL extension](https://xjsfl.vercel.app/support/setup/komodo/xjsfl-extension).
+::
 
 ## Development before and after xJSFL
 

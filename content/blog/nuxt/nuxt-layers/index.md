@@ -49,15 +49,17 @@ You might also want to skim the official Layers docs before continuing:
 
 Let's take a look at two main ways to organise sites and apps; by [concern](#by-concern) and by [domain](#by-domain).
 
-> Note that the choice of words "domain" and "concern" could easily be "feature" and "responsibility".
->
-> *Feel free to use whatever terms make the most sense to you.*
+::alert
+The choice of words "domain" and "concern" could easily be "feature" and "responsibility".
+
+Feel free to use whatever terms make the most sense to you.
+::
 
 ### By concern
 
 Most Vue and Nuxt projects are born of simple starter templates, which group files by *concern* (`pages`, `components`, etc):
 
-```
+```tree
 +- src
     +- components
     |   +- blog
@@ -81,7 +83,7 @@ However, as sites grow in size, this grouping obfuscates more *natural* relation
 
 At a certain size of site (and actually, not that big!) it becomes more intuitive to silo files by *domain* (`blog`, `home`, etc):
 
-```
+```tree
 +- src
     +- blog
     |   +- components
@@ -134,7 +136,7 @@ Each folder:
 
 A small personal site might be organised as follows:
 
-```
+```tree
 +- src
     +- base                          <-- global, shared or one-off functionality
     |   +- ...
@@ -176,6 +178,14 @@ Some additional notes:
 
 ## Nuxt concerns
 
+
+::alert{type="tip"}
+This section is effectively a **sanity check** for layer-related configuration, and:
+
+- sets you up for the [site migration](#site-migration) section which takes you through full layers refactor
+- provides lots of tips and tricks for configuration in general
+::
+
 Now that you understand how a layer-based site is structured, let's review some specifics for Nuxt's concerns to work correctly under this new paradigm:
 
 - [Framework folders](#framework-folders)
@@ -186,10 +196,6 @@ Now that you understand how a layer-based site is structured, let's review some 
 - [Tailwind](#tailwind)
 - [Config](#config)
 - [Imports and exports](#imports-and-exports)
-
-> Note that this section is effectively a **sanity check** for layer-related configuration, and:
-> - sets you up for the [site migration](#site-migration) section which takes you through full layers refactor
-> - provides lots of tips and tricks for configuration in general
 
 ### Framework folders
 
@@ -216,7 +222,9 @@ This means you can generally break out concerns across layers as you see fit –
 
 However, note that _some_ same-named files from different layers **will** overwrite each other, i.e. if you have two `<layer>/pages/index.vue` files, then the second layer will overwrite the first.
 
-> ***Note***: I'm going to further investigate the behaviour of overlapping _core_ folders like `public` and `server` as I've had different results in different projects (probably human error!) so check back soon as I'll document my findings.
+::alert
+It's possible I haven't properly investigated the behaviour of overlapping _core_ folders like `public` and `server` as I've had different results in different projects (probably human error) but I will look to check again and document my findings.
+::
 
 #### Core folders
 
@@ -270,7 +278,7 @@ Layers can happily contain their own pages and define navigable routes.
 
 However, any `pages` folders must contain **full folder paths** – as the layer name is **not** automatically prepended:
 
-```text
+```tree
 +- src
     +- blog
     |   +- pages
@@ -412,7 +420,7 @@ Nuxt Content plays nicely with Nuxt Layers.
 
 You can have more than one content source, meaning you can silo domain-specific content along with its related `pages`, `components`, etc. – which might suit if your site has multiple content-driven sections such as Blog, Guide, etc.:
 
-```
+```tree
 +- src
     +- blog
     |   +- ...
@@ -496,7 +504,9 @@ Bonus component tip: you don't have to use the suggested [global components cont
 
 At the time of writing, Nuxt's [Tailwind module](https://github.com/nuxt-modules/tailwindcss) does not pick up layers (though it's a [simple](https://nuxt.com/docs/guide/going-further/layers#multi-layer-support-for-nuxt-modules) PR).
 
-> Note: [@atinux](https://twitter.com/atinux) tells me this is not the case; I'll investigate and update this section in due course
+::alert
+[@atinux](https://twitter.com/atinux) tells me this is not the case; I'll investigate and update this section in due course.
+::
 
 But you can easily tell Tailwind where your CSS classes can be found:
 
@@ -620,7 +630,7 @@ You can move some or all concerns to layers:
 
 ::Columns
 ::::Column{label="Partial"}
-```
+```tree
 +- src
     +- assets
     |
@@ -637,7 +647,7 @@ You can move some or all concerns to layers:
 ```
 ::::
 ::::Column{label="Hybrid"}
-```
+```tree
 +- src
     +- core
     |   +- ...
@@ -652,7 +662,7 @@ You can move some or all concerns to layers:
 ```
 ::::
 ::::Column{label="Flat"}
-```
+```tree
 +- src
     +- blog
     |   +- ...
@@ -674,7 +684,7 @@ I prefer the flat or hybrid structure, as it significantly de-clutters the proje
 
 As outlined above, you might consider moving infrequently-accessed concerns to a `base` or `core` layer:
 
-```
+```tree
 +- src
     +- core
     |   +- middleware
@@ -686,7 +696,7 @@ As outlined above, you might consider moving infrequently-accessed concerns to a
 
 If a concern spans multiple domains, or isn't specific enough to get its own domain, `site` feels like a nice bucket:
 
-```
+```tree
 +- src
     +- ... 
     +- site
@@ -820,7 +830,9 @@ You should treat it like any other major refactor and aim to go slow; migrate fe
 
 Set aside a few hours for a small site, and a day or more for a larger, in-production one.
 
-> You can review the [demo](#demo) at the end for a real-world example
+::alert{type="tip"}
+You can review the [demo](#demo) at the end for a real-world example
+::
 
 #### Steps
 
@@ -973,7 +985,11 @@ export default defineNuxtConfig ({
 })
 ```
 
-> Note that you **cannot use path aliases** such as `~` in config `import` statements – because Nuxt will not yet have compiled them into its own`.nuxt/tsconfig.json` file.
+::alert{type="warning"}
+You **cannot use path aliases** such as `~` in config `import` statements!
+
+The reason for this is that Nuxt will not yet have compiled them into its own`.nuxt/tsconfig.json` file.
+::
 
 #### Isolate layers
 

@@ -329,10 +329,9 @@ Before we
 
 - rather than `accumulator` use 
 
-> Feel free to skip ahead to the examples section if you are still unclear how reduce works for you
-
-
-
+::alert{type="tip"}
+Feel free to skip ahead to the examples section if you are still unclear how reduce works for you
+::
 
 ## The arguments for
 
