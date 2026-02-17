@@ -37,13 +37,6 @@ media:
     - text: Fair Square – car finance and sales platform
       href: /work/fairsquare/
       src: /work/fairsquare/images/fairsquare-logo.png
-  archived:
-    - text: Likely Logic, A thing
-      href: /projects/personal/likely-logic/
-      src: /projects/personal/likely-logic/images/likely-logic.png
-    - text: FGH, A thing 
-      href: /work/fgh/
-      src: /work/fgh/images/fgh-dark.png
 ---
 
 <h1 class="main">I'm Dave,</h1>
