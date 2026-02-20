@@ -1,10 +1,15 @@
 ---
 title: Nuxt Data Fetching Cookbook
-shortTitle: Cookbook
+shortTitle: Data Fetching Cookbook
 description: A cookbook of Nuxt data fetching patterns and best practices
 date: 2025-11-05
 permalink: /blog/nuxt-data-fetching/cookbook/
 navigation: false
+media:
+  thumbnail: ../thumb.png
+tags:
+  - nuxt
+  - data
 ---
 
 # Cookbook
