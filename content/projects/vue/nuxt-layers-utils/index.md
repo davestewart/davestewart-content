@@ -65,7 +65,6 @@ export default defineNuxtConfig({
 
 Nuxt Layers comes with a slew of config and utility functions to generate output for anything that requires paths:
 
-::scroll-h
 | Layer Utils API      | Generates Nuxt Config                                                               | Purpose                                                                                                                             |
 |----------------------|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | `extends()`          | [`extends`](https://nuxt.com/docs/api/nuxt-config#extends)                          | Generates the folder paths which Nuxt should treat as layers                                                                        |
@@ -76,7 +75,6 @@ Nuxt Layers comes with a slew of config and utility functions to generate output
 | `components()`       | [`components`](https://nuxt.com/docs/api/nuxt-config#components)                    | Override default [component naming](https://nuxt.com/docs/guide/directory-structure/components#custom-directories) and registration |
 | `contentSources()`   | [`content.sources`](https://content.nuxt.com/get-started/configuration#sources)     | Generates Nuxt Content sources                                                                                                      |
 | `viteResolveAlias()` | [`vite.resolve.alias`](https://vitejs.dev/config/shared-options.html#resolve-alias) | Determines which folders should be auto-imported by Nuxt                                                                            |
-::
 
 See the [documentation](https://github.com/davestewart/nuxt-layers-utils#api) for more details.
 

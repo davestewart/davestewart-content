@@ -1,5 +1,5 @@
 ---
-description: Interactive birthday poster where guests print interactive memories 
+description: Birthday retrospective where guests share memories via QR code
 date: 2024-11-03
 tags:
   - chrome-extension
@@ -14,7 +14,7 @@ media:
     - ./images/timeline-start.jpg
 ---
 
-# Birthday Timeline
+# Birthday Timeline Poster
 
 ## Introduction
 
