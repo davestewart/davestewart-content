@@ -3,11 +3,11 @@
   "description": "Personal website content",
   "type": "module",
   "scripts": {
+    "prepare": "husky",
     "new-post": "node scripts/new-post.js",
     "edit-post": "node scripts/edit-post.js",
     "check-tags": "node scripts/check-tags.js",
-    "optimise-images": "sh -c 'pnpm run optimise-images:list | xargs -I {} tinypng {}'",
-    "optimise-images:list": "(git diff --name-only --diff-filter=AM; git diff --name-only --cached --diff-filter=AM; git ls-files --others --exclude-standard) | sort -u | grep -E '\\.(png|jpg|jpeg|gif|webp)$'",    "prepare": "husky"
+    "optimise-images": "node scripts/optimise-images.js"
   },
   "dependencies": {
     "canvas": "^3.2.1",
@@ -16,6 +16,7 @@
     "js-yaml": "^4.1.1"
   },
   "devDependencies": {
-    "husky": "^9.1.7"
+    "husky": "^9.1.7",
+    "tinify": "^1.8.2"
   }
 }
