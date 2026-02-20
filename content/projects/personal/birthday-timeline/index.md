@@ -8,6 +8,7 @@ tags:
   - creative
 media:
   thumbnail: ./images/timeline-thumb.png
+  opengraph: ./images/timeline-opengraph.png
   gallery:
     - ./images/timeline-featured.png
   map: 
@@ -30,13 +31,21 @@ I had a rough idea of the parameters for the talking points, which were:
 - **where**: a top-level list of categories; _Location_, _Travel_, _Life_ and _Career_
 - **how**: _Milestones_ in my life, such as where I lived, career stage, leisure time, etc
 
-I would design and print the timeline as a poster that people could physically engage with. 
+I would design and print the timeline as a poster that people could **physically engage with**.
 
-For the actual memories, I thought people could write on the poster, add stickers and stars, but then I had the idea; what if they could print out QR codes to posts, photos, music, videos, or sites?
+For the actual memories, I thought people could write on the poster, leave messages, add stickers, etc.
+
+But then I had an idea...
+
+:quote{text="What if guests could share links?" hero size=3}
+
+Theen they could share facebook posts, photos, music, videos, or anything, really!
+
+QR codes seemed like the obvious solution here, then anyone viewing the finished poster could simply hold up their phone and within a few seconds experience more than than just a handwritten message!
 
 ## Printing
 
-A bit of research later, and I'd sourced a [Phomemo M02 Pro](https://phomemo.com/products/m02-portable-printer) which I could use to print individual labels:
+A bit of research later, and I'd sourced a [Phomemo M02 Pro](https://phomemo.com/products/m02-portable-printer) which I could use to print stick-on labels:
 
 ![Phomemo printer](images/timeline-printer.jpg){srcset="images/timeline-printer.jpg 600w, images/timeline-printer@2x.jpg 1200w"
 sizes="(max-width: 600px) 100vw, 600px"}
@@ -89,7 +98,7 @@ Although the QR codes don't work at this resolution, they work perfectly on the 
 
 I'm not going to share the final poster here as it contains personal details I don't want on the internet, but as the `*` annotation in the footnote of the final poster says...
 
-:Quote{text="Just be happy it’s not a spreadsheet&#8239;!" hero size=2}
+:Quote{text="Just be happy it’s not a damn spreadsheet&#8239;!" hero size=2}
 
 ## Links
 
