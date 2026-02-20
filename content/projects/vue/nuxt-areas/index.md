@@ -105,11 +105,11 @@ Someone on Twitter mentioned "Area 51" which I thought was amusing but didn't ta
  
 Plus, it's a little bit wacky and goes with the slightly esoteric title!
 
-![nuxt areas demo logo](./images/nuxt-areas-demo.png)
+![nuxt areas demo logo](images/nuxt-areas-demo.png)
 
 The [Area 51](https://github.com/davestewart/area-51) idea made it in as the demo repo for registering areas from external folders, NPM modules, etc.
 
-![nuxt areas area 51 logo](./images/nuxt-areas-area-51.png)
+![nuxt areas area 51 logo](images/nuxt-areas-area-51.png)
 
 The original logo was designed by myself using online resources (I'm fine with a bit of logo design, but I'm no illustrator), and I commissioned the alien eye to match the original design.
 
