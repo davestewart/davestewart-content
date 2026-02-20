@@ -23,11 +23,11 @@ media:
       href: /projects/open-source/alias-hq/
       src: /projects/open-source/alias-hq/images/alias-featured.png
     - text: Vue Class Store – a reactive, class-based Vue store
-      href: /projects/open-source/vue-class-store/
-      src: /projects/open-source/vue-class-store/images/vue-class-store.png
+      href: /projects/vue/vue-class-store/
+      src: /projects/vue/vue-class-store/images/vue-class-store.png
     - text: Vuex Pathify – a Vue library to make simplify Vuex usage
-      href: /projects/open-source/vuex-pathify/
-      src: /projects/open-source/vuex-pathify/images/vuex-pathify.png
+      href: /projects/vue/vuex-pathify/
+      src: /projects/vue/vuex-pathify/images/vuex-pathify.png
     - text: Personal Branding Experiment – fun with colors and blend modes
       href: /projects/personal/branding/
       src: /projects/personal/branding/images/featured-hi-res.svg
@@ -41,19 +41,19 @@ media:
 
 <h1 class="main">I'm Dave,</h1>
 
-## I think like a designer, build as an engineer.
+## I bring a maker's eye with an engineer's hand.
 
-That's [enterprise platforms](?tags=enterprise) handling millions in assets. It's [open source](?path=/projects/open-source/&tags=library) libraries that solve real problems. It's [browser extensions](?tags=chrome-extension) used by thousands. It's [writing](?path=/blog/&tags=featured) that actually helps people.
+I work on [enterprise platforms](?tags=enterprise) that handle millions in assets. I build [open source](?tags=library) libraries that solve real problems. I craft [browser extensions](?tags=chrome-extension) used by thousands. I write [original articles](?path=/blog/&tags=featured) that people come back to.
 
 :home-thumbs{:featured="featured"}
 
 I started out in [Animation](/archive/work/animation/) and [Flash](/archive/work/flash/), which taught me how things should *feel*. I've spent 10 years building [web applications](/work/), which taught me how things should *work*.
 
-Now I combine both to create eye-catching, satisfying, and memorable experiences:
+Now I combine both to create eye-catching and satisfying experiences:
 
 :media-gallery{media="gallery" captions scale keep-alive}
 
-I work in the [Vue](/search?tags=vue) ecosystem, across [Nuxt](/search?tags=nuxt), [TypeScript](/search?tags=typescript&tags=javascript&tagsOp=or), and [whatever else](/search/?tagsFilter=list) is needed.
+I work in the [Vue](/search?tags=vue) ecosystem with [Nuxt](/search?tags=nuxt), [TypeScript](/search?tags=typescript&tags=javascript&tagsOp=or), and [complimentary](/search/?tagsFilter=list) technologies.
 
 Right now I specialise in UI architecture, component libraries, and design systems – but I'm just as comfortable working across the full application stack.
 

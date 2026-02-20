@@ -8,7 +8,6 @@ tags:
   - creative
 media:
   thumbnail: ./images/timeline-thumb.png
-  opengraph: ./images/timeline-opengraph.png
   gallery:
     - ./images/timeline-featured.png
   map: 

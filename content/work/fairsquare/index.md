@@ -109,7 +109,7 @@ Being a nine-month project, there were myriad technical challenges to surmount, 
 
 The application itself is a [Vue 2](https://vuejs.org/) and [Vuex](https://vuex.vuejs.org/) build, with [Semantic UI](https://semantic-ui.com/) as the UI framework. Had Nuxt been an option (it [wasn't even in](https://www.npmjs.com/package/nuxt/v/0.10.7) alpha when we started) we would have gone down that route.
 
-Interestingly the project's heavy use of Vuex lead to the development of a [state management solution](https://github.com/vuejs/vuex/issues/866#issuecomment-344892845) which would ultimately become [Vuex Pathify](/projects/open-source/vuex-pathify/):
+Interestingly the project's heavy use of Vuex lead to the development of a [state management solution](https://github.com/vuejs/vuex/issues/866#issuecomment-344892845) which would ultimately become [Vuex Pathify](/projects/vue/vuex-pathify/):
 
 ![/](./other/pathify-pre-alpha.jpg)
 
@@ -118,6 +118,6 @@ We also used [Laravel Sketchpad](/archive/projects/tools/laravel-sketchpad/) to 
 ## Links
 
 - [FairSquare](https://fairsquare.com)
-- [Vuex Pathify](/projects/open-source/vuex-pathify/)
+- [Vuex Pathify](/projects/vue/vuex-pathify/)
 
 

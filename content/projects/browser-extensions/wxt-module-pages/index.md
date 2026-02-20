@@ -5,7 +5,6 @@ tags:
   - library
   - typescript
   - chrome-extension
-  - vue
   - architecture
 github: davestewart/wxt-module-pages
 media:

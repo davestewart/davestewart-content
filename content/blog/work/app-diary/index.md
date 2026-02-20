@@ -7,7 +7,7 @@ tags:
   - website
   - frontend
   - creative
-  - library
+  - vue
   - rapid-build
 github: davestewart/app-diary
 media:
