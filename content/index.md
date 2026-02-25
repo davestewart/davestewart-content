@@ -43,7 +43,7 @@ media:
 
 ## I bring a maker's eye with an engineer's hand<span class="hide-md-down">.</span>
 
-I work on [enterprise platforms](?tags=enterprise) that handle millions in assets. I build [open source](?tags=library) libraries that solve real problems. I craft [browser extensions](?tags=chrome-extension) used by thousands. I write [original articles](?path=/blog/&tags=featured) that people come back to.
+I work on [enterprise platforms](?tags=enterprise) that handle millions in assets. I build [open source](?tags=library) libraries that solve real problems. I craft [browser extensions](?tags=chrome-extension) used by thousands. I write [original articles](?path=/blog/&tags=featured) that get shared.
 
 :home-thumbs{:featured="featured"}
 

@@ -72,7 +72,7 @@ Full instructions are available in the [README](https://github.com/davestewart/p
 
 ## Use case
 
-I built Phomemo CLI in order to complete a personal project, my [Birthday Timeline](/projects/personal/birthday-timeline/)!
+I built Phomemo CLI in order to complete a personal project, my [Birthday Timeline Poster](/projects/personal/birthday-timeline/)!
 
 [![Birthday timeline](./images/phomemo-testing.jpg)](/projects/personal/birthday-timeline/)
 
