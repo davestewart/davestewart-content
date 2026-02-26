@@ -7,8 +7,9 @@ tags:
 media:
   thumbnail: ./images/dave-stewart-open-source-projects-2013-tn.png
   featured: ./images/dave-stewart-open-source-projects-2013-featured.png
-  gallery:
-    - images/dave-stewart-open-source-projects-2013.png
+  map:
+    - src: images/dave-stewart-open-source-projects-2013.png
+      alt: Dave Stewart Open Source Project Map 2013
 ---
 
 # Open Source Project Map
@@ -32,7 +33,7 @@ I wanted to show:
 
 The final map was completed in a couple of 4-hour sessions, and here it is:
 
-![Dave Stewart Open Source Project Map 2013](./images/dave-stewart-open-source-projects-2013.png)
+:media-gallery{media="map" scale}
 
 Not only does it look great, but I learnt a bunch of cool Illustrator functionality I didn't know about before, namely the Round Corners effect, layered strokes, and the group-selection tool.
 
