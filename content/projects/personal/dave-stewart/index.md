@@ -29,8 +29,6 @@ media:
     - ./images/themes/pico-page.png
 ---
 
-
-
 # Dave Stewart
 
 ## Overview
@@ -266,8 +264,9 @@ The site also has some handy keyboard shortcuts, should you remember to use them
 
 #### Search
 
-- `Cmd`+`K` - toggle search
-- `Esc` - cancel input > go back
+- `Cmd`+`K` - show search
+- `Esc` - cancel input > cancel search
+- `Enter` - submit search
 
 ## Summary
 

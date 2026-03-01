@@ -75,9 +75,11 @@ const fsm = new StateMachine(config)
 
 The above is the classic [traffic light](https://statemachine.netlify.app/html/examples/flows/branching.html) example, with some additional handlers to show off the API.
 
-The library can be used on its own (as per most of the examples) or with helpers to power [jQuery](https://statemachine.netlify.app/html/setup/helpers/jquery.html), [Angular](https://statemachine.netlify.app/html/setup/helpers/object.html) or [Vue](https://statemachine.netlify.app/html/examples/vue/vue-router.html).
+The library can be used standalone (as per the examples) or with helpers to power [jQuery](https://statemachine.netlify.app/html/setup/helpers/jquery.html), [Angular](https://statemachine.netlify.app/html/setup/helpers/object.html) or [Vue](https://statemachine.netlify.app/html/examples/vue/vue-router.html).
 
-## Thoughts
+## Reflection
+
+### At the time of writing
 
 I built State Machine after becoming interested in state machines as a potential solution to complex user flows such as checkouts or multi-step forms.
 
@@ -88,7 +90,28 @@ If I had the time and inclination to continue this project, the main aims would 
 - decouple the notation DSL from the core library
 - add support for nested state machines
 
- I would imagine these days if you wanted to use state machines, you would look at [X State](https://xstate.js.org/). A fun next step  for this library would be enabling the DSL to build state machines for that library. 
+### Thoughts in 2026
+
+ I would imagine these days if you wanted to use state machines, you would look at [X State](https://xstate.js.org/).
+ 
+A fun next step  for this library would be enabling the DSL to build state machines for that library, however, I recently learned that Mermaid supports state diagrams, so perhaps the next step would be to build a Mermaid plugin to generate X State machines from Mermaid state diagrams:
+
+```mermaid
+stateDiagram-v2
+  [*] --> Green
+
+  Green --> Yellow : warn
+  Green --> Red : panic
+  Yellow --> Red : panic
+
+  Red --> Yellow : calm
+
+  Yellow --> Green : clear
+  Red --> Green : clear
+```
+
+Check out the visualisation for this state tree on [Graphlet](https://graphlet.xyz/?state=eJxljz0LwjAQhv_KkVHs4tjBSRShRbCTtB2uydkG8iFpsBTxv5u0Dq1ud89z78H7YtwKYinrPXo6SGwd6uS5qwxAuakhSfZwckSmMhFN4wRvpJQdIIUB3Y-6kgj8gUbyKL6Xfya6CFbfOCo9q0Vsfh2kInTL2EqwLfMdaTqLUEdLYWTb-QilV7HhxQlykMk78TEEgqGRGmeH4IrYHnLknTTRNCha6llasmORhz2zreSsfn8Af71fpA
+).
 
 ## Links
 
