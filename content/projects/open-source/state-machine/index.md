@@ -90,7 +90,7 @@ If I had the time and inclination to continue this project, the main aims would 
 - decouple the notation DSL from the core library
 - add support for nested state machines
 
-### Thoughts in 2026
+### In 2026
 
  I would imagine these days if you wanted to use state machines, you would look at [X State](https://xstate.js.org/).
  

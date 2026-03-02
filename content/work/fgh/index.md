@@ -1,6 +1,7 @@
 ---
 description: In-house tooling for global strategic communications consultancy
 date: 2021-10-01
+navigation: false
 tags:
   - webapp
   - frontend

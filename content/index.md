@@ -1,5 +1,6 @@
 ---
 title: Web Developer + Indie Maker
+shortTitle: Home
 description: Online portfolio of Dave Stewart; Open Source, commercial + personal projects
 layout: home
 media:
