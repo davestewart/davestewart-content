@@ -148,7 +148,20 @@ export default defineNuxtConfig({
 })
 ```
 
-_Note that I'm using the array shorthand above, because I'm not supplying any [root options](https://github.com/nuxt/nuxt/blob/main/packages/schema/src/types/components.ts#L110-L133)._
+I'm using the default array notation above, but you can supply additional [root options](https://github.com/nuxt/nuxt/blob/main/packages/schema/src/types/components.ts#L110-L133):
+
+
+```ts
+// src/nuxt.config.ts
+export default defineNuxtConfig({
+  components: {
+    // other options
+    dirs: [
+      // as above
+    ]
+  }
+}
+```
 
 You can even completely disable component auto-importing per project, and per layer:
 

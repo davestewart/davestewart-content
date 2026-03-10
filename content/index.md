@@ -40,7 +40,9 @@ media:
       src: /work/fairsquare/images/fairsquare-logo.png
 ---
 
-<h1 class="main">I'm Dave,</h1>
+:splash
+
+# I'm Dave,
 
 ## I bring a maker's eye with an engineer's hand<span class="hide-md-down">.</span>
 
@@ -58,7 +60,7 @@ I work in the [Vue](/search?tags=vue) ecosystem with [Nuxt](/search?tags=nuxt), 
 
 Right now I specialise in UI architecture, component libraries, and design systems – but I'm just as comfortable working across the full application stack.
 
-![img](./assets/dave-wide.jpg)
+:bio-image
 
 I'm available for contract work or permanent roles where I get to work across design, product, and engineering.
 

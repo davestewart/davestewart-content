@@ -871,7 +871,7 @@ Then, tackle a single domain / layer at a time:
     - if auto-imported, should just work (unless components themselves moved to sub-folders!)
     - if not, you may need to add specific components folder paths to the `components` config
   - [Content](#nuxt-content)
-    - decide whether [Nuxt Content]() will be global or local
+    - decide whether [Nuxt Content](#nuxt-content) will be global or local
     - remember Nuxt Content components need to be global, so
       - add them to `components/content`, or
       - register them separately [using the `global` flag](#content-components)
