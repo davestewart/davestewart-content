@@ -64,6 +64,6 @@ Right now I specialise in UI architecture, component libraries, and design syste
 
 I'm available for contract work or permanent roles where I get to work across design, product, and engineering.
 
-Get in touch via the social links below.
+Let's start a [conversation](https://tally.so/r/WOPgYP) !
 
 :site-icon{size="35" fill="#ea4848"}
