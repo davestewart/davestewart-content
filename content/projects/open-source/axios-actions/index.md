@@ -81,6 +81,5 @@ There are lots of [other goodies](https://github.com/davestewart/axios-actions/b
 
 ## Links
 
-- [Demo site](https://axios-actions.netlify.com/)
 - [Quick start](https://github.com/davestewart/axios-actions/blob/master/docs/quick-start.md)
 - [GitHub](https://github.com/davestewart/axios-actions)

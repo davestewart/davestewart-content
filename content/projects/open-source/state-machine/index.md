@@ -11,7 +11,7 @@ media:
   thumbnail: ./images/state-machine-thumb.png
   opengraph: ./images/state-machine-featured.png
   featured:
-    src: https://statemachine.netlify.app/
+    src: https://javascript-state-machine.vercel.app/
     width: 960
     height: 500
     type: embed
@@ -23,18 +23,18 @@ media:
 
 State Machine is a powerful yet simply-configured state machine.
 
-Its [intuitive](https://statemachine.netlify.app/html/api/transitions/advanced.html) [yet](https://statemachine.netlify.app/html/api/transitions/wildcards.html) [powerful](https://statemachine.netlify.app/html/api/transitions/separators.html) DSL can describe states and transitions succinctly whilst its [JavaScript API](https://statemachine.netlify.app/html/api/index.html) hooks into transitions with a rich [event syntax](https://statemachine.netlify.app/html/api/events/interactive.html) to build complex [application flows](https://statemachine.netlify.app/html/examples/index.html):
+Its [intuitive](https://javascript-state-machine.vercel.app/html/api/transitions/advanced.html) [yet](https://javascript-state-machine.vercel.app/html/api/transitions/wildcards.html) [powerful](https://javascript-state-machine.vercel.app/html/api/transitions/separators.html) DSL can describe states and transitions succinctly whilst its [JavaScript API](https://javascript-state-machine.vercel.app/html/api/index.html) hooks into transitions with a rich [event syntax](https://javascript-state-machine.vercel.app/html/api/events/interactive.html) to build complex [application flows](https://javascript-state-machine.vercel.app/html/examples/index.html):
 
 ```js
 const transitions = [
   'warn  : green > yellow',
   'panic : green   yellow > red',
-  'calm  :         yellow < red',
+  'calm  :         yellow < ftred',
   'clear : green < yellow   red'
 ]
 ```
 
-The **interactive** demo above shows-off many of StateMachine's features. Visit the [site itself](https://statemachine.netlify.app) and view the source code directly in the page, or **open the console** here to see the application log updates as it transitions between states and fires events.
+The **interactive** demo above shows-off many of StateMachine's features. Visit the [site itself](https://javascript-state-machine.vercel.app) and view the source code directly in the page, or **open the console** here to see the application log updates as it transitions between states and fires events.
 
 ## Implementation
 
@@ -73,9 +73,9 @@ const config = {
 const fsm = new StateMachine(config)
 ```
 
-The above is the classic [traffic light](https://statemachine.netlify.app/html/examples/flows/branching.html) example, with some additional handlers to show off the API.
+The above is the classic [traffic light](https://javascript-state-machine.vercel.app/html/examples/flows/branching.html) example, with some additional handlers to show off the API.
 
-The library can be used standalone (as per the examples) or with helpers to power [jQuery](https://statemachine.netlify.app/html/setup/helpers/jquery.html), [Angular](https://statemachine.netlify.app/html/setup/helpers/object.html) or [Vue](https://statemachine.netlify.app/html/examples/vue/vue-router.html).
+The library can be used standalone (as per the examples) or with helpers to power [jQuery](https://javascript-state-machine.vercel.app/html/setup/helpers/jquery.html), [Angular](https://javascript-state-machine.vercel.app/html/setup/helpers/object.html) or [Vue](https://javascript-state-machine.vercel.app/html/examples/vue/vue-router.html).
 
 ## Reflection
 
@@ -115,6 +115,6 @@ Check out the visualisation for this state tree on [Graphlet](https://graphlet.x
 
 ## Links
 
-- [statemachine.netlify.app](https://statemachine.netlify.app/)
+- [javascript-state-machine.vercel.app](https://javascript-state-machine.vercel.app/)
 - [GitHub](https://github.com/davestewart/javascript-state-machine)
 
