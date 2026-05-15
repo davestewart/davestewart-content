@@ -1,7 +1,12 @@
 ---
-description: Flash micro-site with heavy use of mapping and video APIs
-shortTitle: Map My Summer
 date: 2011-02-05
+shortTitle: Map My Summer
+description: Flash micro-site with heavy use of mapping and video APIs
+summary: |
+  An award-winning Flash micro-site integrating map clustering, video, and
+  user-generated content for a social summer campaign — combining mapping,
+  video, and social APIs to create a shareable interactive experience.
+tech: Flash, ActionScript 3, Google Maps API
 tags:
   - flash
   - frontend

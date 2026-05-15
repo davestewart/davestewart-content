@@ -1,7 +1,11 @@
 ---
-slug: the-wrong-kind-of-democracy
-description: A comparison of the 2015 election results with FPTP vs PR
 date: 2015-05-10
+description: A comparison of the 2015 election results with FPTP vs PR
+summary: |
+  A data-driven comparison of the 2015 UK election results under First Past
+  the Post vs proportional representation, examining just how differently the
+  outcome would have looked under each voting system.
+slug: the-wrong-kind-of-democracy
 media:
   thumbnail: ./images/election-thumb.png
   featured: ./images/election-featured-large.png

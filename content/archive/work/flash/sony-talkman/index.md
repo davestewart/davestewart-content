@@ -1,7 +1,12 @@
 ---
-description: Multilingual Flash micro-site for Sony PSP translation game / software
-shortTitle: Talkman PSP
 date: 2006-05-05
+shortTitle: Talkman PSP
+description: Multilingual Flash micro-site for Sony PSP translation game / software
+summary: |
+  A multilingual Flash micro-site and interactive game for Sony's PSP
+  Talkman translation software, featuring language selection, guided tours,
+  world map exploration, and arcade-style mini-games.
+tech: Flash, ActionScript 3
 tags:
   - flash
   - game

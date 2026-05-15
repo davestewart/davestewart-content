@@ -1,7 +1,12 @@
 ---
-description: SPA for data-driven end-of-year report for Formula One
-shortTitle: "F1 Broadcast Report"
 date: 2013-01-05
+shortTitle: "F1 Broadcast Report"
+description: SPA for data-driven end-of-year report for Formula One
+summary: |
+  A data-driven SPA for Formula One's end-of-year broadcast report,
+  presenting season statistics through interactive SVG charts and
+  visualisations — optimised for iPad display.
+tech: JavaScript, HTML5, SVG
 tags:
   - concept
   - website

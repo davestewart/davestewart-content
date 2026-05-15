@@ -1,9 +1,14 @@
 ---
-description: A deep dive on why projects always take longer and a framework to improve future estimation
-path: /blog/the-work-is-never-just-the-work/
 date: 2022-02-01
+description: A deep dive on why projects always take longer and a framework to improve future estimation
+summary: |
+  A deep dive into why software projects consistently take longer than
+  estimated, introducing a framework for mapping hidden work — briefing,
+  setup, research, invisible tasks, and client changes — to improve
+  future estimates.
 tags:
   - featured
+path: /blog/the-work-is-never-just-the-work/
 media:
   featured: ./images/estimation-featured.png
   thumbnail: ./images/estimation-thumbnail.png

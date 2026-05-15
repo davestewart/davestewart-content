@@ -1,6 +1,11 @@
 ---
-description: Online editor to manipulate and generate text, code and data
 date: 2013-04-05
+description: Online editor to manipulate and generate text, code and data
+summary: |
+  An online text processing tool for manipulating and generating text,
+  code, and data using a configurable pipeline of transforms — an early
+  exploration of browser-based developer tooling.
+tech: JavaScript, PHP
 tags:
   - frontend
   - javascript

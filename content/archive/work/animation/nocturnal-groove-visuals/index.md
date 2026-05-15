@@ -1,7 +1,12 @@
 ---
-description: Club and festival visuals for chart-toppers Shapeshifter
-shortTitle: Nocturnal Groove Visuals
 date: 2005-05-08
+shortTitle: Nocturnal Groove Visuals
+description: Club and festival visuals for chart-toppers Shapeshifter
+summary: |
+  Club night visuals created in After Effects for Nocturnal Records
+  (home of Shapeshifter), designed for projection at London's AKA/The End
+  venue for their monthly Nocturnal Groove night.
+tech: After Effects
 tags:
   - creative
   - animation

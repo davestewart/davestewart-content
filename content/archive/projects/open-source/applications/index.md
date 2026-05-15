@@ -1,6 +1,10 @@
 ---
-description: Various extensions for native Windows applications
 date: 2005-01-01
+description: Various extensions for native Windows applications
+summary: |
+  A collection of extensions for native Windows applications, exploring
+  application extensibility beyond web frameworks using JavaScript and VBA.
+tech: JavaScript, VBA
 tags:
   - plugin
   - framework

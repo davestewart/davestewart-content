@@ -1,6 +1,11 @@
 ---
-description: Experiment in time and visual numerical/temporal-patterns
 date: 2011-11-11
+description: Experiment in time and visual numerical/temporal-patterns
+summary: |
+  A Flash experiment in visual time representation, built on 11/11/11 at
+  11:11 — exploring numerical and temporal patterns through unconventional,
+  aesthetically-driven clock visualisations.
+tech: Flash, ActionScript 3
 tags:
   - creative
   - frontend

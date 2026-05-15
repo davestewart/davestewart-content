@@ -1,7 +1,12 @@
 ---
-description: Flash racing game for Tokyo Drift official film site
-shortTitle: Fast & Furious
 date: 2006-02-08
+shortTitle: Fast & Furious
+description: Flash racing game for Tokyo Drift official film site
+summary: |
+  A Flash racing game for the official Fast & Furious: Tokyo Drift film
+  site, featuring multiple tracks with physics-based driving mechanics
+  and ActionScript 3 gameplay.
+tech: Flash, ActionScript 3
 tags:
   - flash
   - frontend

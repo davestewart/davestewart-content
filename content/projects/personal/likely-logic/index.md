@@ -1,6 +1,10 @@
 ---
-description: Holding page for my product development moniker
 date: 2021-01-01
+description: Holding page for my product development moniker
+summary: |
+  A holding page for the commercial product development moniker, used for
+  side projects and indie products.
+tech: HTML, CSS
 tags:
   - website
   - design

@@ -1,6 +1,16 @@
 ---
-description: Data-driven tools & advisory services for blockchain token launch
 date: 2024-03-01
+duration: 18 months
+role: Senior UI Developer
+description: Data-driven tools & advisory services for blockchain token launch
+summary: |
+  Owned the UI layer at a fast-scaling blockchain token management platform,
+  building the core component library from scratch and establishing shared
+  systems for components, charts, forms, and layouts across the entire app.
+  Partnered closely with design to translate Figma into reusable primitives,
+  and led the migration from a monolithic Nuxt app to a layered architecture
+  to support the platform's rapid growth.
+tech: Nuxt 3, Nuxt UI, Vue 3, TypeScript, Tailwind
 tags:
   - featured
   - enterprise

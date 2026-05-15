@@ -1,6 +1,12 @@
 ---
-description: Enable locally-located assets in Nuxt Content
 date: 2023-04-14
+description: Enable locally-located assets in Nuxt Content
+summary: |
+  A Nuxt module enabling co-location of images
+  and media alongside markdown content files with relative path references.
+  Resolves and serves assets at build time, with file watching, image size
+  injection, and zero-config.
+tech: Nuxt 2-3, TypeScript
 tags:
   - featured
   - library

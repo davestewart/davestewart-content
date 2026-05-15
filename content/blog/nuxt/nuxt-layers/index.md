@@ -1,15 +1,19 @@
 ---
-description: Build sites that scale by organising code by domain, not concern
 date: 2024-05-14
-media:
-  opengraph: ./images/featured.png
-  featured: ./images/featured.png
-  thumbnail: ./images/thumb.png
+description: Build sites that scale by organising code by domain, not concern
+summary: |
+  Practical guide to using Nuxt layers for domain-based code organisation,
+  covering the theory of organising by domain vs concern, a step-by-step
+  migration path for existing Nuxt apps, and path configuration gotchas.
 tags:
   - featured
   - nuxt
   - vue
   - architecture
+media:
+  opengraph: ./images/featured.png
+  featured: ./images/featured.png
+  thumbnail: ./images/thumb.png
 ---
 
 # Modular site architecture with Nuxt layers

@@ -1,6 +1,12 @@
 ---
-description: UX & UI improvements to the FastMail web client
 date: 2022-04-16
+duration: # TODO
+description: UX & UI improvements to the FastMail web client
+summary: |
+  Built a Chrome extension adding keyboard shortcuts, UI improvements,
+  and account-switching ergonomics to the FastMail web client to paper
+  over common friction points in daily use.
+tech: JavaScript, Chrome Extension
 tags:
 - productivity
 - chrome-extension

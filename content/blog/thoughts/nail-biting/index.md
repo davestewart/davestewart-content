@@ -1,6 +1,9 @@
 ---
-description: How I stopped biting my nails and learned to respect my hands
 date: 2022-04-26
+description: How I stopped biting my nails and learned to respect my hands
+summary: |
+  Personal account of stopping a long-term nail-biting habit overnight,
+  sharing the mindset shift that made it stick and stay gone.
 media:
   thumbnail: ./nails-splash.png
   featured: ./nails-splash.png

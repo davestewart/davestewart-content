@@ -1,7 +1,11 @@
 ---
-description: Highly-scripted 3D animation sequence
-navigation: false
 date: 2006-10-08
+description: Highly-scripted 3D animation sequence
+summary: |
+  A heavily scripted 3D animation sequence for the Jetix children's TV
+  network, driven by MaxScript automation in 3dsmax to produce a complex,
+  precisely-timed broadcast-quality result.
+tech: 3dsmax, After Effects, MaxScript
 tags:
   - creative
   - animation
@@ -11,6 +15,7 @@ tags:
   - plugin
   - 3dsmax
   - concept
+navigation: false
 media:
   thumbnail: ./images/jetix-thumbnail.jpg
   gallery:

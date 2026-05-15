@@ -1,6 +1,12 @@
 ---
-description: Nuxt-like layers functionality for WXT browser extensions
 date: 2025-11-28
+description: Nuxt-like layers functionality for WXT browser extensions
+summary: |
+  A WXT module bringing Nuxt-style layer architecture
+  to browser extension development. Enables organising extensions into
+  self-contained feature and service layers, improving maintainability
+  and code isolation in large extension projects.
+tech: TypeScript, WXT
 tags:
   - library
   - typescript

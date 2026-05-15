@@ -1,6 +1,12 @@
 ---
-description: JSFL framework to create tools for the Flash authoring environment
 date: 2011-01-01
+description: JSFL framework to create tools for the Flash authoring environment
+summary: |
+  A comprehensive JSFL framework for building tools within the Flash
+  authoring environment, providing MVC-like structure, utility libraries,
+  and a plugin system — used by Flash animators and developers to automate
+  production pipelines.
+tech: Flash, JSFL, ActionScript 3, JavaScript
 tags:
   - frontend
   - framework

@@ -1,6 +1,12 @@
 ---
-description: A powerful yet simply-configured JavaScript finite-state machine
 date: 2016-10-01
+description: A powerful yet simply-configured JavaScript finite-state machine
+summary: |
+  Built a standalone finite state machine library with an intuitive DSL
+  for describing states and transitions, a rich event system for hooking
+  into lifecycle events, and helpers for jQuery, Angular, and Vue. An
+  early investigation into state machines for complex application flows.
+tech: JavaScript, TypeScript
 tags:
   - featured
   - library
@@ -93,7 +99,7 @@ If I had the time and inclination to continue this project, the main aims would 
 ### In 2026
 
  I would imagine these days if you wanted to use state machines, you would look at [X State](https://xstate.js.org/).
- 
+
 A fun next step  for this library would be enabling the DSL to build state machines for that library, however, I recently learned that Mermaid supports state diagrams, so perhaps the next step would be to build a Mermaid plugin to generate X State machines from Mermaid state diagrams:
 
 ```mermaid

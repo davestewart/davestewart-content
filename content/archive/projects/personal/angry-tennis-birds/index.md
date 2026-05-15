@@ -1,6 +1,11 @@
 ---
-description: Creative hack to spice up broadcast tennis to the squawks of Angry Birds
 date: 2011-06-05
+description: Creative hack to spice up broadcast tennis to the squawks of Angry Birds
+summary: |
+  A creative JavaScript hack synchronising Angry Birds sound effects with
+  live broadcast tennis footage, built as a viral mashup concept and
+  featured in The Sun.
+tech: JavaScript
 tags:
   - creative
   - javascript

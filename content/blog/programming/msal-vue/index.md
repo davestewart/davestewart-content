@@ -1,6 +1,10 @@
 ---
-description: Architect a Vue JS app secured with Microsoft Authentication Library
 date: 2023-02-28
+description: Architect a Vue JS app secured with Microsoft Authentication Library
+summary: |
+  Guide to integrating Microsoft Authentication Library (MSAL) in a Vue
+  application, cataloguing common gotchas and sharing a modular demo
+  covering tenant setup, redirect handling, and auth flow architecture.
 tags:
   - featured
 media:

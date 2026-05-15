@@ -1,6 +1,11 @@
 ---
-description: My final showreel from my animation days
 date: 2007-12-01
+description: My final showreel from my animation days
+summary: |
+  The final animation showreel from the animation phase of the career,
+  featuring broadcast work for Sky One, Channel 5, London Smile Clinic,
+  and others — a retrospective of motion graphics and 3D work circa 2007.
+tech: After Effects, 3dsmax, Flash
 tags:
   - creative
   - flash

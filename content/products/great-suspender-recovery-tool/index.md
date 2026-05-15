@@ -1,7 +1,14 @@
 ---
-description: Recover your deleted Great Suspender tabs!
-shortTitle: Great Suspender Recovery
 date: 2021-02-01
+shortTitle: Great Suspender Recovery
+description: Recover your deleted Great Suspender tabs!
+summary: |
+  Built and released a Chrome extension in under 12 hours to help users
+  recover tabs lost when The Great Suspender was pulled from the Web Store
+  for containing malware. Searches browser history to find suspended tabs
+  and lets users browse, group, and save them as bookmarks.
+tech: JavaScript, Vue 2, Chrome Extension
+duration: ~1 day
 tags:
   - javascript
   - chrome-extension

@@ -1,6 +1,12 @@
 ---
-description: File-system based routing for WXT browser extensions
 date: 2025-11-28
+description: File-system based routing for WXT browser extensions
+summary: |
+  A WXT module bringing file-system based routing to browser
+  extensions, inspired by Next.js, Nuxt, and SvelteKit. Supports layouts,
+  dynamic routes, route groups, and multiple frontend frameworks, eliminating
+  manual route configuration in large extension projects.
+tech: TypeScript, Vue, WXT
 tags:
   - library
   - typescript

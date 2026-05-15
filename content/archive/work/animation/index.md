@@ -1,6 +1,6 @@
 ---
-title: Animation
 description: 3dsmax and After Effects animation
+title: Animation
 layout: folder
 order: 3
 ---

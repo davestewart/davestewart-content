@@ -1,6 +1,11 @@
 ---
-description: Everything I learned in 3 months of sticking to a keto and fasting regime
 date: 2023-05-11
+description: Everything I learned in 3 months of sticking to a keto and fasting regime
+summary: |
+  Personal account of a 3-month keto and intermittent fasting experiment
+  in 2023, covering the journey, learnings, and indirect benefits — written
+  in scan-friendly note form as a practical reference for others considering
+  the same.
 media:
   opengraph: ./laksa.jpg
   featured: ./laksa.jpg

@@ -1,6 +1,11 @@
 ---
-description: Kiosk and online system for live event multi-camera photo studio
 date: 2015-04-01
+description: Kiosk and online system for live event multi-camera photo studio
+summary: |
+  A kiosk and online delivery system for a multi-camera live event photo
+  studio (Timeslice), built with Vue and Laravel to manage real-time photo
+  capture, iPad display, and online order delivery.
+tech: Vue 2, Laravel, PHP
 tags:
   - webapp
   - ui

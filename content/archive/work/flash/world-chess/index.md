@@ -1,7 +1,12 @@
 ---
-description: Interactive prototype for broadcast chess
-shortTitle: World Chess
 date: 2012-08-05
+shortTitle: World Chess
+description: Interactive prototype for broadcast chess
+summary: |
+  An interactive Flash prototype for a broadcast chess format, visualising
+  live game data and providing a real-time view of match progress for a
+  TV concept pitch.
+tech: Flash, ActionScript 3
 tags:
   - flash
   - frontend

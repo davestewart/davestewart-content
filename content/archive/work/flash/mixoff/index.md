@@ -1,7 +1,12 @@
 ---
-description: Flash application allowing users to star in their own pop music videos
-shortTitle: X Factor Mix Off
 date: 2014-10-21
+shortTitle: X Factor Mix Off
+description: Flash application allowing users to star in their own pop music videos
+summary: |
+  A Flash application for the X Factor Mix Off campaign, allowing users
+  to insert themselves into pop music video clips via webcam capture and
+  video compositing — a UGC-driven interactive experience.
+tech: Flash, ActionScript 3
 tags:
   - flash
   - frontend

@@ -1,6 +1,10 @@
 ---
-description: Use a well-known Chrome extension to add new functionality via custom CSS styles
 date: 2021-06-01
+description: Use a well-known Chrome extension to add new functionality via custom CSS styles
+summary: |
+  Demonstrates how to add custom text formatting to WorkFlowy using the
+  Stylish Chrome extension and CSS, by targeting WorkFlowy's contentEditable
+  HTML structure and repurposing the underline tag as a styling hook.
 media:
   thumbnail: ./workflowy-highlight-thumb.png
 ---

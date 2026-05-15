@@ -1,7 +1,12 @@
 ---
-description: Visual exploration of the structure and ideas of Mozart's symphonies
-shortTitle: BBC4 Mozart Uncovered
 date: 2005-06-08
+shortTitle: BBC4 Mozart Uncovered
+description: Visual exploration of the structure and ideas of Mozart's symphonies
+summary: |
+  A data-driven visual exploration of Mozart's symphonies for BBC4,
+  using VBA to extract musical structure data and After Effects to
+  animate the resulting patterns and relationships.
+tech: After Effects, VBA, JavaScript
 tags:
   - javascript
   - data

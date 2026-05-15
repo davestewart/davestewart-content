@@ -1,6 +1,11 @@
 ---
-description: A wide variety of plugins for various JS and PHP frameworks
 date: 2009-01-01
+description: A wide variety of plugins for various JS and PHP frameworks
+summary: |
+  A range of plugins and extensions for various JavaScript and PHP frameworks,
+  written before specialising in Vue.js — covering UI components, data handling,
+  and framework integrations across the pre-Vue JS ecosystem.
+tech: JavaScript, jQuery, PHP, Vanilla, GreenSock, Kohana, WordPress
 tags:
   - plugin
   - framework
@@ -53,7 +58,7 @@ I wrote a wide variety of jQuery plugins in my everyday work from mid to late 20
 
 ### Vanilla
 
-[Vanailla Forum](https://vanillaforums.com/) is a simple but effective forum platform.
+[Vanilla Forum](https://vanillaforums.com/) is a simple but effective forum platform.
 
 I wrote various plugins whilst developing xJSFL to make my own use of the forum easier:
 

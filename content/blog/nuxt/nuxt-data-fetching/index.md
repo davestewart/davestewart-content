@@ -1,6 +1,11 @@
 ---
-description: Nuxt data fetching explained within the context of Nuxt's SSR lifecycle
 date: 2025-11-05
+description: Nuxt data fetching explained within the context of Nuxt's SSR lifecycle
+summary: |
+  Explains Nuxt's SSR render lifecycle and how it affects data fetching,
+  then walks through $fetch, useAsyncData, and useFetch — covering the
+  server-client serialisation boundary, rehydration, and when to use
+  each approach.
 tags:
   - nuxt
   - vue

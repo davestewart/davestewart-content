@@ -1,6 +1,12 @@
 ---
-description: Multi-column view for WorkFlowy
 date: 2021-03-01
+description: Multi-column view for WorkFlowy
+summary: |
+  A Chrome extension adding a multi-column
+  layout to WorkFlowy for managing and navigating multiple note trees
+  simultaneously. Supports sessions, keyboard navigation, extension
+  interop APIs, and a layout options panel.
+tech: JavaScript, Chrome Extension
 tags:
   - featured
   - productivity

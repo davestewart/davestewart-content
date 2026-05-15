@@ -1,6 +1,11 @@
 ---
-description: An approach to plan and implement a robust versioning scheme and release schedule – without Semver
 date: 2023-08-09
+description: An approach to plan and implement a robust versioning scheme and release schedule – without Semver
+summary: |
+  Retrospective on developing a robust versioning and release scheme for
+  Chrome extensions, working around the limitations of Chrome's manifest
+  version format to support alpha/beta stages — drawing on experience
+  building Control Space.
 media:
   opengraph: ./versioning-opengraph.png
   featured: ./versioning-featured.png

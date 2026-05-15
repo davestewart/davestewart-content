@@ -1,6 +1,10 @@
 ---
-description: The WebStorm features and tools I use everyday to write better code and build bigger apps 
 date: 2022-04-22
+description: The WebStorm features and tools I use everyday to write better code and build bigger apps 
+summary: |
+  Companion post to a JetBrains webinar, covering the WebStorm features
+  used daily for writing better code and building larger applications —
+  from refactoring and file navigation to project-wide search and tooling.
 media:
   thumbnail: ./webstorm-splash.png
   opengraph: ./webstorm-splash.png

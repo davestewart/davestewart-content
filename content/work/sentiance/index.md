@@ -1,7 +1,15 @@
 ---
-description: Development of data visualisation dashboard for data science firm 
-shortTitle: Sentiance
 date: 2019-02-01
+shortTitle: Sentiance
+duration: 3 months
+role: Senior Frontend Developer
+description: Development of data visualisation dashboard for data science firm 
+summary: |
+  Joined a Belgian data science firm remotely to extend their Journeys
+  behavioural analytics dashboard. Built new data visualisation components,
+  fixed bugs, and refactored the frontend to a more scalable architecture
+  drawing on prior enterprise experience.
+tech: Vue 2, D3.js, Bulma, GraphQL
 tags:
   - featured
   - webapp

@@ -1,7 +1,15 @@
 ---
-description: In-house tooling for global strategic communications consultancy
 date: 2021-10-01
-navigation: false
+duration: 3 months
+role: Full Stack Developer
+description: In-house tooling for global strategic communications consultancy
+summary: |
+  Led a multi-phase greenfield build of a bespoke internal tooling suite for
+  a global PR consultancy, replacing fragmented third-party workflows with a
+  unified Nuxt application backed by a custom Express API. Delivered news search,
+  journalist contact management, a Chrome extension bridging Roxhill, and
+  media mentions analytics — spanning full-stack architecture to feature delivery.
+tech: Nuxt 2, Vue 2, Express, Elasticsearch, Chrome Extension
 tags:
   - webapp
   - frontend
@@ -13,6 +21,7 @@ tags:
   - vue
   - api
   - ui
+navigation: false
 media:
   opengraph: ./images/fgh-dark.png
   thumbnail: ./images/fgh-dark.png

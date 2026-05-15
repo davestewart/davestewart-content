@@ -1,7 +1,12 @@
 ---
-description: Landing page for Simon Fuller's 19 Entertainment stable
-shortTitle: "19 Microsite"
 date: 2009-02-05
+shortTitle: "19 Microsite"
+description: Landing page for Simon Fuller's 19 Entertainment stable
+summary: |
+  A responsive microsite for Simon Fuller's 19 Entertainment management
+  company, showcasing the artist roster with an interactive, visually-driven
+  UI — an early responsive web build.
+tech: HTML, JavaScript, CSS
 tags:
   - frontend
   - html

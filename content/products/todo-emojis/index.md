@@ -1,6 +1,12 @@
 ---
-description: Checkbox emojis for todo lists in Slack
 date: 2020-09-25
+description: Checkbox emojis for todo lists in Slack
+summary: |
+  Designed and released a set of checkbox-style SVG emojis for creating
+  visual to-do lists in Slack, originally made for a London indie maker
+  community. Picked up on Product Hunt and adopted by teams using Slack
+  for async accountability.
+tech: SVG
 tags:
   - featured
   - creative

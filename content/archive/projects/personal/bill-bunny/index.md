@@ -1,6 +1,10 @@
 ---
-description: Bill management application for flat sharers
 date: 2012-02-05
+description: Bill management application for flat sharers
+summary: |
+  A web application for managing shared household bills between flat sharers,
+  covering expense tracking, splitting, and payment history.
+tech: JavaScript, PHP, HTML
 tags:
   - frontend
   - backend

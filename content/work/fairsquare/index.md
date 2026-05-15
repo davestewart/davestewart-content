@@ -1,6 +1,15 @@
 ---
-description: Greenfield build of car finance and sales platform 
 date: 2017-05-01
+duration: 9 months
+role: Project Lead
+description: Greenfield build of car finance and sales platform 
+summary: |
+  Led a small in-house team in the greenfield build of an online car finance
+  and sales platform over 9 months, covering UX, frontend, and backend.
+  Integrated multiple financial third-parties, handled soft and hard credit-check
+  flows, and navigated regulatory requirements around sensitive credit data.
+  The project's heavy Vuex use directly spawned Vuex Pathify.
+tech: Vue 2, Vuex, Laravel, Semantic UI, Worldpay
 tags:
   - featured
   - enterprise

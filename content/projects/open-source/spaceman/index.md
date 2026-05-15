@@ -1,6 +1,12 @@
 ---
-description: Manage monorepo workspaces with a prompt-based CLI
 date: 2022-10-01
+description: Manage monorepo workspaces with a prompt-based CLI
+summary: |
+  A prompt-based Node CLI simplifying complex monorepo
+  workspace tasks (install, share, add, remove) for npm, pnpm, and yarn.
+  Eliminates the need to navigate configs or remember workspace commands
+  by wrapping multi-step tasks in guided prompts.
+tech: Node, TypeScript
 tags:
   - library
   - tools

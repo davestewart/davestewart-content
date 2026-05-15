@@ -1,7 +1,11 @@
 ---
-description: Social networking & mapping experiment
 date: 2007-04-05
-order: 2
+description: Social networking & mapping experiment
+summary: |
+  A social networking and location mapping experiment aggregating
+  user-generated content onto an interactive map for local community events,
+  built with PHP and JavaScript before social platforms commoditised the idea.
+tech: JavaScript, PHP, HTML, Google Maps API
 tags:
   - frontend
   - backend
@@ -16,6 +20,7 @@ tags:
   - social
   - concept
   - maps
+order: 2
 media:
   thumbnail: ./images/balham-night.png
   gallery:

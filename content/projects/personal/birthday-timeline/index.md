@@ -1,6 +1,12 @@
 ---
-description: Birthday retrospective where guests share memories via QR code
 date: 2024-11-03
+description: Birthday retrospective where guests share memories via QR code
+summary: |
+  Designed a birthday interactive timeline poster and built the supporting
+  kiosk tooling — a Node CLI, web print server, and Chrome extension — to
+  let guests print QR code stickers linking to personal memories at a live
+  party event. Designed the A1 poster artwork in Figma.
+tech: Node, JavaScript, Chrome Extension, Figma
 tags:
   - chrome-extension
   - javascript

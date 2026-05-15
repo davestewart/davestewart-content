@@ -1,6 +1,10 @@
 ---
-description: A 10-year (ish) retrospective of self-reflection and improvement
 date: 2023-02-22
+description: A 10-year (ish) retrospective of self-reflection and improvement
+summary: |
+  A 10-year retrospective of personal self-improvement wins across mindset,
+  environment, organisation, and habits — written as a scan-friendly reference
+  of actionable shifts that have had lasting impact.
 tags:
   - featured
 media:

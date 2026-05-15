@@ -1,6 +1,15 @@
 ---
+date: 2019-06-01
+duration: 15 months
+role: Lead Frontend Developer
 description: Greenfield build of peer to peer securities lending platform
-date: 2019-02-01
+summary: |
+  Led the greenfield frontend build of an enterprise peer-to-peer securities
+  lending platform as lead frontend engineer. Architected a modular TypeScript
+  Vue SPA with real-time negotiation, a custom Handsontable spreadsheet UX,
+  and a multi-environment Webpack build. Contributed upstream to Vee Validate
+  and developed Vuex Pathify and Alias HQ as by-products.
+tech: Vue 2, TypeScript, Vuex, Element UI, Handsontable, Auth0, Azure, Webpack
 tags:
   - featured
   - enterprise

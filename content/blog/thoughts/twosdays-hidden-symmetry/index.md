@@ -1,6 +1,10 @@
 ---
-description: 22:22 is palindromic and ambigramic, but what about its analogue form?
 date: 2022-02-23
+description: 22:22 is palindromic and ambigramic, but what about its analogue form?
+summary: |
+  Explores the analogue clock symmetry hidden in 22:22 on 22/02/2022,
+  building on the palindromic and ambigramic properties of the "Twosday"
+  date with a mathematical perspective on the clock face.
 tags:
   - featured
 media:

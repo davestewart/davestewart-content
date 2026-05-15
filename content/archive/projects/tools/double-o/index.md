@@ -1,6 +1,11 @@
 ---
-description: MVC theme framework for Wordpress
 date: 2013-08-12
+description: MVC theme framework for Wordpress
+summary: |
+  An MVC theme framework for WordPress introducing clean separation of
+  concerns, object models, template hierarchies, and lifecycle management
+  into WordPress theme development.
+tech: PHP, WordPress
 tags:
   - backend
   - framework

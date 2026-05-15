@@ -1,7 +1,13 @@
 ---
-title: Got Paper?
-description: A cheeky app to calculate your toilet paper requirements
 date: 2020-02-01
+duration: 1 day
+description: A cheeky app to calculate your toilet paper requirements
+summary: |
+  Shipped a viral mobile and desktop app calculating toilet roll
+  requirements during the Covid-19 panic-buying wave.
+  Reached 150K users in week 1, covered in national and
+  international press, translated into 12 languages.
+tech: Vue 2, Nuxt 2, JavaScript
 tags:
   - featured
   - webapp

@@ -1,6 +1,10 @@
 ---
-description: Essential WebStorm keyboard shortcuts to make you the most productive developer in the office
 date: 2022-04-21 # was 2022-02-07
+description: Essential WebStorm keyboard shortcuts to make you the most productive developer in the office
+summary: |
+  Reference guide of 75+ essential WebStorm keyboard shortcuts across
+  navigation, editing, refactoring, and tooling — including customised
+  bindings for high-frequency operations.
 media:
   thumbnail: webstorm-splash.png
   featured: webstorm-splash.png

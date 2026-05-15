@@ -1,13 +1,19 @@
 ---
-description: Node CLI, print server and browser client for the Phomemo mini printer
 date: 2024-11-16
-github: davestewart/phomemo-cli
+description: Node CLI, print server and browser client for the Phomemo mini printer
+summary: |
+  Enables printing to the Phomemo M02 thermal printer
+  via terminal, REST API, or browser UI. Originally created to power a
+  live QR code printing kiosk at a birthday event, allowing guests to
+  attach memory links to a physical interactive timeline poster.
+tech: Node, JavaScript, Chrome Extension
 tags:
   - library
   - tools
   - node
   - javascript
   - chrome-extension
+github: davestewart/phomemo-cli
 media:
   thumbnail: ./images/phomemo-cli-thumbnail.png
   featured: ./images/phomemo-featured.jpg

@@ -1,12 +1,18 @@
 ---
-description: A 'pick and mix' library that simplifies writing Elasticsearch code
 date: 2021-12-01
-navigation: false
-github: davestewart/es-kit
+description: A 'pick and mix' library that simplifies writing Elasticsearch code
+summary: |
+  A library of typed helper functions abstracting the
+  Elasticsearch JavaScript client's complex request and response patterns.
+  Includes query builders, API helpers, and script utilities, shipped
+  alongside a beginner's guide to reduce the Elasticsearch learning curve.
+tech: Node, TypeScript, Elasticsearch
 tags:
   - library
   - node
   - elasticsearch
+navigation: false
+github: davestewart/es-kit
 media:
   thumbnail: ./images/es-kit.png
   featured: ./images/es-kit.svg

@@ -1,7 +1,12 @@
 ---
-description: Vue / Vuex plugin providing a unified path syntax to Vuex stores
 date: 2017-07-01
-hero: featured
+description: Vue / Vuex plugin providing a unified path syntax to Vuex stores
+summary: |
+  A Vue/Vuex plugin introducing a unified path syntax
+  for store access and component wiring. Reduces Vuex's 4 operations, 4
+  helpers, and 3 accessor syntaxes to 4 methods and one path format,
+  achieving 2–14x line-of-code reductions in real-world codebases.
+tech: Vue 2, Vuex, JavaScript
 tags:
   - library
   - javascript
@@ -14,6 +19,7 @@ media:
   thumbnail: ./images/vuex-pathify.svg
   opengraph: ./images/vuex-pathify.png
   featured: ./images/vuex-pathify.svg
+hero: featured
 ---
 
 # Vuex Pathify

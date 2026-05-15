@@ -1,6 +1,13 @@
 ---
-description: Browser tab / workflow manager
 date: 2021-03-05
+duration: ongoing
+description: Kanban-style browser tab manager with slick UX and keyboard shortcuts
+summary: |
+  A Chrome extension providing a
+  Kanban-style tab and window manager accessible via a single keyboard
+  shortcut. Full keyboard navigation, tab search, window grouping,
+  URL copy/drag-drop, and sleep management.
+tech: Vue 3, TypeScript, Chrome Extension
 tags:
   - featured
   - productivity

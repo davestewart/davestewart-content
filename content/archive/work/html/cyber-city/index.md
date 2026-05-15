@@ -1,6 +1,11 @@
 ---
-description: Creative and technical development for 12-14 year old e-learning project
 date: 2012-09-05
+description: Creative and technical development for 12-14 year old e-learning project
+summary: |
+  An award-winning HTML5 e-learning game for 12–14 year olds, combining
+  interactive storytelling with educational content about internet safety
+  and digital literacy — featuring original character design and game mechanics.
+tech: HTML5, JavaScript, CSS3
 tags:
   - frontend
   - html

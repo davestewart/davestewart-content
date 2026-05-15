@@ -1,7 +1,13 @@
 ---
+date: 2024-04-24
 shortTitle: Timezone Planner
 description: Visualise and plan your remote team's availability and meeting times
-date: 2024-04-24
+summary: |
+  Designed and built a Google Sheets-based timezone planner for remote
+  teams, dynamically calculating each team member's local time, working
+  hours, and current availability throughout the day. Sold as a one-time
+  purchase on Gumroad.
+tech: Google Sheets, Google Apps Script
 tags:
 - productivity
 - tools
@@ -153,7 +159,7 @@ Here are a few tips for working with team times:
 ### Customisations
 
 There are so many ways to customise the sheet!
- 
+
 Here are some ideas:
 
 - Add a hyperlink to users' **Names** to:

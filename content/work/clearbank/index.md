@@ -1,6 +1,15 @@
 ---
-description: Development of internal banking systems and tooling
 date: 2018-03-01
+duration: 9 months
+role: Senior Vue Developer
+description: Development of internal banking systems and tooling
+summary: |
+  Embedded in the frontend team at the UK's first new clearing bank in 250
+  years, building and maintaining internal banking systems in a massive
+  monolithic Vue/TypeScript application. Worked in agile sprints as sole
+  frontend developer per squad, tackling large-scale codebase modularisation,
+  deeply nested data sync, and service architecture patterns.
+tech: Vue 2, TypeScript, Vuex, Element UI, Axios, Azure
 tags:
   - featured
   - enterprise

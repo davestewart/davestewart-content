@@ -1,6 +1,12 @@
 ---
-description: Simplify and consolidate Nuxt layers paths' configuration 
 date: 2024-05-09
+description: Simplify and consolidate Nuxt layers paths' configuration 
+summary: |
+  A utility package providing a clean API for
+  generating Nuxt layer configurations including extends, path aliases,
+  auto-imports, and content sources. Removes the verbosity and repetition
+  of manually configuring complex multi-layer Nuxt projects.
+tech: Nuxt 3, TypeScript
 tags:
   - library
   - architecture

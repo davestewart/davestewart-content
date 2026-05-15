@@ -1,7 +1,12 @@
 ---
-description: Universal Vue stores you write once and use anywhere
 date: 2020-05-01
-hero: featured
+description: Universal Vue stores you write once and use anywhere
+summary: |
+  A universal store decorator enabling native class
+  syntax to power reactive Vue state. Converts class properties, getters,
+  and methods to reactive data, computed properties, and watches — with full
+  TypeScript support, class inheritance, and Vue 2/3 compatibility.
+tech: Vue 2, Vue 3, TypeScript
 tags:
   - featured
   - library
@@ -17,6 +22,7 @@ media:
   thumbnail: ./images/vue-class-store.svg
   featured: ./images/vue-class-store.svg
   video: https://www.youtube.com/embed/uBrh_2BIIAM?start=2425
+hero: featured
 ---
 
 # Vue Class Store

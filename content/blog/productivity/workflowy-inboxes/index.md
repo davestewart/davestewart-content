@@ -1,6 +1,10 @@
 ---
-description: A WorkFlowy organisational strategy for when you've multiple projects and lots of ideas
 date: 2023-02-04
+description: A WorkFlowy organisational strategy for when you've multiple projects and lots of ideas
+summary: |
+  A WorkFlowy organisational strategy called "Inboxes" — using per-project
+  capture lists accessible from a single main view — to keep ideas organised
+  without losing context when jumping between multiple active projects.
 media:
   featured: ./workflowy-inboxes.png
   thumbnail: ./workflowy-inboxes-thumb.png

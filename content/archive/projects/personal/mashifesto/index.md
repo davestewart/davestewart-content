@@ -1,6 +1,11 @@
 ---
-description: Twitter mash-up, winning 3rd place at the Digital Sizzle Art Hack 2013
 date: 2013-08-12
+description: Twitter mash-up, winning 3rd place at the Digital Sizzle Art Hack 2013
+summary: |
+  A Twitter mashup that won 3rd place at the Digital Sizzle Art Hack 2013,
+  built rapidly to remix and collage user-generated content from the
+  social platform into a real-time interactive experience.
+tech: JavaScript, HTML, Twitter API
 tags:
   - webapp
   - frontend

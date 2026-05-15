@@ -1,7 +1,12 @@
 ---
-description: Front end development for Rise as One World Cup campaign
-shortTitle: Rise As One
 date: 2014-06-12
+shortTitle: Rise As One
+description: Front end development for Rise as One World Cup campaign
+summary: |
+  Front end development for Budweiser's "Rise as One" FIFA World Cup 2014
+  campaign, featuring video integration and a responsive HTML5 experience
+  across multiple devices.
+tech: HTML5, JavaScript, CSS
 tags:
   - webapp
   - html

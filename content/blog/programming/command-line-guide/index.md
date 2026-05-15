@@ -1,7 +1,11 @@
 ---
-title: A Web Developer's Guide to the Command Line
-description: A comprehensive guide to mastering the Unix command line for web developers—from fundamental concepts to advanced techniques, customisation, and shell selection.
 date: 2025-12-18
+description: A comprehensive guide to mastering the Unix command line for web developers—from fundamental concepts to advanced techniques, customisation, and shell selection.
+summary: |
+  A comprehensive guide to the Unix command line for web developers, covering
+  fundamentals through advanced techniques — patterns, scripting, permissions,
+  and shell selection — developed through extended sessions with Claude AI.
+title: A Web Developer's Guide to the Command Line
 draft: true
 ---
 

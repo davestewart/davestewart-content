@@ -1,6 +1,12 @@
 ---
-description: The end-to-end solution for migrating to and using path aliases
 date: 2020-08-01
+description: The end-to-end solution for migrating to and using path aliases
+summary: |
+  A Node CLI that simplifies setting up and using TypeScript/
+  JavaScript path aliases across a project. Piggybacks on tsconfig.json and
+  provides one-liner integrations for Webpack, Jest, and other tools, plus
+  automated source code conversion from relative to aliased paths.
+tech: Node, TypeScript, Webpack, Jest
 tags:
   - featured
   - library

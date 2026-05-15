@@ -1,6 +1,11 @@
 ---
-description: Browser-based development playground for your Laravel site
 date: 2017-04-01
+description: Browser-based development playground for your Laravel site
+summary: |
+  A browser-based development playground that generates an automatic
+  frontend for Laravel controllers, enabling rapid iteration on backend
+  code and scripts without leaving the browser.
+tech: PHP, Laravel, JavaScript
 tags:
   - frontend
   - backend

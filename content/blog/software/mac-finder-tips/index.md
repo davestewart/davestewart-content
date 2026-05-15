@@ -1,6 +1,10 @@
 ---
-description: A treasure trove of solid strategies and hidden gems to wrangle those windows and fly through folders  
 date: 2022-02-01
+description: A treasure trove of solid strategies and hidden gems to wrangle those windows and fly through folders  
+summary: |
+  A roundup of 25 Finder strategies and hidden features for speeding up
+  file navigation and window management on macOS, covering keyboard
+  shortcuts, view modes, and lesser-known capabilities.
 media:
   featured: ./mac-finder.png
   thumbnail: ./mac-finder.svg

@@ -1,6 +1,6 @@
 ---
-description: Looking for free hosting options for your student projects or personal websites? Discover the top 10 best free hosting services tailored for students in 2024.
 date: 2025-01-10
+description: Looking for free hosting options for your student projects or personal websites? Discover the top 10 best free hosting services tailored for students in 2024.
 navigation: false
 searchable: false
 ---

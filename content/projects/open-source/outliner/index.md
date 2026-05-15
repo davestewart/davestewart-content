@@ -1,6 +1,12 @@
 ---
-description: Convert SVG strokes to outlined fills as a post-export process
 date: 2021-09-01
+description: Convert SVG strokes to outlined fills as a post-export process
+summary: |
+  A Node package automating post-export conversion of SVG
+  strokes to outlined fills. Solves the problem of locking in stroke edits
+  in authoring tools like Figma and Sketch by running as a file watcher or
+  project dependency that converts icons cleanly for the browser environment.
+tech: Node, JavaScript, SVG, Maker.js
 tags:
   - featured
   - library

@@ -1,6 +1,10 @@
 ---
-description: Tube map inspired exploration of my personal and open source projects
 date: 2013-09-24
+description: Tube map inspired exploration of my personal and open source projects
+summary: |
+  A London Tube Map-inspired visual diagram mapping the progression and
+  relationships between personal and open source projects over time,
+  designed to show context and connection that a list of links cannot.
 tags:
   - creative
   - maps

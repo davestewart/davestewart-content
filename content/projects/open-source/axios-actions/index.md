@@ -1,6 +1,12 @@
 ---
-description: Bundle endpoints as callable, reusable services
 date: 2018-07-01
+description: Bundle endpoints as callable, reusable services
+summary: |
+  Moves API calls out of Vuex into
+  self-contained, locally-configurable service objects. Born from experience
+  at ClearBank with a massive Vue/Vuex app, it decouples API interaction
+  from global store boilerplate and reduces coupling in components.
+tech: JavaScript, Axios, Vue 2, Vuex
 tags:
   - library
   - javascript

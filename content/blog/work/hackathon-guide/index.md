@@ -1,6 +1,10 @@
 ---
-description: An intro to hackathons and how to get the most out of them
 date: 2023-05-10
+description: An intro to hackathons and how to get the most out of them
+summary: |
+  Actionable advice for getting the most out of hackathons — covering
+  preparation, team dynamics, time management, and how to approach building
+  and presenting within tight constraints.
 media:
   featured: ./images/featured.jpg
   thumbnail: ./images/thumbnail.jpg

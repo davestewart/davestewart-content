@@ -1,7 +1,12 @@
 ---
-description: 2D and 3D animation mixed to create a spooky Halloween ident
-shortTitle: Disney Channel Halloween
 date: 2007-09-08
+shortTitle: Disney Channel Halloween
+description: 2D and 3D animation mixed to create a spooky Halloween ident
+summary: |
+  A mixed 2D and 3D Halloween TV ident for Disney Channel, combining
+  3dsmax-generated 3D environments with After Effects compositing to
+  create a spooky animated sequence.
+tech: After Effects, 3dsmax
 tags:
   - creative
   - data

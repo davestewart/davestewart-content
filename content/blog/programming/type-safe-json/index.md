@@ -1,6 +1,11 @@
 ---
-description: Destructure raw JSON whilst automatically adding type information
 date: 2021-11-01
+description: Destructure raw JSON whilst automatically adding type information
+summary: |
+  Explores 7 code-style variations for adding TypeScript type information
+  to raw JSON at the point of destructuring, demonstrating how flexible
+  TypeScript's compiler can be around assignment, wrapping, and nested
+  destructuring patterns.
 media:
   thumbnail: ./thumbnail.png
   featured: ./featured.png

@@ -1,6 +1,12 @@
 ---
-description: Universal message bus for web extensions
 date: 2024-01-10
+description: Universal message bus for web extensions
+summary: |
+  A TypeScript library providing cross-process messaging
+  for web extensions with an API-like interface. Supports named buses, nested
+  handlers, transparent async/sync handling, and a consistent call interface
+  across extension processes, tabs, and external callers.
+tech: TypeScript, Chrome Extension
 tags:
   - library
   - typescript

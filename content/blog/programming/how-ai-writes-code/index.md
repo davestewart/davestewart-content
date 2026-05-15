@@ -1,6 +1,11 @@
 ---
-description: Claude AI explains in its own words how it writes such good code 
 date: 2024-11-09
+description: Claude AI explains in its own words how it writes such good code 
+summary: |
+  A candid conversation with Claude AI about how AI models write code
+  so effectively — covering pattern matching, probability distributions,
+  and training data, and how understanding this process helps developers
+  collaborate with AI more productively.
 tags:
    - featured
 media:

@@ -1,7 +1,12 @@
 ---
-description: Cross-device HTML5 story-style animation
-shortTitle: 'G4S "How it Works"'
 date: 2014-08-01
+shortTitle: 'G4S "How it Works"'
+description: Cross-device HTML5 story-style animation
+summary: |
+  A cross-device HTML5 animated explainer for G4S, using a story-style
+  scrolling format to walk through how their services work across multiple
+  animated scenes.
+tech: HTML5, JavaScript, CSS3
 tags:
   - frontend
   - javascript

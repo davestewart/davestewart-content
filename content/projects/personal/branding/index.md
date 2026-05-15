@@ -1,6 +1,12 @@
 ---
-description: Branding experiment with overlays and colour mapping
 date: 2020-04-01
+description: Branding experiment with overlays and colour mapping
+summary: |
+  Explored branding concepts for Control Space using overlapping rectangle
+  designs with opacity and blend modes, translating from Sketch to Photoshop
+  for colour palette work and into After Effects for a 3D Colorama-driven
+  animation experiment mapping greyscale to brand colours.
+tech: Sketch, Photoshop, After Effects
 tags:
   - featured
   - creative

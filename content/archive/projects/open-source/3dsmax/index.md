@@ -1,6 +1,11 @@
 ---
-description: An extensive collection of plugins and scripts for 3dsmax
 date: 2001-01-01
+description: An extensive collection of plugins and scripts for 3dsmax
+summary: |
+  A collection of MaxScripts written over 8 years for Autodesk 3dsmax,
+  shared with the 3dsmax community — covering UI tools, workflow automation,
+  and production pipeline plugins for animators and VFX artists.
+tech: MaxScript, 3dsmax
 tags:
   - 3dsmax
   - plugin

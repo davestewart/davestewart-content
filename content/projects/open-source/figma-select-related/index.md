@@ -1,6 +1,12 @@
 ---
-description: Select distantly-related items in complex component trees
 date: 2023-04-29
+description: Select distantly-related items in complex component trees
+summary: |
+  A Figma plugin for selecting structurally related
+  items (cousins) in complex component trees based on their relative position
+  in the hierarchy. Offers quick-select buttons and Cmd+/ keyboard command
+  shortcuts for rapid component navigation without leaving the canvas.
+tech: TypeScript, Figma Plugin API
 tags:
   - plugin
   - tools

@@ -1,6 +1,11 @@
 ---
-description: Level editing toolkit for iOS game Pocket God, created with xJSFL
 date: 2012-07-09
+description: Level editing toolkit for iOS game Pocket God, created with xJSFL
+summary: |
+  A level editing toolkit for the iOS game Pocket God, built with xJSFL
+  to streamline the production pipeline for Bolt Creative — automating
+  level creation and asset management within the Flash authoring environment.
+tech: Flash, ActionScript 3, JSFL
 tags:
   - frontend
   - javascript

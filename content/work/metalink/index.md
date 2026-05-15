@@ -1,6 +1,15 @@
 ---
-description: Web and mobile app to track, manage and discuss NFT collections
 date: 2022-03-01
+duration: 18 months
+role: Senior Vue Developer
+description: Web and mobile app to track, manage and discuss NFT collections
+summary: |
+  Joined an NFT social platform startup to bring Vue
+  expertise and architectural thinking to a scaling Web3 product. Refactored
+  and extended a Vue 3 web app, built real-time portfolio charting, and
+  contributed React Native work, while supporting and mentoring the small
+  frontend team.
+tech: Vue 3, Nuxt 3, Tailwind, React Native, Recoil
 tags:
   - featured
   - webapp
@@ -33,7 +42,7 @@ The work was split between refactoring, prototyping, feature development includi
 
 ## Outcome
 
-It was an interesting almost-year with MetaLink, getting to know NFTs, the Web 3 and Blockchain world, learn a little about smart contracts, NFT speculation, HODL, and the "we're all gonna make it" spirit.
+It was an interesting time with MetaLink, getting to know NFTs, the Web 3 and Blockchain world, learn a little about smart contracts, NFT speculation, HODL, and the "we're all gonna make it" spirit.
 
 Ultimately, it seems that AI ate NFTs' lunch, and the attention shifted elsewhere, but it was a great experience working with a varied, remote team with vision, funding and lofty goals.  
 

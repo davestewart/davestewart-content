@@ -1,7 +1,11 @@
 ---
-description: 2026 Nuxt migration of davestewart.co.uk
 date: 2026-02-26
-github: davestewart/davestewart-site
+description: 2026 Nuxt build of davestewart.co.uk
+summary: |
+  Personal portfolio site built on Nuxt 4, featuring swappable themes via
+  Nuxt layers, centralised content metadata, client-side search, and
+  on-the-fly personalised CV / showcase generation.
+tech: Nuxt 4, Vue 3, TypeScript, Nuxt Content, Tailwind
 tags:
   - webapp
   - website
@@ -11,6 +15,7 @@ tags:
   - ui
   - data
   - creative
+github: davestewart/davestewart-site
 media:
   thumbnail: ./images/thumbnail.png
   opengraph: ./images/opengraph.png

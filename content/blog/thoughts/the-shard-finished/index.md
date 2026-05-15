@@ -1,7 +1,11 @@
 ---
-slug: the-shard-finished
-description: Ever thought The Shard looks like they forgot to finish it off? See how it could have looked if they had...
 date: 2013-11-08
+description: Ever thought The Shard looks like they forgot to finish it off? See how it could have looked if they had...
+summary: |
+  Tongue-in-cheek Photoshop experiment imagining The Shard finished with
+  a conventional pyramid top — contrasting the original "unfinished-looking"
+  design with a more traditional pointed alternative.
+slug: the-shard-finished
 media:
   thumbnail: ./images/shard-thumbnail.jpg
   images:

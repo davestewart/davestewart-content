@@ -1,13 +1,17 @@
 ---
-description: Development diary and reflection on building a Trello clone from scratch
 date: 2018-02-01
-hero: featured
+description: Development diary and reflection on building a Trello clone from scratch
+summary: |
+  Development diary documenting the rapid build of a Trello-like application
+  from scratch, reflecting on the planning, technical decisions, and learnings
+  from building a non-trivial product at speed.
 tags:
   - website
   - frontend
   - creative
   - vue
   - rapid-build
+hero: featured
 github: davestewart/app-diary
 media:
   thumbnail: ./images/app-diary-thumbnail-02.png

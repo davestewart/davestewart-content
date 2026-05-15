@@ -1,7 +1,12 @@
 ---
-description: Fun title animation about the hidden dangers of everyday situations
-shortTitle: So You Think You're Safe?
 date: 2004-10-01
+shortTitle: So You Think You're Safe?
+description: Fun title animation about the hidden dangers of everyday situations
+summary: |
+  An animated title sequence for Sky One's "So You Think You're Safe?"
+  exploring the hidden dangers of everyday life, using 3dsmax for 3D
+  elements composited in After Effects.
+tech: After Effects, 3dsmax
 tags:
   - creative
   - animation

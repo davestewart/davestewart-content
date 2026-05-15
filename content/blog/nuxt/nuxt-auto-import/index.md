@@ -1,6 +1,10 @@
 ---
-description: Understanding when to use and when to avoid the auto-import magic
 date: 2024-05-21
+description: Understanding when to use and when to avoid the auto-import magic
+summary: |
+  Digs into Nuxt 3's auto-import system to explain when it helps and when
+  it hurts — covering IDE integration, file discoverability, and practical
+  workarounds for the cases where the magic becomes a liability.
 tags:
   - nuxt
   - vue

@@ -1,7 +1,12 @@
 ---
-description: Immersive Flash micro-site for one of London's leading destination bars
-shortTitle: Lost Angel
 date: 2009-08-05
+shortTitle: Lost Angel
+description: Immersive Flash micro-site for one of London's leading destination bars
+summary: |
+  A richly animated Flash micro-site for one of London's destination bars,
+  featuring immersive 3D-rendered environments, animated scene transitions,
+  and ActionScript 3 interactivity.
+tech: Flash, ActionScript 3, After Effects, 3dsmax
 tags:
   - flash
   - frontend

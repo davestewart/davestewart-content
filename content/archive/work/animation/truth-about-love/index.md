@@ -1,6 +1,11 @@
 ---
-description: Film titles for mid-naughties rom-com starring Jenifer Love Hewitt
 date: 2004-09-01
+description: Film titles for mid-naughties rom-com starring Jenifer Love Hewitt
+summary: |
+  Film title sequence for "The Truth About Love" theatrical rom-com, combining
+  3D elements from 3dsmax with After Effects compositing — seen on the big
+  screen in the UK release.
+tech: After Effects, 3dsmax
 tags:
   - creative
   - animation

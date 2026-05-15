@@ -1,7 +1,13 @@
 ---
-shortDescription: Display Bluesky followers' description and stats in the notifications feed
-description: View your followers' profile and stats in your feed to decide who to follow back
 date: 2024-11-27
+duration: # TODO
+description: View your followers' profile and stats in your feed to decide who to follow back
+shortDescription: Display Bluesky followers' description and stats in the notifications feed
+summary: |
+  Built a Chrome extension that injects follower profile descriptions and
+  engagement stats directly into Bluesky's notification feed, reducing the
+  friction of deciding who to follow back without navigating away from the page.
+tech: JavaScript, Chrome Extension
 tags:
 - productivity
 - chrome-extension

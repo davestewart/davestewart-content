@@ -1,6 +1,10 @@
 ---
-description: Doing the big stuff first can set you up for failure; here's how you should structure your day instead
 date: 2021-08-11
+description: Doing the big stuff first can set you up for failure; here's how you should structure your day instead
+summary: |
+  Reframes the rocks-pebbles-sand productivity metaphor by inverting it —
+  arguing that clearing small tasks first removes cognitive overhead and
+  sets up flow, rather than always leading with the "big stuff."
 media:
   featured: ./images/rock-pebbles-sand.png
   thumbnail: ./images/rock-pebbles-sand.png

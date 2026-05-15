@@ -1,6 +1,6 @@
 ---
-title: Work
 description: Older commercial work
+title: Work
 layout: folder
 order: 1
 ---
