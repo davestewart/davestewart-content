@@ -2,10 +2,10 @@
 date: 2021-11-01
 description: Scalable folder management for large Nuxt 2 projects
 summary: |
-  A Nuxt 2 module enabling feature-first "areas"
+  A Nuxt 2 module bringing layers-like enabling feature-first "areas"
   architecture — co-locating components, pages, and stores by domain rather
-  than file type. Handles dynamic routing, store registration, component
-  registration, and Webpack aliases for large-scale applications.
+  than file type. Provides dynamic routing, store and component
+  registration, and area path aliases.
 tech: Nuxt 2, JavaScript, Webpack, Node
 tags:
   - library

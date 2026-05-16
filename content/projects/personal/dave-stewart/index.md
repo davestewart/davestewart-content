@@ -4,7 +4,7 @@ description: 2026 Nuxt build of davestewart.co.uk
 summary: |
   Personal portfolio site built on Nuxt 4, featuring swappable themes via
   Nuxt layers, centralised content metadata, client-side search, and
-  on-the-fly personalised CV / showcase generation.
+  custom subdomain showcase / CV generation.
 tech: Nuxt 4, Vue 3, TypeScript, Nuxt Content, Tailwind
 tags:
   - webapp

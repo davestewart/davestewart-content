@@ -4,8 +4,8 @@ description: Universal Vue stores you write once and use anywhere
 summary: |
   A universal store decorator enabling native class
   syntax to power reactive Vue state. Converts class properties, getters,
-  and methods to reactive data, computed properties, and watches — with full
-  TypeScript support, class inheritance, and Vue 2/3 compatibility.
+  and methods to reactive data, computed properties, and watches with 
+  inheritance and debugging.
 tech: Vue 2, Vue 3, TypeScript
 tags:
   - featured
